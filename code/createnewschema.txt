@@ -89,7 +89,7 @@ CREATE TABLE nsworks (
 	nswswname nswname NOT NULL,
 	nswstype nstype NOT NULL,
 	nswsstype nsstype NOT NULL,
-	nswsntype nsntype NOT NULL,
+	nswsntype nsntype ,
 	nswsauthor nsauthor NOT NULL,
 	nswscdatecom nscdatecom NOT NULL,
 	nswsadateacq nsadateacq NOT NULL,
