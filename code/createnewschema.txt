@@ -250,7 +250,7 @@ CREATE TABLE nsworks_exhibitions (
     nsweedate nsedate,
     CHECK (nswesdate < nsweedate AND nswemname1 == nswemname2),
     PRIMARY KEY (nswecode, nsweacronym, nswemname1, nsweename, nswesdate, nswemname2)
-    
+
 );
 
 CREATE TABLE nsexhibitions_locations (
