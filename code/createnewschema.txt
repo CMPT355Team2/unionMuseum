@@ -37,20 +37,21 @@ DROP DOMAIN IF EXISTS nsemail CASCADE;
 DROP DOMAIN IF EXISTS nsstatus CASCADE;
 DROP DOMAIN IF EXISTS nscount CASCADE;
 
-DROP TABLE IF EXISTS works CASCADE;
-DROP TABLE IF EXISTS medium CASCADE;
-DROP TABLE IF EXISTS exhibitions CASCADE;
-DROP TABLE IF EXISTS locations CASCADE;
-DROP TABLE IF EXISTS doors CASCADE;
-DROP TABLE IF EXISTS institutions CASCADE;
-DROP TABLE IF EXISTS owners CASCADE;
-DROP TABLE IF EXISTS transactions CASCADE;
-DROP TABLE IF EXISTS changedvalue CASCADE;
-DROP TABLE IF EXISTS works_exhibitions CASCADE;
-DROP TABLE IF EXISTS works_locations CASCADE;
-DROP TABLE IF EXISTS exhibitions_locations CASCADE;
+DROP TABLE IF EXISTS nsworks CASCADE;
+DROP TABLE IF EXISTS nsmedium CASCADE;
+DROP TABLE IF EXISTS nsexhibitions CASCADE;
+DROP TABLE IF EXISTS nslocations CASCADE;
+DROP TABLE IF EXISTS nsdoors CASCADE;
+DROP TABLE IF EXISTS nsinstitutions CASCADE;
+DROP TABLE IF EXISTS nsowners CASCADE;
+DROP TABLE IF EXISTS nstransactions CASCADE;
+DROP TABLE IF EXISTS nschangedvalue CASCADE;
+DROP TABLE IF EXISTS nsworks_exhibitions CASCADE;
+DROP TABLE IF EXISTS nsworks_locations CASCADE;
+DROP TABLE IF EXISTS nsexhibitions_locations CASCADE;
+DROP TABLE IF EXISTS nschangedcount CASCADE;
 
-CREATE DOMAIN nscode AS int(5);
+CREATE DOMAIN nscode AS int;
 CREATE DOMAIN nsacronym AS varchar(5);
 CREATE DOMAIN nsmname AS varchar(40);
 CREATE DOMAIN nswname AS varchar(100);
@@ -102,11 +103,11 @@ CREATE TABLE nsmedium (
 	nsmedcode nscode NOT NULL,
 	nsmedmname nsmname NOT NULL,
 	nsmedmedia nsmedia NOT NULL,
-	PRIMARY KEY (nsmedacronym, nsmedcode, nsmedmname, nsmedmedia),
-	FOREIGN KEY (nsmedacronym, nsmedcode, nsmedmname)
-		REFERENCES works
+	FOREIGN KEY (nsmedcode, nsmedacronym, nsmedmname)
+		REFERENCES nsworks
 			ON UPDATE CASCADE
-			ON DELETE SET NULL
+			ON DELETE SET NULL,
+	PRIMARY KEY (nsmedacronym, nsmedcode, nsmedmname, nsmedmedia)
 );
 
 CREATE TABLE nschangedvalue (
@@ -114,7 +115,7 @@ CREATE TABLE nschangedvalue (
 	nscvacronym nsacronym NOT NULL,
 	nscvmname nsmname NOT NULL,
 	FOREIGN KEY (nscvcode, nscvacronym, nscvmname)
-		REFERENCES works
+		REFERENCES nsworks
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
 	nscvsdate nssdate NOT NULL,
@@ -132,43 +133,44 @@ CREATE TABLE nsexhibitions (
 	nsexmname nsmname NOT NULL,
 	nsexedesc nsedesc NOT NULL,
 	CHECK (nsexsdate < nsexedate),
-	PRIMARY KEY (nsename, nssdate, nsexmname)
+	PRIMARY KEY (nsexename, nsexsdate, nsexmname)
 );
 
 CREATE TABLE nschangedcount (
 	nsccename nsename NOT NULL,
 	nsccsdate nssdate NOT NULL,
-	FOREIGN KEY (nsccename, nsccsdate)
-		REFERENCES exhibitions
+	nsccmname nsmname NOT NULL,
+	FOREIGN KEY (nsccename, nsccsdate, nsccmname)
+		REFERENCES nsexhibitions
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
 	nsccsdatecs nssdate NOT NULL,
 	nsccsdatece nsedate NOT NULL,
 	nscccount nscount NOT NULL
-	CHECK (nsccsdatecs < nsccsdatece)
-	PRIMARY KEY (nsccename, nsccsdate, nsccsdatecs)
+	CHECK (nsccsdatecs < nsccsdatece),
+	PRIMARY KEY (nsccename, nsccsdate, nsccmname, nsccsdatecs)
 );
 
 CREATE TABLE nslocations (
 	nsloclname nslname NOT NULL,
 	nslocmname nsmname NOT NULL,
 	nslocsname nssname NOT NULL,
-	nslocmeterlen nsmeter NOT NULL,
-	nslocmeterwid nsmeter NOT NULL,
-	nslocmeterhei nsmeter NOT NULL,
-	nsloccapacitymin nscapacity NOT NULL,
-	nsloccapacitymax nscapacity NOT NULL,
+	nslocsecurity nssecurity,
+	nslocinsvalue nsinsvalue,
+	nslocmeterlen nsmeter,
+	nslocmeterwid nsmeter,
+	nslocmeterhei nsmeter,
+	nsloccapacitymin nscapacity,
+	nsloccapacitymax nscapacity,
 	CHECK (nsloccapacitymin <= nsloccapacitymax),
 	PRIMARY KEY (nsloclname, nslocmname, nslocsname)
 );
 
-CREATE TABLE institutions (
+CREATE TABLE nsinstitutions (
 	nsinsinsname nsinsname NOT NULL,
 	nsinsphone nsphone NOT NULL,
 	nsinsaddress nsaddress NOT NULL,
 	nsinsemail nsemail NOT NULL,
-	nsinssname nssname NOT NULL,
-	nsinssecurity nssecurity NOT NULL,
 	PRIMARY KEY (nsinsinsname)
 );
 
@@ -176,38 +178,40 @@ CREATE TABLE nsowners (
 	nsowcode nscode NOT NULL,
 	nsowacronym nsacronym NOT NULL,
 	nsowmname nsmname NOT NULL,
-	FOREIGN KEY (nsowcode, nsowacronym)
-		REFERENCES works
+	nsowinsname nsmname NOT NULL,
+	FOREIGN KEY (nsowcode, nsowacronym, nsowmname)
+		REFERENCES nsworks
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
-    FOREIGN KEY (nsowmname)
-		REFERENCES institutions
+    FOREIGN KEY (nsowinsname)
+		REFERENCES nsinstitutions
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
 	nsowsdate nssdate NOT NULL,
 	nsowedate nsedate,
 	nsowstatus nsstatus NOT NULL,
 	CHECK (nsowsdate < nsowedate),
-	PRIMARY KEY (nsowcode, nsowacronym, nsowmname, nsowsdate)
+	PRIMARY KEY (nsowcode, nsowacronym, nsowmname, nsowinsname, nsowsdate)
 );
 
 CREATE TABLE nstransactions (
 	nstrcode nscode not null,
 	nstracronym nsacronym not null,
 	nstrmname nsmname not null,
-	FOREIGN KEY (nstrcode, nstracronym)
-		REFERENCES works
+	nstrinsname nsmname not null,
+	FOREIGN KEY (nstrcode, nstracronym, nstrmname)
+		REFERENCES nsworks
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
-    FOREIGN KEY (nstrmname)
-		REFERENCES institutions
+    FOREIGN KEY (nstrinsname)
+		REFERENCES nsinstitutions
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
 	nstrsdate nssdate not null,
 	nstredate nsedate,
 	nstrinsvalue nsinsvalue not null,
 	CHECK (nstrsdate < nstredate),
-	PRIMARY KEY (nstrcode, nstracronym, nstrmname, nstrsdate)
+	PRIMARY KEY (nstrcode, nstracronym, nstrmname, nstrinsname, nstrsdate)
 
 );
 
@@ -216,19 +220,19 @@ CREATE TABLE nsworks_locations (
 	nswlacronym nsacronym not null,
 	nswlmname1 nsmname not null,
 	FOREIGN KEY (nswlcode, nswlacronym, nswlmname1)
-		REFERENCES works
+		REFERENCES nsworks
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
 	nswllname nslname NOT NULL,
 	nswlmname2 nsmname NOT NULL,
 	nswlsname nssname NOT NULL,
 	FOREIGN KEY (nswllname, nswlmname2, nswlsname)
-		REFERENCES locations
+		REFERENCES nslocations
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
 	nswlstime nsstime not null,
 	nswletime nsetime,
-	CHECK (nswlstime < nswletime AND nswlmname1 == nswlmname2)
+	CHECK (nswlstime < nswletime AND nswlmname1 = nswlmname2),
 	PRIMARY KEY (nswlcode, nswlacronym, nswlmname1, nswllname, nswlmname2, nswlsname)
 );
 
@@ -237,18 +241,18 @@ CREATE TABLE nsworks_exhibitions (
 	nsweacronym nsacronym not null,
 	nswemname1 nsmname not null,
 	FOREIGN KEY (nswecode, nsweacronym, nswemname1)
-		REFERENCES works
+		REFERENCES nsworks
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
     nsweename nsename not null,
     nswesdate nssdate not null,
     nswemname2 nsmname not null,
     FOREIGN KEY (nsweename, nswesdate, nswemname2)
-		REFERENCES exhibitions
+		REFERENCES nsexhibitions
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
     nsweedate nsedate,
-    CHECK (nswesdate < nsweedate AND nswemname1 == nswemname2),
+    CHECK (nswesdate < nsweedate AND nswemname1 = nswemname2),
     PRIMARY KEY (nswecode, nsweacronym, nswemname1, nsweename, nswesdate, nswemname2)
 
 );
@@ -258,35 +262,37 @@ CREATE TABLE nsexhibitions_locations (
     nselsdate nssdate not null,
     nselmname1 nsmname not null,
     FOREIGN KEY (nselname, nselsdate, nselmname1)
-		REFERENCES works
+		REFERENCES nsexhibitions
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
     nsellname nslname NOT NULL,
 	nselmname2 nsmname NOT NULL,
 	nselsname nssname NOT NULL,
 	FOREIGN KEY (nsellname, nselmname2, nselsname)
-		REFERENCES locations
+		REFERENCES nslocations
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
     nseledate nsedate,
-    CHECK (nselsdate < nseledate AND nselmname1 == nselmname2),
+    CHECK (nselsdate < nseledate AND nselmname1 = nselmname2),
     PRIMARY KEY (nselname, nselsdate, nselmname1, nsellname, nselmname2, nselsname)
 );
 
-CREATE TABLE doors (
+CREATE TABLE nsdoors (
 	nsdrlname1 nslname not NULL,
 	nsdrmname1 nsmname not null,
-	FOREIGN KEY (nsdrlname1, nsdrmname1)
-		REFERENCES locations
+	nsdrsname1 nssname not null,
+	FOREIGN KEY (nsdrlname1, nsdrmname1, nsdrsname1)
+		REFERENCES nslocations
 			ON UPDATE CASCADE
 			ON DELETE SET NULL,
 	nsdrlname2 nslname not NULL,
 	nsdrmname2 nsmname not null,
-	FOREIGN KEY (nsdrlname2, nsdrmname2)
-		REFERENCES locations
+	nsdrsname2 nssname not null,
+	FOREIGN KEY (nsdrlname2, nsdrmname2, nsdrsname2)
+		REFERENCES nslocations
 			ON UPDATE CASCADE
 			ON DELETE SET NULL,
-	CHECK (nsdrmname1 == nsdrmname2),
-	PRIMARY KEY (nsdrlname1, nsdrmname1, nsdrlname2, nsdrmname2)
+	CHECK (nsdrmname1 = nsdrmname2),
+	PRIMARY KEY (nsdrlname1, nsdrmname1, nsdrsname1, nsdrlname2, nsdrmname2, nsdrsname2)
 
 );
