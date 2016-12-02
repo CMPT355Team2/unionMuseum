@@ -1,6 +1,6 @@
--- Rudia Xie
--- rux793
--- 11194258
+-- Shuo Yuan
+-- shy844
+-- 11170609
 -- CMPT355
 
 
@@ -89,7 +89,7 @@ CREATE TABLE nsworks (
 	nswswname nswname NOT NULL,
 	nswstype nstype NOT NULL,
 	nswsstype nsstype NOT NULL,
-	nswsntype nsntype ,
+	nswsntype nsntype,
 	nswsauthor nsauthor NOT NULL,
 	nswscdatecom nscdatecom NOT NULL,
 	nswsadateacq nsadateacq NOT NULL,
@@ -170,8 +170,20 @@ CREATE TABLE nsinstitutions (
 	nsinsinsname nsinsname NOT NULL,
 	nsinsphone nsphone NOT NULL,
 	nsinsaddress nsaddress NOT NULL,
-	nsinsemail nsemail NOT NULL,
 	PRIMARY KEY (nsinsinsname)
+);
+
+CREATE TABLE nschangedemail (
+	nsceinsname nsinsname NOT NULL,
+	FOREIGN KEY (nsceinsname)
+		REFERENCES nsinstitutions
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+    nsceemail nsemail NOT NULL,
+    nscesdate nssdate NOT NULL,
+    nsceedate nsedate NOT NULL,
+    CHECK (nscesdate < nsceedate),
+    PRIMARY KEY (nsceinsname)
 );
 
 CREATE TABLE nsowners (
@@ -233,7 +245,7 @@ CREATE TABLE nsworks_locations (
 	nswlstime nsstime not null,
 	nswletime nsetime,
 	CHECK (nswlstime < nswletime AND nswlmname1 = nswlmname2),
-	PRIMARY KEY (nswlcode, nswlacronym, nswlmname1, nswllname, nswlmname2, nswlsname)
+	PRIMARY KEY (nswlcode, nswlacronym, nswlmname1, nswllname, nswlmname2, nswlsname, nswlstime)
 );
 
 CREATE TABLE nsworks_exhibitions (
