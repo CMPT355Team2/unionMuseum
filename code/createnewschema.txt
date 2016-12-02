@@ -1,6 +1,6 @@
--- Shuo Yuan
--- shy844
--- 11170609
+-- Ruida Xie
+-- rux793
+-- 11194258
 -- CMPT355
 
 
