@@ -1,7 +1,7 @@
--- Shuo Yuan
--- shy844
--- 11170609
--- CMPT355
+--Name: Ruida Xie
+--NSID: rux793
+--Student Number: 11194258
+--CMPT355_Project
 
 
 -- create new schema domains, tables and attributes
