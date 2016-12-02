@@ -36,6 +36,7 @@ DROP DOMAIN IF EXISTS nsphone CASCADE;
 DROP DOMAIN IF EXISTS nsemail CASCADE;
 DROP DOMAIN IF EXISTS nsstatus CASCADE;
 DROP DOMAIN IF EXISTS nscount CASCADE;
+DROP DOMAIN IF EXISTS nsowner CASCADE;
 
 DROP TABLE IF EXISTS nsworks CASCADE;
 DROP TABLE IF EXISTS nsmedium CASCADE;
@@ -50,6 +51,7 @@ DROP TABLE IF EXISTS nsworks_exhibitions CASCADE;
 DROP TABLE IF EXISTS nsworks_locations CASCADE;
 DROP TABLE IF EXISTS nsexhibitions_locations CASCADE;
 DROP TABLE IF EXISTS nschangedcount CASCADE;
+DROP TABLE IF EXISTS nschangedemail CASCADE;
 
 CREATE DOMAIN nscode AS int;
 CREATE DOMAIN nsacronym AS varchar(5);
@@ -75,12 +77,13 @@ CREATE DOMAIN nsetime AS timestamp;
 CREATE DOMAIN nsmedia AS varchar;
 CREATE DOMAIN nsmeter AS int;
 CREATE DOMAIN nscapacity AS int;
-CREATE DOMAIN nsaddress AS varchar(30);
+CREATE DOMAIN nsaddress AS varchar(50);
 CREATE DOMAIN nssecurity AS varchar(30);
 CREATE DOMAIN nsphone AS varchar(30);
 CREATE DOMAIN nsemail AS varchar(30);
 CREATE DOMAIN nsstatus AS varchar(30);
 CREATE DOMAIN nscount AS int;
+CREATE DOMAIN nsowner AS varchar(30);
 
 CREATE TABLE nsworks (
 	nswscode nscode NOT NULL,
@@ -92,7 +95,7 @@ CREATE TABLE nsworks (
 	nswsntype nsntype,
 	nswsauthor nsauthor NOT NULL,
 	nswscdatecom nscdatecom NOT NULL,
-	nswsadateacq nsadateacq NOT NULL,
+	nswsadateacq nsadateacq,
 	nswswdesc nswdesc NOT NULL,
 	CHECK (nswscdatecom < nswsadateacq AND nswsadateacq > timestamp '1990-07-01'),
 	PRIMARY KEY (nswscode, nswsacronym, nswsmname)
@@ -146,7 +149,7 @@ CREATE TABLE nschangedcount (
       		ON DELETE SET NULL,
 	nsccsdatecs nssdate NOT NULL,
 	nsccsdatece nsedate NOT NULL,
-	nscccount nscount NOT NULL
+	nscccount nscount NOT NULL,
 	CHECK (nsccsdatecs < nsccsdatece),
 	PRIMARY KEY (nsccename, nsccsdate, nsccmname, nsccsdatecs)
 );
