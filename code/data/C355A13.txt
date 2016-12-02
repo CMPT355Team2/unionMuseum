@@ -1,0 +1,106 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment1
+
+
+DROP VIEW storageList;
+DROP VIEW exhibitionList;
+DROP VIEW workList;
+DROP VIEW availableWorkList;
+DROP VIEW additionalWorkList;
+
+-- Produce for the head of the museum a listing of all works
+create view storageList
+    as select
+        wl.wl_Acronym as "identifier_Acronym",
+        wl.wl_Code as "dentifier_Code",
+        wk.wk_Name as "name",
+        wk.wk_ValeInMillon as "value"
+    from
+        workLocation wl, work wk
+    where
+        wl.wl_Acronym = wk.wk_Acronym and wl.wl_Code= wk.wk_Code and wl.wl_LocationName = 'storage'
+;
+
+select * from storageList;
+
+-- Produce for the public a listing of all exhibitions
+create view exhibitionList
+    as select
+        ex.ex_Name as "Exhibition Name",
+        ex.ex_Description as "Description",
+        el.el_LocationName as "Location",
+        (select count(*) as "number of Works"
+         from workExhibition we
+         where we.we_exhibition = ex.ex_Name and we.we_StartDate = ex.ex_StartDate
+         group by we.we_exhibition)
+    from
+        Exhibition ex, exhibitionLocation el
+    where
+        ex.ex_Name = el.el_exhibition and ex.ex_StartDate = el.el_StartDate
+;
+
+select * from exhibitionList;
+
+-- Produce for the public a listing of all publicly available data
+-- on all works in each of the exhibitions and
+-- and by the name of the work
+create view workList
+    as select
+        wk.wk_Name as "Name",
+        wk.wk_Type as "Type",
+        wk.wk_Subtype as "Subtype",
+        wk.wk_Author as "Author",
+        wk.wk_completionDate as "Date of Completion",
+        wk.wk_acquisitionDate as "Date of Acquisition",
+        wk.wk_Description as "Description",
+        we.we_exhibition as "Exhibiton"
+    from
+        Work wk, workExhibition we
+    where
+        we.we_Acronym = wk.wk_Acronym and we.we_Code= wk.wk_Code
+    order by
+        we.we_exhibition, wk.wk_Name
+
+;
+
+select * from workList;
+
+-- Produce for a curator a listing of works
+-- sorted by when they are available for use in a new exhibition
+-- and by classification and by name of the work
+create view availableWorkList
+    as select
+        wk.wk_Name as "Name",
+        ex.ex_EndDate as "End_Date",
+        wk.wk_Type as "Type"
+
+    from
+        Exhibition ex, workExhibition we, Work wk
+    where
+        we.we_Acronym = wk.wk_Acronym and we.we_Code = wk.wk_Code and ex.ex_Name = we.we_exhibition and ex.ex_StartDate = we.we_StartDate
+    order by
+        ex.ex_EndDate, wk.wk_Type, wk.wk_Name
+;
+select * from availableWorkList;
+
+
+-- Produce for the curator a listing of the amount of additional works
+-- that could be added to each exhibit based on the unused capacity of
+-- the galleries that they are currently in. This listing should just
+-- have the amount of additional works that could be added
+-- and the name of the exhibit
+create view additionalWorkList
+    as select
+        lo.lo_maxCapacity-(select count(*)
+                           from workExhibition we
+                            where el.el_exhibition = we.we_exhibition
+                            group by we.we_exhibition) as "additional",
+        el.el_exhibition as "Exhibition Name"
+    from
+        Location lo, exhibitionLocation el
+    where
+        lo.lo_LocationName = el.el_LocationName
+;
+
+select * from additionalWorkList;

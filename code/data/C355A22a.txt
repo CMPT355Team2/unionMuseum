@@ -2,7 +2,6 @@
 -- NSID:   shl864
 -- Course: CMPT355_Assignment3
 
-\i 'C355A21.txt'
 
 drop table workForPBorrowed CASCADE;
 drop function borrowIn();

@@ -5,6 +5,7 @@
 
 \i 'C355A11.txt';
 \i 'C355A12.txt';
+\i 'C355A13.txt';
 
 -- on the day after the end of a current exhibit
 -- all works are returned to storage

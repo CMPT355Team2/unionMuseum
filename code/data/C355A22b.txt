@@ -1,0 +1,31 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment2
+
+-- building the new large gallery D
+-- insert the gallery D info into Location
+-- two months later
+insert into Location(
+    lo_LocationName,
+    lo_Dimensions_length,
+    lo_Dimensions_width,
+    lo_minCapacity,
+    lo_maxCapacity)
+    select 'galleryD', 100, 60, 15, 25
+    where current_date = timestamp '2016-10-19' + interval '2 months';
+
+-- inserting into new connection door two months later
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+    select 'galleryD', 'galleryA'
+    where current_date = timestamp '2016-10-19' + interval '2 months';
+
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+    select 'galleryA', 'galleryD'
+    where current_date = timestamp '2016-10-19' + interval '2 months';
+
+
+

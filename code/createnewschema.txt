@@ -97,11 +97,8 @@ CREATE TABLE nsworks (
 	nswscdatecom nscdatecom NOT NULL,
 	nswsadateacq nsadateacq,
 	nswswdesc nswdesc NOT NULL,
-<<<<<<< HEAD
-	CHECK (nswscdatecom < nsadateacq AND nswsadateacq > timestamp '1990-07-01'),
-=======
-	CHECK (nswscdatecom < nswsadateacq AND nswsadateacq > timestamp '1990-07-01'),
->>>>>>> d829cc221f95c2ee6df4eaa9fee26f22b9b8107b
+
+	CHECK (nswscdatecom < nswsadateacq  AND nswsadateacq > timestamp '1990-07-01'),
 	PRIMARY KEY (nswscode, nswsacronym, nswsmname)
 );
 

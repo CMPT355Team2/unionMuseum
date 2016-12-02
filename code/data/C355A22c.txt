@@ -39,6 +39,7 @@ order by ts_stat.word;
 -- According to search result,
 --the word "country" appears most times
 -- So add new attribute "Country" as the important characteristic
+-- ALTER TABLE Work DROP COLUMN tsv_description;
 ALTER TABLE Work ADD COLUMN wk_country NName;
 
 -- create my own table of items and values

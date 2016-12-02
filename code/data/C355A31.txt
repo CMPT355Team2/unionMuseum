@@ -2,8 +2,9 @@
 -- NSID:   shl864
 -- Course: CMPT355_Assignment3
 
-
+\i 'C355A21.txt'
 \i 'C355A22a.txt'
+\i 'C355A22b.txt'
 \i 'C355A22c.txt'
 
 -- add works for current exhibition1 on galleryA
