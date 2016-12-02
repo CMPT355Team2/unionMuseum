@@ -1,0 +1,86 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment3
+
+
+\i 'C355A22a.txt'
+\i 'C355A22c.txt'
+
+-- add works for current exhibition1 on galleryA
+update workLocation
+set wl_LocationName = 'galleryA'
+from (select * from workLocation wl where wl.wl_LocationName = 'storage' limit 7) wl
+where workLocation.wl_Acronym = wl.wl_Acronym and workLocation.wl_Code = wl.wl_Code and CURRENT_DATE >= timestamp '2016-10-28' and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition1');
+
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'exhibition1', '2016-07-01'
+            from (select * from workLocation wl where wl.wl_LocationName = 'galleryA' ) wl
+
+            where (wl.wl_Acronym,wl.wl_Code, 'exhibition1', '2016-07-01') NOT IN (select we_Acronym, we_Code, we_exhibition, we_StartDate  from workExhibition)  and CURRENT_DATE >= timestamp '2016-10-28' and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition1');
+
+
+-- add works for current exhibition2 on galleryB
+update workLocation
+set wl_LocationName = 'galleryB'
+from (select * from workLocation wl where wl.wl_LocationName = 'storage' limit 6) wl
+where workLocation.wl_Acronym = wl.wl_Acronym and workLocation.wl_Code = wl.wl_Code and CURRENT_DATE >= timestamp '2016-10-28' and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition2');
+
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'exhibition2', '2016-08-01'
+            from (select * from workLocation wl where wl.wl_LocationName = 'galleryB' ) wl
+
+            where (wl.wl_Acronym,wl.wl_Code)  NOT IN (select we_Acronym, we_Code from workExhibition) and CURRENT_DATE >= timestamp '2016-10-28' and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition2');
+
+
+-- add works for current exhibition3 on galleryC
+update workLocation
+set wl_LocationName = 'galleryC'
+from (select * from workLocation wl where wl.wl_LocationName = 'storage' limit 8) wl
+where workLocation.wl_Acronym = wl.wl_Acronym and workLocation.wl_Code = wl.wl_Code and CURRENT_DATE >= timestamp '2016-10-28' and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition3');
+
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'exhibition3', '2016-09-01'
+            from (select * from workLocation wl where wl.wl_LocationName = 'galleryC' ) wl
+            where (wl.wl_Acronym,wl.wl_Code)  NOT IN (select we_Acronym, we_Code from workExhibition) and CURRENT_DATE >= timestamp '2016-10-28' and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition3');
+
+
+-- .add works for future exhibition4 on galleryA
+update workLocation
+set wl_LocationName = 'galleryA'
+from (select * from workLocation wl where wl.wl_LocationName = 'storage' limit 8) wl
+where workLocation.wl_Acronym = wl.wl_Acronym and workLocation.wl_Code = wl.wl_Code and CURRENT_DATE >= (select ex.ex_StartDate from Exhibition ex where ex.ex_Name = 'exhibition4') and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition4');
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'exhibition4', '2017-01-05'
+            from (select * from workLocation wl where wl.wl_LocationName = 'galleryA' ) wl
+            where (wl.wl_Acronym,wl.wl_Code, 'exhibition4', '2017-01-05' ) NOT IN (select we_Acronym, we_Code, we_exhibition, we_StartDate  from workExhibition) and CURRENT_DATE >= (select ex.ex_StartDate from Exhibition ex where ex.ex_Name = 'exhibition4') and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition4')
+;
+
+
+-- add works for future exhibition5 on galleryB
+update workLocation
+set wl_LocationName = 'galleryB'
+from (select * from workLocation wl where wl.wl_LocationName = 'storage' limit 7) wl
+where workLocation.wl_Acronym = wl.wl_Acronym and workLocation.wl_Code = wl.wl_Code and CURRENT_DATE >= (select ex.ex_StartDate from Exhibition ex where ex.ex_Name = 'exhibition5') and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition5');
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'exhibition5', '2017-02-05'
+            from (select * from workLocation wl where wl.wl_LocationName = 'galleryB' ) wl
+            where (wl.wl_Acronym,wl.wl_Code, 'exhibition5', '2017-02-05' ) NOT IN (select we_Acronym, we_Code, we_exhibition, we_StartDate  from workExhibition) and CURRENT_DATE >= (select ex.ex_StartDate from Exhibition ex where ex.ex_Name = 'exhibition5') and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition5')
+;
+
+
+-- add works for future exhibition6 on galleryC
+update workLocation
+set wl_LocationName = 'galleryC'
+from (select * from workLocation wl where wl.wl_LocationName = 'storage' limit 6) wl
+where workLocation.wl_Acronym = wl.wl_Acronym and workLocation.wl_Code = wl.wl_Code and CURRENT_DATE >= (select ex.ex_StartDate from Exhibition ex where ex.ex_Name = 'exhibition6') and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition6');
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'exhibition6', '2017-03-06'
+            from (select * from workLocation wl where wl.wl_LocationName = 'galleryC' ) wl
+            where (wl.wl_Acronym,wl.wl_Code, 'exhibition6', '2017-03-06' ) NOT IN (select we_Acronym, we_Code, we_exhibition, we_StartDate from workExhibition) and CURRENT_DATE >= (select ex.ex_StartDate from Exhibition ex where ex.ex_Name = 'exhibition6') and CURRENT_DATE < (select ex.ex_EndDate from Exhibition ex where ex.ex_Name = 'exhibition6')
+;

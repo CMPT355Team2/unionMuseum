@@ -1,0 +1,187 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment3
+
+
+-- drop all table
+DROP TABLE Location CASCADE;
+DROP TABLE Exhibition CASCADE;
+DROP TABLE Work CASCADE;
+DROP TABLE Medium CASCADE;
+DROP TABLE workLocation CASCADE;
+DROP TABLE connectingDoor CASCADE;
+DROP TABLE workExhibition CASCADE;
+DROP TABLE exhibitionLocation CASCADE;
+
+-- drop all domain
+DROP DOMAIN LocationName CASCADE;
+DROP DOMAIN Dimensions CASCADE;
+DROP DOMAIN Capacity CASCADE;
+DROP DOMAIN NName CASCADE;
+DROP DOMAIN Description CASCADE;
+DROP DOMAIN DDate CASCADE;
+DROP DOMAIN Acronym CASCADE;
+DROP DOMAIN Code CASCADE;
+DROP DOMAIN Type CASCADE;
+DROP DOMAIN Subtype CASCADE;
+DROP DOMAIN Author CASCADE;
+DROP DOMAIN ValueInMillon CASCADE;
+DROP DOMAIN Media CASCADE;
+
+
+--  create all domain
+create domain LocationName AS varchar(50);
+create domain Dimensions AS smallint
+    check (value > 0);
+create domain Capacity AS smallint
+    check (value >= 0);
+create domain NName AS varchar(500);
+create domain Description AS varchar(2000);
+create domain DDate AS date;
+create domain Acronym AS varchar(10);
+create domain Code AS smallint;
+create domain Type AS varchar(20);
+create domain Subtype AS varchar(20);
+create domain Author AS varchar(50);
+create domain ValueInMillon AS numeric
+    check (value >= 0);
+create domain Media AS varchar(50);
+
+
+
+-- create a Locaton table
+-- This table is used to keep track of all
+-- locatons within the museum.
+
+create table Location(
+    lo_LocationName LocationName not null primary key,
+    lo_Dimensions_length Dimensions not null,
+    lo_Dimensions_width Dimensions not null,
+    lo_minCapacity Capacity not null,
+    lo_maxCapacity Capacity not null
+);
+
+
+-- create connectingDoor table
+-- This table is used to keep track of the
+-- connecting of all locations withing the museum.
+create table connectingDoor(
+    co_oneLocation LocationName
+        references Location
+            on update cascade
+            on delete cascade,
+    co_anotherLocation LocationName
+        references Location
+            on update cascade
+            on delete cascade,
+    primary key(co_oneLocation, co_anotherLocation)
+
+);
+
+-- create a Exhibition table
+-- This table is used to keep track of all
+-- exhibitions within the museum.
+
+create table Exhibition(
+    ex_Name NName not null,
+    ex_Description Description not null,
+    ex_StartDate DDate not null,
+    ex_EndDate DDate not null,
+    primary key(ex_Name, ex_StartDate),
+    check(ex_StartDate < ex_EndDate)
+);
+
+
+-- create a work table
+-- This table is used to keep track of all
+-- works within the museum.
+create table Work(
+    wk_Acronym Acronym not null,
+    wk_Code Code not null,
+    wk_Name NName not null,
+    wk_Type Type not null,
+    wk_Subtype Subtype not null,
+    wk_Author Author not null,
+    wk_completionDate DDate not null,
+    wk_acquisitionDate DDate null,
+    wk_ValeInMillon ValueInMillon not null,
+    wk_Description Description not null,
+    check(wk_completionDate < wk_acquisitionDate),
+    primary key(wk_Acronym, wk_Code)
+);
+
+-- create a medium table
+-- This table is used to keep track of all
+-- meia of each work in museum.
+
+create table Medium(
+    md_Acronym Acronym not null,
+    md_Code Code not null,
+    md_Media Media not null,
+    primary key(md_Acronym, md_Code, md_Media),
+    foreign key(md_Acronym,md_Code)
+        references Work
+            on update cascade
+            on delete cascade
+);
+
+
+-- create a workLocation table
+-- This table is used to keep track of all
+-- location of each work in museum.
+
+create table workLocation(
+    wl_Acronym Acronym not null,
+    wl_Code Code not null,
+    wl_LocationName LocationName
+        references Location
+            on update cascade
+            on delete cascade,
+    primary key(wl_Acronym, wl_Code, wl_LocationName),
+    foreign key(wl_Acronym,wl_Code)
+        references Work
+            on update cascade
+            on delete cascade
+);
+
+-- create a workExhibition table
+-- This table is used to keep track of all
+-- exhibition of each work in museum.
+
+create table workExhibition(
+    we_Acronym Acronym not null,
+    we_Code Code not null,
+    we_exhibition NName not null,
+    we_StartDate DDate not null,
+
+    primary key(we_Acronym, we_Code, we_exhibition, we_StartDate),
+    foreign key(we_Acronym,we_Code)
+        references Work
+            on update cascade
+            on delete cascade,
+
+    foreign key(we_exhibition, we_StartDate)
+        references Exhibition
+            on update cascade
+            on delete cascade
+);
+
+-- create a exhibitionLocation table
+-- This table is used to keep track of all
+-- location of each exhibition in museum.
+
+create table exhibitionLocation(
+    el_exhibition NName not null,
+    el_StartDate DDate not null,
+    el_LocationName LocationName
+        references Location
+            on update cascade
+            on delete cascade,
+    foreign key(el_exhibition, el_StartDate)
+        references Exhibition
+            on update cascade
+            on delete cascade,
+    primary key(el_exhibition, el_StartDate, el_LocationName)
+);
+
+

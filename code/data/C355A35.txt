@@ -1,0 +1,325 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment3
+
+
+DROP TABLE temporaryLocation CASCADE;
+DROP Table ExhibitionTempLocation CASCADE;
+DROP Table workTempLocation CASCADE;
+
+DROP DOMAIN SponsorName CASCADE;
+DROP DOMAIN LocationAddress CASCADE;
+DROP DOMAIN SecurityName CASCADE;
+DROP DOMAIN ExhibitionInsurance CASCADE;
+
+create domain SponsorName AS varchar(50);
+create domain LocationAddress AS varchar(2000);
+create domain SecurityName AS varchar(50);
+create domain ExhibitionInsurance AS numeric;
+
+
+-- create the table temporaryLocation
+-- to record the name of sponsor of traveling exhibition,
+-- the address of the temporary location,
+-- the name of individual in charge of securit
+-- amount of insurance provided for exhibition
+create table temporaryLocation(
+    tl_sponsorName SponsorName not null,
+    tl_locationAddress LocationAddress not null,
+    tl_securityName SecurityName not null,
+    tl_exhibitionInsurance ExhibitionInsurance not null,
+    primary key(tl_sponsorName, tl_locationAddress)
+);
+
+
+-- insert travelling exhibition
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'travellingExhibition1',
+    'this traveling exhibition would travel to five Saskatchewan towns or cities that will each have the exhibition available to the public for three weeks. This is the first part ',
+     (select ex_EndDate from Exhibition where ex_Name = 'exhibition1' or ex_Name = 'exhibition2' or ex_Name = 'exhibition3' order by ex_EndDate ASC limit 1) + interval '1 week',
+    (select ex_EndDate from Exhibition where ex_Name = 'exhibition1' or ex_Name = 'exhibition2' or ex_Name = 'exhibition3' order by ex_EndDate ASC limit 1) + interval '1 week' + interval '3 weeks'
+);
+
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'travellingExhibition2',
+    'this traveling exhibition would travel to five Saskatchewan towns or cities that will each have the exhibition available to the public for three weeks. This is the second part ',
+     (select ex_EndDate from Exhibition where ex_Name = 'travellingExhibition1') + interval '1 week',
+     (select ex_EndDate from Exhibition where ex_Name = 'travellingExhibition1') + interval '1 week' + interval '3 weeks'
+);
+
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'travellingExhibition3',
+    'this traveling exhibition would travel to five Saskatchewan towns or cities that will each have the exhibition available to the public for three weeks. This is the third part ',
+     (select ex_EndDate from Exhibition where ex_Name = 'travellingExhibition2') + interval '1 week',
+     (select ex_EndDate from Exhibition where ex_Name = 'travellingExhibition2') + interval '1 week' + interval '3 weeks'
+);
+
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'travellingExhibition4',
+    'this traveling exhibition would travel to five Saskatchewan towns or cities that will each have the exhibition available to the public for three weeks. This is the fourth part ',
+     (select ex_EndDate from Exhibition where ex_Name = 'travellingExhibition3') + interval '1 week',
+     (select ex_EndDate from Exhibition where ex_Name = 'travellingExhibition3') + interval '1 week' + interval '3 weeks'
+);
+
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'travellingExhibition5',
+    'this traveling exhibition would travel to five Saskatchewan towns or cities that will each have the exhibition available to the public for three weeks. This is the fifth part ',
+     (select ex_EndDate from Exhibition where ex_Name = 'travellingExhibition4') + interval '1 week',
+     (select ex_EndDate from Exhibition where ex_Name = 'travellingExhibition4') + interval '1 week' + interval '3 weeks'
+);
+
+
+
+-- insert into temporaryLocation
+insert into temporaryLocation(
+    tl_sponsorName,
+    tl_locationAddress,
+    tl_securityName,
+    tl_exhibitionInsurance)
+values(
+    'sponsor1',
+    'Saskatoon',
+    'guard1',
+    '100'
+);
+
+
+insert into temporaryLocation(
+    tl_sponsorName,
+    tl_locationAddress,
+    tl_securityName,
+    tl_exhibitionInsurance)
+values(
+    'sponsor2',
+    'Kindersley',
+    'guard2',
+    '100'
+);
+
+insert into temporaryLocation(
+    tl_sponsorName,
+    tl_locationAddress,
+    tl_securityName,
+    tl_exhibitionInsurance)
+values(
+    'sponsor3',
+    'Nipawin',
+    'guard3',
+    '100'
+);
+
+
+insert into temporaryLocation(
+    tl_sponsorName,
+    tl_locationAddress,
+    tl_securityName,
+    tl_exhibitionInsurance)
+values(
+    'sponsor4',
+    'Battleford',
+    'guard4',
+    '100'
+);
+
+insert into temporaryLocation(
+    tl_sponsorName,
+    tl_locationAddress,
+    tl_securityName,
+    tl_exhibitionInsurance)
+values(
+    'sponsor5',
+    'Regina',
+    'guard5',
+    '100'
+);
+
+-- create and fill the table ExhibitionTempLocation
+create table ExhibitionTempLocation(
+    et_exhibitionName NName not null,
+    et_StartDate DDate not null,
+    et_sponsorName SponsorName not null,
+    et_locationAddress LocationAddress not null,
+
+    primary key(et_exhibitionName,et_StartDate,et_sponsorName,et_locationAddress),
+
+    foreign key(et_exhibitionName, et_StartDate)
+        references Exhibition
+            on update cascade
+            on delete cascade,
+
+    foreign key(et_sponsorName, et_locationAddress)
+        references temporaryLocation
+            on update cascade
+            on delete cascade
+);
+
+insert into ExhibitionTempLocation(
+    et_exhibitionName,
+    et_StartDate,
+    et_sponsorName,
+    et_locationAddress)
+values(
+    'travellingExhibition1',
+    '2017-01-07',
+    'sponsor1',
+    'Saskatoon'
+);
+
+insert into ExhibitionTempLocation(
+    et_exhibitionName,
+    et_StartDate,
+    et_sponsorName,
+    et_locationAddress)
+values(
+    'travellingExhibition2',
+    '2017-02-04',
+    'sponsor2',
+    'Kindersley'
+);
+
+insert into ExhibitionTempLocation(
+    et_exhibitionName,
+    et_StartDate,
+    et_sponsorName,
+    et_locationAddress)
+values(
+    'travellingExhibition3',
+    '2017-03-04',
+    'sponsor3',
+    'Nipawin'
+);
+
+insert into ExhibitionTempLocation(
+    et_exhibitionName,
+    et_StartDate,
+    et_sponsorName,
+    et_locationAddress)
+values(
+    'travellingExhibition4',
+    '2017-04-01',
+    'sponsor4',
+    'Battleford'
+);
+
+insert into ExhibitionTempLocation(
+    et_exhibitionName,
+    et_StartDate,
+    et_sponsorName,
+    et_locationAddress)
+values(
+    'travellingExhibition5',
+    '2017-04-29',
+    'sponsor5',
+    'Regina'
+);
+
+
+-- insert workExhibition for travelingExhibition:
+insert into workExhibition(
+    we_Acronym,
+    we_Code,
+    we_exhibition,
+    we_StartDate
+)
+select we.we_Acronym, we.we_Code, 'travellingExhibition1',
+    '2017-01-07'
+from workExhibition we
+where (we.we_Acronym,we.we_Code) NOT IN (select we.we_Acronym,we.we_Code from workExhibition we, Exhibition ex where we.we_exhibition = ex.ex_Name and we.we_StartDate = ex.ex_StartDate and ex.ex_EndDate >= timestamp '2016-12-31') and (we.we_Acronym,we.we_Code) NOT IN (select la_Acronym,la_Code from loan);
+
+insert into workExhibition(
+    we_Acronym,
+    we_Code,
+    we_exhibition,
+    we_StartDate
+)
+select we.we_Acronym, we.we_Code, 'travellingExhibition2',
+    '2017-02-04'
+from workExhibition we
+where we.we_exhibition = 'travellingExhibition1' and we.we_StartDate = '2017-01-07';
+
+insert into workExhibition(
+    we_Acronym,
+    we_Code,
+    we_exhibition,
+    we_StartDate
+)
+select we.we_Acronym, we.we_Code, 'travellingExhibition3',
+    '2017-03-04'
+from workExhibition we
+where we.we_exhibition = 'travellingExhibition1' and we.we_StartDate = '2017-01-07';
+
+insert into workExhibition(
+    we_Acronym,
+    we_Code,
+    we_exhibition,
+    we_StartDate
+)
+select we.we_Acronym, we.we_Code, 'travellingExhibition4',
+    '2017-04-01'
+from workExhibition we
+where we.we_exhibition = 'travellingExhibition1' and we.we_StartDate = '2017-01-07';
+
+insert into workExhibition(
+    we_Acronym,
+    we_Code,
+    we_exhibition,
+    we_StartDate
+)
+select we.we_Acronym, we.we_Code, 'travellingExhibition5',
+    '2017-04-29'
+from workExhibition we
+where we.we_exhibition = 'travellingExhibition1' and we.we_StartDate = '2017-01-07';
+
+-- create and fill the workTempLocation
+
+create table workTempLocation(
+    wt_Acronym Acronym not null,
+    wt_Code Code not null,
+    wt_sponsorName SponsorName not null,
+    wt_locationAddress LocationAddress not null,
+    primary key(wt_Acronym,wt_Code,wt_sponsorName,wt_locationAddress),
+
+    foreign key(wt_Acronym,wt_Code)
+        references Work
+            on update cascade
+            on delete cascade,
+
+    foreign key(wt_sponsorName, wt_locationAddress)
+        references temporaryLocation
+            on update cascade
+            on delete cascade
+);
+
+insert into workTempLocation(
+    wt_Acronym,
+    wt_Code,
+    wt_sponsorName,
+    wt_locationAddress)
+select we.we_Acronym, we.we_Code, et.et_sponsorName, et.et_locationAddress
+from workExhibition we, ExhibitionTempLocation et
+where we.we_exhibition = et.et_exhibitionName and we.we_StartDate = et.et_StartDate;

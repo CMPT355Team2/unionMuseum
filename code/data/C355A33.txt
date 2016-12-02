@@ -1,0 +1,212 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment3
+
+
+-- plan and record three one/room exhibitions
+-- old_exhibition1, old_exhibition2 and old_exhibition3
+-- that occurred prior to
+-- the exhibition1, exhibition2 and exhibition3
+
+
+-- initialize the workLocation table
+UPDATE workLocation
+SET wl_LocationName = 'storage';
+
+UPDATE workLocation
+SET wl_StartDate = wk.wk_acquisitionDate
+from Work wk
+where wk.wk_Acronym = workLocation.wl_Acronym and wk.wk_Code = workLocation.wl_Code;
+
+
+-- create trigger to insert Enddate
+CREATE or REPLACE FUNCTION updateEndDate() RETURNS TRIGGER AS $move$
+    BEGIN
+
+        update workLocation
+        set wl_EndDate = new.wl_StartDate
+        where wl_Acronym = new.wl_Acronym and wl_Code = new.wl_Code and wl_StartDate < new.wl_StartDate and wl_EndDate is null;
+
+        RETURN NEW;
+    END;
+$move$ LANGUAGE plpgsql;
+
+CREATE TRIGGER move AFTER INSERT ON workLocation FOR EACH ROW EXECUTE PROCEDURE updateEndDate();
+
+-- insert first old exhibition with 10 works
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'old_exhibition1',
+    'Museum has held three warm-up exhibitions before exhibition1 to show its works to public. This is the first exhibition,let us enjoy the beauty of art',
+    '2016-01-01',
+    '2016-06-30'
+);
+
+insert into exhibitionLocation(
+    el_exhibition,
+    el_StartDate,
+    el_LocationName)
+values(
+    'old_exhibition1',
+    '2016-01-01',
+    'galleryA'
+);
+
+
+INSERT INTO workLocation(wl_Acronym, wl_Code, wl_LocationName, wl_StartDate, wl_EndDate)
+            select wk.wk_Acronym, wk.wk_Code, 'galleryA', '2016-01-01', null
+            from Work wk
+            where wk.wk_acquisitionDate != '2016-10-25' and wk.wk_status != 'sold'
+            order by wk.wk_Code
+            limit 10;
+
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'old_exhibition1', '2016-01-01'
+            from workLocation wl
+            where wl.wl_LocationName = 'galleryA' and wl.wl_StartDate = '2016-01-01';
+
+INSERT INTO workLocation(wl_Acronym, wl_Code, wl_LocationName, wl_StartDate, wl_EndDate)
+            select wl.wl_Acronym, wl.wl_Code, 'storage', '2016-06-30', null
+            from workLocation wl
+            where wl.wl_LocationName = 'galleryA' and wl.wl_StartDate = '2016-01-01';
+
+
+-- insert second old exhibition with 10 works
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'old_exhibition2',
+    'Museum has held three warm-up exhibitions before exhibition1 to show its works to public. This is the second exhibition,let us enjoy the beauty of art',
+    '2016-02-01',
+    '2016-07-30'
+);
+
+insert into exhibitionLocation(
+    el_exhibition,
+    el_StartDate,
+    el_LocationName)
+values(
+    'old_exhibition2',
+    '2016-02-01',
+    'galleryB'
+);
+
+
+INSERT INTO workLocation(wl_Acronym, wl_Code, wl_LocationName, wl_StartDate, wl_EndDate)
+            select wk.wk_Acronym, wk.wk_Code, 'galleryB', '2016-02-01', null
+            from Work wk
+             where wk.wk_acquisitionDate != '2016-10-25' and wk.wk_status != 'sold'
+            order by wk.wk_Code
+            limit 10 OFFSET 10;
+
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'old_exhibition2', '2016-02-01'
+            from workLocation wl
+            where wl.wl_LocationName = 'galleryB' and wl.wl_StartDate = '2016-02-01';
+
+INSERT INTO workLocation(wl_Acronym, wl_Code, wl_LocationName, wl_StartDate, wl_EndDate)
+            select wl.wl_Acronym, wl.wl_Code, 'storage', '2016-07-30', null
+            from workLocation wl
+            where wl.wl_LocationName = 'galleryB' and wl.wl_StartDate = '2016-02-01';
+
+
+-- insert third old exhibition with 10 works
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'old_exhibition3',
+    'Museum has held three warm-up exhibitions before exhibition1 to show its works to public. This is the third exhibition,let us enjoy the beauty of art',
+    '2016-03-01',
+    '2016-08-30'
+);
+
+insert into exhibitionLocation(
+    el_exhibition,
+    el_StartDate,
+    el_LocationName)
+values(
+    'old_exhibition3',
+    '2016-03-01',
+    'galleryC'
+);
+
+INSERT INTO workLocation(wl_Acronym, wl_Code, wl_LocationName, wl_StartDate, wl_EndDate)
+            select wk.wk_Acronym, wk.wk_Code, 'galleryC', '2016-03-01', null
+            from Work wk
+             where wk.wk_acquisitionDate != '2016-10-25' and wk.wk_status != 'sold'
+            order by wk.wk_Code
+            limit 10 OFFSET 20;
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'old_exhibition3', '2016-03-01'
+            from workLocation wl
+            where wl.wl_LocationName = 'galleryC' and wl.wl_StartDate = '2016-03-01';
+
+INSERT INTO workLocation(wl_Acronym, wl_Code, wl_LocationName, wl_StartDate, wl_EndDate)
+            select wl.wl_Acronym, wl.wl_Code, 'storage', '2016-08-30', null
+            from workLocation wl
+            where wl.wl_LocationName = 'galleryC' and wl.wl_StartDate = '2016-03-01';
+
+
+-- update the startDate and endDate of workLocation with current
+INSERT INTO workLocation(wl_Acronym, wl_Code, wl_LocationName, wl_StartDate, wl_EndDate)
+    select we.we_Acronym, we.we_Code, el.el_LocationName, we.we_StartDate, null
+    from workExhibition we, exhibitionLocation el
+    where we.we_exhibition = el.el_exhibition and we.we_StartDate = el.el_StartDate and we.we_StartDate >= timestamp '2016-07-01';
+
+
+-- a number of queires to test:
+
+-- Produce a query
+-- that lists the different locations
+-- that a given work was/is/will be in between two dates
+
+-- for work(CNMB, 777)
+select *
+from workLocation wl
+where wl.wl_Acronym = 'CNMB' and wl.wl_Code = '777' and wl.wl_StartDate <= timestamp '2016-11-01'
+order by wl.wl_StartDate;
+
+-- for work(ECVD, 409)
+select *
+from workLocation wl
+where wl.wl_Acronym = 'ECVD' and wl.wl_Code = '409' and wl.wl_StartDate <= timestamp '2016-11-01'
+order by wl.wl_StartDate;
+
+-- for work(FDOG, 4131)
+select *
+from workLocation wl
+where wl.wl_Acronym = 'FDOG' and wl.wl_Code = '4131' and wl.wl_StartDate <= timestamp '2016-11-01'
+order by wl.wl_StartDate;
+
+
+
+-- Produce a query
+-- that lists all the works
+-- found in an exhibition between two dates
+select we.*, ex.ex_EndDate
+from workExhibition we, Exhibition ex
+where we.we_exhibition = ex.ex_Name and we.we_StartDate = ex.ex_StartDate and we.we_StartDate >= timestamp '2015-11-01' and ex.ex_EndDate <= timestamp '2016-11-01'
+order by we.we_StartDate, we.we_Acronym;
+
+
+
+-- Produce a query
+-- that lists all the exhibitions
+-- that make use of a location between two dates
+select el.*, ex.ex_EndDate
+from exhibitionLocation el, Exhibition ex
+where el.el_exhibition = ex.ex_Name and el.el_StartDate= ex.ex_StartDate and el.el_StartDate >= timestamp '2015-11-01' and ex.ex_EndDate <= timestamp '2016-11-01'
+order by el.el_StartDate;

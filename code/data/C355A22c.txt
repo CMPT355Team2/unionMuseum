@@ -1,0 +1,67 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment2
+
+drop function tsvDescription();
+drop table workCountry;
+
+-- add the new column to store TSVECTOR format of description
+ALTER TABLE Work ADD COLUMN tsv_description TSVECTOR;
+
+-- assign the value to the column tsv_description
+UPDATE Work
+SET tsv_description = setweight(to_tsvector(coalesce(wk_Description,'')), 'A');
+
+-- create function and trigger
+CREATE FUNCTION tsvDescription() RETURNS trigger AS $$
+begin
+  new.tsv_description := setweight(to_tsvector(coalesce(new.wk_Description,'')), 'A');
+  return new;
+end
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER tsvectorUpdate AFTER INSERT OR UPDATE OR DELETE ON
+Work FOR EACH ROW EXECUTE PROCEDURE tsvDescription();
+
+-- To find frequency of the lexemes()
+-- in order of number of different items
+-- that the word appears in
+select *
+from ts_stat('select tsv_description from Work')
+order by ts_stat.nentry desc;
+
+-- To find frequency of the lexemes()
+-- in order of alphabetic order of the words
+select *
+from ts_stat('select tsv_description from Work')
+order by ts_stat.word;
+
+-- According to search result,
+--the word "country" appears most times
+-- So add new attribute "Country" as the important characteristic
+ALTER TABLE Work ADD COLUMN wk_country NName;
+
+-- create my own table of items and values
+-- create table workCountry
+create table workCountry(
+    wc_Acronym Acronym not null,
+    wc_Code Code not null,
+    wc_country NName not null,
+
+    primary key(wc_Acronym, wc_Code),
+    foreign key(wc_Acronym, wc_Code)
+        references Work
+            on update cascade
+            on delete cascade
+);
+-- input the value for table workCountry
+\copy workCountry from 'C355A22c-1.txt';
+
+-- update the the column "Country" of Work
+-- to include appropriate value
+update Work
+set wk_country = wc.wc_country
+from workCountry wc
+where wk_Acronym = wc.wc_Acronym and wk_Code = wc.wc_Code;
+
+

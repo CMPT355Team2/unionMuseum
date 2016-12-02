@@ -1,0 +1,286 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment3
+
+
+-- Add data on the the locations
+
+-- insert storage info
+insert into Location(
+    lo_LocationName,
+    lo_Dimensions_length,
+    lo_Dimensions_width,
+    lo_minCapacity,
+    lo_maxCapacity)
+values(
+    'storage',
+    50,
+    45,
+    0,
+    600
+);
+
+-- insert lobby info
+insert into Location(
+    lo_LocationName,
+    lo_Dimensions_length,
+    lo_Dimensions_width,
+    lo_minCapacity,
+    lo_maxCapacity)
+values(
+    'lobby',
+    15,
+    8,
+    2,
+    4
+);
+
+-- insert gallery A info
+insert into Location(
+    lo_LocationName,
+    lo_Dimensions_length,
+    lo_Dimensions_width,
+    lo_minCapacity,
+    lo_maxCapacity)
+values(
+    'galleryA',
+    30,
+    15,
+    7,
+    16
+);
+
+-- insert gallery B info
+insert into Location(
+    lo_LocationName,
+    lo_Dimensions_length,
+    lo_Dimensions_width,
+    lo_minCapacity,
+    lo_maxCapacity)
+values(
+    'galleryB',
+    30,
+    15,
+    7,
+    16
+);
+
+-- insert gallery C info
+insert into Location(
+    lo_LocationName,
+    lo_Dimensions_length,
+    lo_Dimensions_width,
+    lo_minCapacity,
+    lo_maxCapacity)
+values(
+    'galleryC',
+    60,
+    45,
+    14,
+    24
+);
+
+-- insert connecting door of storage and lobby
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'storage',
+    'lobby'
+);
+
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'lobby',
+    'storage'
+);
+
+-- insert connecting door of galleryA and lobby
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'galleryA',
+    'lobby'
+);
+
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'lobby',
+    'galleryA'
+);
+
+-- insert connecting door of galleryB and lobby
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'galleryB',
+    'lobby'
+);
+
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'lobby',
+    'galleryB'
+);
+
+-- insert connecting door of galleryB and galleryA
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'galleryB',
+    'galleryA'
+);
+
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'galleryA',
+    'galleryB'
+);
+
+-- insert connecting door of galleryB and galleryC
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'galleryB',
+    'galleryC'
+);
+
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'galleryC',
+    'galleryB'
+);
+
+-- insert connecting door of galleryA and galleryC
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'galleryA',
+    'galleryC'
+);
+
+insert into connectingDoor(
+    co_oneLocation,
+    co_anotherLocation)
+values(
+    'galleryC',
+    'galleryA'
+);
+
+
+
+-- Add at least 65 works to the collection of your museum database
+\copy Work from 'C355A12-1.txt'
+\copy Medium from 'C355A12-2.txt'
+
+-- Place all items initially in your museum's storage facility.
+\copy workLocation from 'C355A12-3.txt'
+
+
+-- Create three exhibitions that are currently taking place
+
+-- insert first exhibition with 9 works
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'exhibition1',
+    'Museum plans to show its works to public in following 3 exhibition. This is the first exhibition,let us enjoy the beauty of art',
+    '2016-07-01',
+    '2016-12-31'
+);
+
+-- insert second exhibition with 10 works
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'exhibition2',
+    'Museum plans to show its works to public in following 3 exhibition. This is the second exhibition,let us enjoy the beauty of art',
+    '2016-08-01',
+    '2017-01-31'
+);
+
+-- insert third exhibition with 16 works
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'exhibition3',
+    'Museum plans to show its works to public in following 3 exhibition. This is the third exhibition,let us enjoy the beauty of art',
+    '2016-09-01',
+    '2017-03-01'
+);
+
+
+-- Place the selected items in these exhibitions
+\copy workExhibition from 'C355A12-4.txt'
+
+-- Assign two special works to be displayed in the lobby.
+update workLocation
+set wl_LocationName = 'lobby'
+where wl_Acronym = 'VECC' and wl_Code = '9610';
+
+update workLocation
+set wl_LocationName = 'lobby'
+where wl_Acronym = 'NAYU' and wl_Code = '8500';
+
+-- Assign the exhibitions to locations
+insert into exhibitionLocation(
+    el_exhibition,
+    el_StartDate,
+    el_LocationName)
+values(
+    'exhibition1',
+    '2016-07-01',
+    'galleryA'
+);
+
+insert into exhibitionLocation(
+    el_exhibition,
+    el_StartDate,
+    el_LocationName)
+values(
+    'exhibition2',
+    '2016-08-01',
+    'galleryB'
+);
+
+insert into exhibitionLocation(
+    el_exhibition,
+    el_StartDate,
+    el_LocationName)
+values(
+    'exhibition3',
+    '2016-09-01',
+    'galleryC'
+);
+
+-- Update the location of all works that are now in exhibitions
+update workLocation
+set wl_LocationName = el.el_LocationName
+from exhibitionLocation el, workExhibition we
+where we.we_Acronym = wl_Acronym and we.we_Code = wl_Code and we.we_exhibition = el.el_exhibition and we.we_StartDate = el.el_StartDate;
+
+

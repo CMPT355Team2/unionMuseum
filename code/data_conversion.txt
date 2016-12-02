@@ -1,0 +1,39 @@
+
+
+CREATE TABLE nsworks (
+    nswscode nscode NOT NULL,
+    nswsacronym nsacronym NOT NULL,
+    nswsmname nsmname NOT NULL,
+    nswswname nswname NOT NULL,
+    nswstype nstype NOT NULL,
+    nswsstype nsstype NOT NULL,
+    nswsntype nsntype,
+    nswsauthor nsauthor NOT NULL,
+    nswscdatecom nscdatecom NOT NULL,
+    nswsadateacq nsadateacq NOT NULL,
+    nswswdesc nswdesc NOT NULL,
+    CHECK (nswscdatecom < nsadateacq AND nswsadateacq > timestamp '1990-07-01'),
+    PRIMARY KEY (nswscode, nswsacronym, nswsmname)
+);
+
+-- create a work table
+-- This table is used to keep track of all
+-- works within the museum.
+create table Work(
+    wk_Acronym Acronym not null,
+    wk_Code Code not null,
+    wk_Name NName not null,
+    wk_Type Type not null,
+    wk_Subtype Subtype not null,
+    wk_Author Author not null,
+    wk_completionDate DDate not null,
+    wk_acquisitionDate DDate null,
+    wk_ValeInMillon ValueInMillon not null,
+    wk_Description Description not null,
+    check(wk_completionDate < wk_acquisitionDate),
+    primary key(wk_Acronym, wk_Code)
+);
+
+
+insert into nsworks
+    SELECT wk_Code, wk_Acronym, 'Prado Museum' As wsmname, wk_Name, wk_Type, wk_Subtype,

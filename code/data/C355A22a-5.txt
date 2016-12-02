@@ -1,0 +1,1 @@
+HEHO	4380	storageLOSG	8020	storageROCY	7310	storagePAMC	5003	storageCAHB	2610	storageSLDP	3001	storageTIBE	1124	storageVENU	1710	storageMAHY	2603	storageFAWK	2934	storageRDHT	4485	storageTSFE	4649	storageWRBT	3910	storageLMKG	6751	storageLFSF	3011	storage

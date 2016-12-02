@@ -1,0 +1,120 @@
+@test
+test_play(robot_id)
+//To test the play(robot_id) inside the RobotTranslator class.
+//case 1: The game is not initialized, which means no teams and no robots created.
+play();
+    throw exception “The game is not initialized”
+
+//case 2: Given a valid robot_id which belongs to the AI team, and the AI team chooses to shot the robot dead.
+play(1004); // call play() in interpreter
+bool lifeStatus = isAlive(1004);
+bool expeceedResult = false;
+AssertEquals(lifeStatus, expeceedResult);
+
+//case 3: Given a valid robot_id which belongs to the AI team, and the AI team chooses to move 1 step from positionindex 1 to postionindex 2.
+play(1001); // this will automatically call rotate() and move() in side the same calss
+int newpostion = getPosition(1001);
+int expeceedResult = 2;
+AssertEquals(newpostion, expeceedResult);
+
+
+--------------------------
+test_Deliver(N,V)
+//case 1: the message sent to teammate N is null
+Deliver(N,V);
+String result = getMessage(N);
+String expctedResult = null;
+AssertEquals(result, expeceedResult);
+
+//case 2: the message sent to teammate N is "shot!""
+Deliver(N,V);
+String result = getMessage(N);
+String expctedResult = "shot!";
+AssertEquals(result, expeceedResult);
+
+
+---------------------------
+test_Arithmetic (value, value, operator)
+
+//case 1: the inpit is not valid.
+Arithmetic (5, 0, /);
+    throw exception “the dividend can not be 0”
+
+//case 2: the input is valid
+int result = Arithmetic (5, 2, +);
+inr expctedResult = 7;
+AssertEquals(result, expeceedResult);
+
+
+
+------------------------
+test_Define (string)
+// case 1: the input string "shot" is not defined
+Define(shot);
+bool result = isDefined(shot);
+bool expeceedResult = false;
+AssertEquals(reslut, expeceedResult);
+
+// case 2: the input string "move" is already defined
+Define(move);
+bool result = isDefined(move);
+bool expeceedResult = true;
+AssertEquals(reslut, expeceedResult);
+
+
+
+
+------------------------
+test_DeclareVar (Type,Value)
+// case 1: the varaible lifePoints is not defined
+DeclareVar (lifePoints, 2);
+int result= getlife();
+int expeceedResult = 2;
+AssertEquals(reslut, expeceedResult);
+
+// case 2: the varaible lifePoints is already defined
+DeclareVar (lifePoints, 3);
+int result= getLife ();
+int expeceedResult = 3;
+AssertEquals(reslut, expeceedResult);
+
+
+-----------------------------
+test_Print(String)
+//Takes in string off the Data stack after “.” word is called
+Print("."This.."is".."a test". 5.");
+Expected output looks like:
+This
+Is
+a test
+5
+
+-----------------------
+
+test_FinalAction(string) & test_Action
+Please refer to the detailed test description for read()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

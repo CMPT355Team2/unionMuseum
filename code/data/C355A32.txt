@@ -1,0 +1,49 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment3
+
+-- add two columns on workLocation table to indicate startDate and endDate
+ALTER TABLE workLocation ADD COLUMN wl_StartDate DDate default '2015-12-01';
+ALTER TABLE workLocation ADD COLUMN wl_EndDate DDate;
+
+-- add the startDate and endDate to the primary key
+ALTER TABLE workLocation
+DROP CONSTRAINT workLocation_pkey;
+
+ALTER TABLE workLocation
+ADD PRIMARY KEY (wl_Acronym, wl_Code, wl_LocationName, wl_StartDate);
+
+
+
+-- purchased 15 additional new works on October 25
+\copy Work from 'C355A32-1.txt';
+\copy medium from 'C355A32-2.txt';
+
+INSERT INTO workLocation(wl_Acronym, wl_Code, wl_LocationName, wl_StartDate, wl_EndDate)
+            select wk.wk_Acronym, wk.wk_Code, 'storage', '2016-10-25', null
+            from Work wk
+            where wk.wk_status = 'purchased' and CURRENT_DATE >=timestamp '2016-10-25';
+
+-- sold 3 works
+-- (that have not been exhibited
+-- since the start of the database)
+-- to other museums (on October 21).
+
+update Work
+set wk_status = 'sold', wk_owner = 'otherMuseums'
+from(
+    select wl.wl_Acronym, wl.wl_Code
+    from workLocation wl
+    where (wl.wl_Acronym, wl.wl_Code) not IN (
+        select distinct wl_Acronym, wl_Code from workLocation where wl_StartDate >=  timestamp '2016-01-01' )
+    limit 3
+) wl
+where wl.wl_Acronym = Work.wk_Acronym and wl.wl_Code = Work.wk_Code and CURRENT_DATE >= timestamp '2016-10-21';
+
+
+DELETE FROM workLocation
+where (wl_Acronym, wl_Code) IN (
+    select wk.wk_Acronym, wk.wk_Code
+    from Work wk
+    where wk.wk_status = 'sold'
+) and CURRENT_DATE >= timestamp '2016-10-21';

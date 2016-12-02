@@ -1,0 +1,92 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment3
+
+\i 'C355A21.txt'
+
+drop table workForPBorrowed CASCADE;
+drop function borrowIn();
+
+-- add two new columns (wk_status and wk_source)in table Work to
+-- indicate whether works are: owned works or borrowed works,
+-- or works that might be potentially borrowed from some other owner.
+alter table Work ADD wk_status NName default 'owned';
+alter table Work ADD wk_owner NName default 'myMuseum';
+
+-- Add 15 new works to your database
+-- and have them be long term borrowed works
+
+\copy Work from 'C355A22a-1.txt';
+\copy medium from 'C355A22a-2.txt';
+
+
+-- Add 15 new works belonging to other museums
+-- as potential works that could be borrowed
+\copy Work from 'C355A22a-3.txt';
+\copy medium from 'C355A22a-4.txt';
+
+-- and locate longterm borrowed work into storage
+\copy workLocation from 'C355A22a-5.txt';
+
+
+-- create the trigger to indicate
+-- these works will not actually arrive at the museum
+-- until sometime near to the start of the special
+-- exhibition for which they will be used
+
+create table workForPBorrowed(
+    wk_Acronym Acronym not null,
+    wk_Code Code not null,
+    wk_Name NName not null,
+    wk_Type Type not null,
+    wk_Subtype Subtype not null,
+    wk_Author Author not null,
+    wk_completionDate DDate not null,
+    wk_acquisitionDate DDate null,
+    wk_ValeInMillon ValueInMillon not null,
+    wk_Description Description not null,
+    wk_status NName not null,
+    wk_source NName not null,
+    check(wk_completionDate < wk_acquisitionDate),
+    primary key(wk_Acronym, wk_Code)
+);
+
+\copy workForPBorrowed from 'C355A22a-3.txt';
+
+CREATE FUNCTION borrowIn() RETURNS TRIGGER AS $waitNewExhibitionBegin$
+    BEGIN
+        create table exhibitionLocationForPBorrowed(
+            el_exhibition NName not null,
+            el_StartDate DDate not null,
+            el_LocationName LocationName
+                references Location
+                    on update cascade
+                    on delete cascade,
+            foreign key(el_exhibition, el_StartDate)
+                references Exhibition
+                    on update cascade
+                    on delete cascade,
+            primary key(el_exhibition, el_StartDate, el_LocationName)
+        );
+        IF new.el_StartDate > timestamp '2017-05-05' then
+            insert into exhibitionLocationForPBorrowed(el_exhibition, el_StartDate, el_LocationName) values (new.el_exhibition, new.el_StartDate, new.el_LocationName);
+
+            INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+                select wk.wk_Acronym, wk.wk_Code, el.el_exhibition, el.el_StartDate
+                from (workForPBorrowed wk cross join exhibitionLocationForPBorrowed el);
+
+            INSERT INTO workLocation(wl_Acronym, wl_Code, wl_LocationName)
+                select wk.wk_Acronym, wk.wk_Code, el.el_LocationName
+                from (workForPBorrowed wk cross join exhibitionLocationForPBorrowed el);
+        END IF;
+            drop table exhibitionLocationForPBorrowed CASCADE;
+        RETURN NEW;
+    END;
+$waitNewExhibitionBegin$ LANGUAGE plpgsql;
+
+CREATE TRIGGER waitNewExhibitionBegin AFTER INSERT ON exhibitionLocation FOR EACH ROW EXECUTE PROCEDURE borrowIn();
+
+
+
+
+

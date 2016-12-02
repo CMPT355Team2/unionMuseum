@@ -1,0 +1,168 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment3
+
+
+\i 'C355A11.txt';
+\i 'C355A12.txt';
+
+-- on the day after the end of a current exhibit
+-- all works are returned to storage
+update workLocation
+set wl_LocationName = 'storage'
+from Exhibition ex, exhibitionLocation el
+where ex.ex_Name = el.el_exhibition and ex.ex_StartDate = el.el_StartDate and el.el_LocationName = wl_LocationName and CURRENT_DATE = ex.ex_EndDate + interval '1 day';
+
+-- on the fifth day after the end
+-- of the previous exhibit the new exhibit opens.
+-- plan new three exhibition:
+-- insert fourth exhibition with 8 works
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'exhibition4',
+    'Museum plans to show its works to public in another following 3 exhibition. This is the fourth exhibition,let us enjoy the beauty of art',
+        (select ex.ex_EndDate
+        from Exhibition ex, Location lo, exhibitionLocation el
+        where ex.ex_Name = el.el_exhibition and ex.ex_StartDate = el.el_StartDate and lo.lo_LocationName = el.el_LocationName and (lo.lo_minCapacity <= 8) and (lo.lo_maxCapacity >= 8)
+        order by ex.ex_EndDate
+        LIMIT 1) + interval '5 days',
+
+        (select ex.ex_EndDate
+        from Exhibition ex, Location lo, exhibitionLocation el
+        where ex.ex_Name = el.el_exhibition and ex.ex_StartDate = el.el_StartDate and lo.lo_LocationName = el.el_LocationName and (lo.lo_minCapacity <= 8) and (lo.lo_maxCapacity>=8)
+        order by ex.ex_EndDate
+        LIMIT 1) + interval '5 days' + interval '4 months'
+);
+
+-- insert fifth exhibition with 9 works
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'exhibition5',
+    'Museum plans to show its works to public in another following 3 exhibition. This is the fifth exhibition,let us enjoy the beauty of art',
+        (select ex.ex_EndDate
+        from Exhibition ex, Location lo, exhibitionLocation el
+        where ex.ex_Name = el.el_exhibition and ex.ex_StartDate = el.el_StartDate and lo.lo_LocationName = el.el_LocationName and (lo.lo_minCapacity <= 9) and (lo.lo_maxCapacity >= 9)
+        order by ex.ex_EndDate
+        LIMIT 1 OFFSET 1) + interval '5 days',
+
+        (select ex.ex_EndDate
+        from Exhibition ex, Location lo, exhibitionLocation el
+        where ex.ex_Name = el.el_exhibition and ex.ex_StartDate = el.el_StartDate and lo.lo_LocationName = el.el_LocationName and (lo.lo_minCapacity <= 9) and (lo.lo_maxCapacity >= 9)
+        order by ex.ex_EndDate
+        LIMIT 1 OFFSET 1) + interval '5 days' + interval '5 months'
+);
+
+-- insert sisth exhibition with 18 works
+insert into Exhibition(
+    ex_Name,
+    ex_Description,
+    ex_StartDate,
+    ex_EndDate)
+values(
+    'exhibition6',
+    'Museum plans to show its works to public in another following 3 exhibition. This is the sixth exhibition,let us enjoy the beauty of art',
+        (select ex.ex_EndDate
+        from Exhibition ex, Location lo, exhibitionLocation el
+        where ex.ex_Name = el.el_exhibition and ex.ex_StartDate = el.el_StartDate and lo.lo_LocationName = el.el_LocationName and (lo.lo_minCapacity <= 18) and (lo.lo_maxCapacity >= 18)
+        order by ex.ex_EndDate
+        LIMIT 1) + interval '5 days',
+
+        (select ex.ex_EndDate
+        from Exhibition ex, Location lo, exhibitionLocation el
+        where ex.ex_Name = el.el_exhibition and ex.ex_StartDate = el.el_StartDate and lo.lo_LocationName = el.el_LocationName and (lo.lo_minCapacity <= 18) and (lo.lo_maxCapacity >= 18)
+        order by ex.ex_EndDate
+        LIMIT 1) + interval '5 days' + interval '3 months'
+);
+
+-- update Exhibition - Location table:
+insert into exhibitionLocation(
+    el_exhibition,
+    el_StartDate,
+    el_LocationName)
+values(
+    'exhibition4',
+    (select ex.ex_StartDate from Exhibition ex where ex.ex_Name = 'exhibition4'),
+    (   select el.el_LocationName
+        from Exhibition ex, exhibitionLocation el
+        where ex.ex_Name = el.el_exhibition and ex.ex_StartDate = el.el_StartDate
+        order by ex.ex_EndDate
+        LIMIT 1)
+);
+
+insert into exhibitionLocation(
+    el_exhibition,
+    el_StartDate,
+    el_LocationName)
+values(
+    'exhibition5',
+    (select ex.ex_StartDate from Exhibition ex where ex.ex_Name = 'exhibition5'),
+    (   select el.el_LocationName
+        from Exhibition ex, exhibitionLocation el
+        where ex.ex_Name = el.el_exhibition and ex.ex_StartDate = el.el_StartDate
+        order by ex.ex_EndDate
+        LIMIT 1 OFFSET 1)
+);
+
+insert into exhibitionLocation(
+    el_exhibition,
+    el_StartDate,
+    el_LocationName)
+values(
+    'exhibition6',
+    (select ex.ex_StartDate from Exhibition ex where ex.ex_Name = 'exhibition6'),
+    (   select el.el_LocationName
+        from Exhibition ex, exhibitionLocation el
+        where ex.ex_Name = el.el_exhibition and ex.ex_StartDate = el.el_StartDate
+        order by ex.ex_EndDate
+        LIMIT 1 OFFSET 2)
+);
+
+
+-- on the next day works are taken from storage
+-- to the location of the new exhibit:
+-- update workLocation table at exhibition end time
+
+-- update workLocation and workExhibition table for 'exhibition4' with 8 work from storage at the exhibition1 end time
+update workLocation
+set wl_LocationName = 'galleryA'
+from (select * from workLocation wl where wl.wl_LocationName = 'storage' limit 8) wl
+where workLocation.wl_Acronym = wl.wl_Acronym and workLocation.wl_Code = wl.wl_Code and CURRENT_DATE = timestamp '2016-12-31' + interval '2 days';
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'exhibition4', '2017-01-05'
+            from (select * from workLocation wl where wl.wl_LocationName = 'galleryA' ) wl
+            where CURRENT_DATE = timestamp '2016-12-31' + interval '2 days'
+;
+
+
+-- update workLocation and workExhibition table for 'exhibition5 with 9 work from storage at the exhibition2 end time"
+update workLocation
+set wl_LocationName = 'galleryB'
+from (select * from workLocation wl where wl.wl_LocationName = 'storage' limit 9) wl
+where workLocation.wl_Acronym = wl.wl_Acronym and workLocation.wl_Code = wl.wl_Code and CURRENT_DATE = timestamp '2017-01-31' + interval '2 days';
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'exhibition5', '2017-02-05'
+            from (select * from workLocation wl where wl.wl_LocationName = 'galleryB' ) wl
+            where CURRENT_DATE = timestamp '2017-01-31' + interval '2 days'
+;
+
+-- update workLocation and workExhibition table for 'exhibition6' with 18 work from storage at the exhibition3 end time
+update workLocation
+set wl_LocationName = 'galleryC'
+from (select * from workLocation wl where wl.wl_LocationName = 'storage' limit 18) wl
+where workLocation.wl_Acronym = wl.wl_Acronym and workLocation.wl_Code = wl.wl_Code and CURRENT_DATE = timestamp '2017-03-01' + interval '2 days';
+
+INSERT INTO workExhibition(we_Acronym, we_Code, we_exhibition, we_StartDate)
+            select wl.wl_Acronym, wl.wl_Code, 'exhibition6', '2017-03-06'
+            from (select * from workLocation wl where wl.wl_LocationName = 'galleryC' ) wl
+            where CURRENT_DATE = timestamp '2017-03-01' + interval '2 days'
+;

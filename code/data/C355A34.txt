@@ -1,0 +1,332 @@
+-- Name:   Shaoxiong Lan
+-- NSID:   shl864
+-- Course: CMPT355_Assignment3
+
+DROP TABLE loan CASCADE;
+
+DROP DOMAIN InstitutionName CASCADE;
+DROP DOMAIN InstitutionAddress CASCADE;
+DROP DOMAIN InstitutionPhone CASCADE;
+DROP DOMAIN InstitutionEmail CASCADE;
+
+create domain InstitutionName AS varchar(50);
+create domain InstitutionAddress AS varchar(2000);
+create domain InstitutionPhone AS varchar(50);
+create domain InstitutionEmail AS varchar(100);
+
+
+-- create a Loan table
+-- to keep track of the name, address, phone number,
+-- and e-mail of the insititution
+-- to which a work has been loaned,
+-- along with the start and ending dates of the loan period.
+create table Loan(
+    la_Acronym Acronym not null,
+    la_Code Code not null,
+    la_institutionName InstitutionName not null,
+    la_institutionAddress InstitutionAddress not null,
+    la_institutionPhone InstitutionPhone not null,
+    la_institutionEmail InstitutionEmail not null,
+    la_loanStartDate DDate not null,
+    la_loanEndDate DDate not null,
+    primary key(la_Acronym, la_Code, la_institutionName, la_loanStartDate, la_loanEndDate),
+    foreign key(la_Acronym,la_Code)
+        references Work
+            on update cascade
+            on delete cascade,
+    check(la_loanStartDate < la_loanEndDate)
+);
+
+-- insert new location to indicate on_loan location
+insert into Location(
+    lo_LocationName,
+    lo_Dimensions_length,
+    lo_Dimensions_width,
+    lo_minCapacity,
+    lo_maxCapacity)
+values(
+    'onLoan',
+    100,
+    100,
+    10,
+    2000
+);
+
+-- plan the loans of 6 different works
+
+-- first loan on work 'HUNT,4424'
+insert into Loan(
+    la_Acronym,
+    la_Code,
+    la_institutionName,
+    la_institutionAddress,
+    la_institutionPhone,
+    la_institutionEmail,
+    la_loanStartDate,
+    la_loanEndDate)
+values(
+    'HUNT',
+    '4424',
+    'institution1',
+    'No 24, Tom AVE, SK',
+    '3068502600',
+    'institution1@gmail.com',
+    '2016-11-11',
+    '2017-04-11'
+);
+
+-- to process the loans that should have already started
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'onLoan', la_loanStartDate, null
+    from loan
+    where la_Acronym = 'HUNT' and la_Code = '4424' and la_loanStartDate = '2016-11-11' and CURRENT_DATE >= timestamp '2016-11-11';
+
+-- to process the return of works
+-- that should have already been returned
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'storage', la_loanEndDate, null
+    from loan
+    where la_Acronym = 'HUNT' and la_Code = '4424' and la_loanStartDate = '2016-11-11' and la_loanEndDate = '2017-04-11' and CURRENT_DATE >= timestamp '2017-04-11';
+
+
+
+-- second loan on work 'MKBD,2899'
+insert into Loan(
+    la_Acronym,
+    la_Code,
+    la_institutionName,
+    la_institutionAddress,
+    la_institutionPhone,
+    la_institutionEmail,
+    la_loanStartDate,
+    la_loanEndDate)
+values(
+    'MKBD',
+    '2899',
+    'institution2',
+    'No 25, Jerry AVE, SK',
+    '3068502601',
+    'institution2@gmail.com',
+    '2016-12-11',
+    '2017-05-11'
+);
+
+-- to process the loans that should have already started
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'onLoan', la_loanStartDate, null
+    from loan
+    where la_Acronym = 'MKBD' and la_Code = '2899' and la_loanStartDate = '2016-12-11' and CURRENT_DATE >= timestamp '2016-12-11';
+
+-- to process the return of works
+-- that should have already been returned
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'storage', la_loanEndDate, null
+    from loan
+    where la_Acronym = 'MKBD' and la_Code = '2899' and la_loanStartDate = '2016-12-11' and la_loanEndDate = '2017-05-11' and CURRENT_DATE >= timestamp '2017-05-11';
+
+
+
+-- third loan on work 'TBSP,8226'
+insert into Loan(
+    la_Acronym,
+    la_Code,
+    la_institutionName,
+    la_institutionAddress,
+    la_institutionPhone,
+    la_institutionEmail,
+    la_loanStartDate,
+    la_loanEndDate)
+values(
+    'TBSP',
+    '8226',
+    'institution3',
+    'No 26, Alice AVE, SK',
+    '3068502602',
+    'institution3@gmail.com',
+    '2016-12-21',
+    '2017-05-21'
+);
+
+-- to process the loans that should have already started
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'onLoan', la_loanStartDate, null
+    from loan
+    where la_Acronym = 'TBSP' and la_Code = '8226' and la_loanStartDate = '2016-12-21' and CURRENT_DATE >= timestamp '2016-12-21';
+
+-- to process the return of works
+-- that should have already been returned
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'storage', la_loanEndDate, null
+    from loan
+    where la_Acronym = 'TBSP' and la_Code = '8226' and la_loanStartDate = '2016-12-21' and la_loanEndDate = '2017-05-21' and CURRENT_DATE >= timestamp '2017-05-21';
+
+
+-- fourth loan on work 'CDBC,2422'
+insert into Loan(
+    la_Acronym,
+    la_Code,
+    la_institutionName,
+    la_institutionAddress,
+    la_institutionPhone,
+    la_institutionEmail,
+    la_loanStartDate,
+    la_loanEndDate)
+values(
+    'CDBC',
+    '2422',
+    'institution4',
+    'No 03, Eric AVE, SK',
+    '3068502699',
+    'institution4@gmail.com',
+    '2017-01-02',
+    '2017-05-30'
+);
+
+-- to process the loans that should have already started
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'onLoan', la_loanStartDate, null
+    from loan
+    where la_Acronym = 'CDBC' and la_Code = '2422' and la_loanStartDate = '2017-01-02' and CURRENT_DATE >= timestamp '2017-01-02';
+
+-- to process the return of works
+-- that should have already been returned
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'storage', la_loanEndDate, null
+    from loan
+    where la_Acronym = 'CDBC' and la_Code = '2422' and la_loanStartDate = '2017-01-02' and la_loanEndDate = '2017-05-30' and CURRENT_DATE >= timestamp '2017-05-30';
+
+-- fifth loan on work 'TIBE,1124'
+-- which has been exhibited in your first set of exhibitions
+insert into Loan(
+    la_Acronym,
+    la_Code,
+    la_institutionName,
+    la_institutionAddress,
+    la_institutionPhone,
+    la_institutionEmail,
+    la_loanStartDate,
+    la_loanEndDate)
+values(
+    'TIBE',
+    '1124',
+    'institution5',
+    'No 27, Sam AVE, SK',
+    '3068502604',
+    'institution5@gmail.com',
+    '2017-01-21',
+    '2017-06-21'
+);
+
+-- to process the loans that should have already started
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'onLoan', la_loanStartDate, null
+    from loan
+    where la_Acronym = 'TIBE' and la_Code = '1124' and la_loanStartDate = '2017-01-21' and CURRENT_DATE >= timestamp '2017-01-21';
+
+-- to process the return of works
+-- that should have already been returned
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'storage', la_loanEndDate, null
+    from loan
+    where la_Acronym = 'TIBE' and la_Code = '1124' and la_loanStartDate = '2017-01-21' and la_loanEndDate = '2017-06-21' and CURRENT_DATE >= timestamp '2017-06-21';
+
+
+
+-- sisth loan on work 'MAHY,2603'
+-- which has been exhibited in your first set of exhibitions
+insert into Loan(
+    la_Acronym,
+    la_Code,
+    la_institutionName,
+    la_institutionAddress,
+    la_institutionPhone,
+    la_institutionEmail,
+    la_loanStartDate,
+    la_loanEndDate)
+values(
+    'MAHY',
+    '2603',
+    'institution6',
+    'No 30, Shaoxiong AVE, SK',
+    '3068502609',
+    'institution6@gmail.com',
+    '2017-02-20',
+    '2017-06-22'
+);
+
+-- to process the loans that should have already started
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'onLoan', la_loanStartDate, null
+    from loan
+    where la_Acronym = 'MAHY' and la_Code = '2603' and la_loanStartDate = '2017-02-20' and CURRENT_DATE >= timestamp '2017-02-20';
+
+-- to process the return of works
+-- that should have already been returned
+INSERT INTO workLocation(
+    wl_Acronym,
+    wl_Code,
+    wl_LocationName,
+    wl_StartDate,
+    wl_EndDate)
+    select la_Acronym, la_Code, 'storage', la_loanEndDate, null
+    from loan
+    where la_Acronym = 'MAHY' and la_Code = '2603' and la_loanStartDate = '2017-02-20' and la_loanEndDate = '2017-06-22' and CURRENT_DATE >= timestamp '2017-06-22';
+
+
+
+
