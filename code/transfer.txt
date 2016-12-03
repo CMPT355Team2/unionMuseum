@@ -21,7 +21,7 @@ WHERE encatename2 = 'Type Expo';
 
 -- convert works table and export file
 insert into nsworks
-	SELECT colcode, colacronym, 'Seattle Art Museum' AS wsmname, colname, coltype, colsubtype, dynasty, colauthor, colcdatec, colcdatea, coldesc 
+	SELECT colcode, colacronym, 'Seattle Art Museum' AS wsmname, colname, 'Asia' AS colntype, colsubtype, coltype, colauthor, colcdatec, colcdatea, coldesc 
 	FROM works;
 
 UPDATE nsworks
