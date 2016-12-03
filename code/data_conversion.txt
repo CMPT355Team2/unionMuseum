@@ -1,25 +1,25 @@
 
 -- transfer data to nsworks table and export file
 insert into nsworks
-    SELECT wk_Code, wk_Acronym, 'Prado Museum', wk_Name, wk_Type, wk_Subtype, wk_country, wk_Author, wk_completionDate, wk_acquisitionDate, wk_Description
+    SELECT wk_Code, wk_Acronym, 'Prado Museum', wk_Name, 'Europe', wk_Subtype, wk_Type, wk_Author, wk_completionDate, wk_acquisitionDate, wk_Description
     FROM Work;
 
 
-\COPY nsworks to 'nsworks.txt';
+-- \COPY nsworks to 'nsworks.txt';
 
 
--- transfer data to exhibitions table and export file
-insert into nsexhibitions
-    SELECT ex_Name, ex_StartDate, ex_EndDate, 'Prado Museum', ex_Description
-    FROM Exhibition;
-\COPY nsexhibitions to 'nsexhibitions.txt';
+-- -- transfer data to exhibitions table and export file
+-- insert into nsexhibitions
+--     SELECT ex_Name, ex_StartDate, ex_EndDate, 'Prado Museum', ex_Description
+--     FROM Exhibition;
+-- \COPY nsexhibitions to 'nsexhibitions.txt';
 
 
--- transfer data from location and tempLocation to location table and export file
-insert into nslocations
-    SELECT galcatename, 'Seattle Art Museum' AS locmname, 'patron' AS locsname, null AS locsecurity, null AS locinsvalue, galmeterlen, galmeterwid, galmeterhei, galcountmin, galcountmax FROM locations;
+-- -- transfer data from location and tempLocation to location table and export file
+-- insert into nslocations
+--     SELECT galcatename, 'Seattle Art Museum' AS locmname, 'patron' AS locsname, null AS locsecurity, null AS locinsvalue, galmeterlen, galmeterwid, galmeterhei, galcountmin, galcountmax FROM locations;
 
-insert into nslocations
-    SELECT tladdr, 'Seattle Art Museum' AS locmname, tlsponame, tlsecname, tlinscost, null AS galmeterlen, null AS galmeterwid, null AS galmeterhei, null AS galcountmin, null AS galcountmax FROM temp_locations;
+-- insert into nslocations
+--     SELECT tladdr, 'Seattle Art Museum' AS locmname, tlsponame, tlsecname, tlinscost, null AS galmeterlen, null AS galmeterwid, null AS galmeterhei, null AS galcountmin, null AS galcountmax FROM temp_locations;
 
-\COPY nslocations to 'nslocations.txt';
+-- \COPY nslocations to 'nslocations.txt';

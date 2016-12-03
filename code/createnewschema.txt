@@ -65,9 +65,9 @@ CREATE DOMAIN nsauthor AS varchar(30);
 CREATE DOMAIN nscdatecom AS date;
 CREATE DOMAIN nsadateacq AS date;
 CREATE DOMAIN nsinsvalue AS int;
-CREATE DOMAIN nstype AS varchar(30);
-CREATE DOMAIN nsstype AS varchar(30);
-CREATE DOMAIN nsntype AS varchar(30);
+CREATE DOMAIN nsregion AS varchar(30);
+CREATE DOMAIN nscentury AS varchar(30);
+CREATE DOMAIN nscategory AS varchar(30);
 CREATE DOMAIN nswdesc AS text;
 CREATE DOMAIN nsedesc AS text;
 CREATE DOMAIN nssdate AS date;
@@ -90,9 +90,9 @@ CREATE TABLE nsworks (
 	nswsacronym nsacronym NOT NULL,
 	nswsmname nsmname NOT NULL,
 	nswswname nswname NOT NULL,
-	nswstype nstype NOT NULL,
-	nswsstype nsstype NOT NULL,
-	nswsntype nsntype,
+	nswsregion nsregion NOT NULL,
+	nswsscentury nscentury NOT NULL,
+	nswsncategory nscategory NOT NULL,
 	nswsauthor nsauthor NOT NULL,
 	nswscdatecom nscdatecom NOT NULL,
 	nswsadateacq nsadateacq,
