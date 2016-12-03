@@ -1,5 +1,5 @@
 -- delete all the wrong data in old database schema
-DELETE FROM showed 
+DELETE FROM showed
 USING works
 WHERE showed.discode = works.colcode AND showed.disacronym = works.disacronym AND works.colown = 'Other';
 
@@ -21,7 +21,7 @@ WHERE encatename2 = 'Type Expo';
 
 -- convert works table and export file
 insert into nsworks
-	SELECT colcode, colacronym, 'Seattle Art Museum' AS wsmname, colname, coltype, colsubtype, dynasty, colauthor, colcdatec, colcdatea, coldesc 
+	SELECT colcode, colacronym, 'Seattle Art Museum' AS wsmname, colname, coltype, colsubtype, dynasty, colauthor, colcdatec, colcdatea, coldesc
 	FROM works;
 
 UPDATE nsworks
@@ -74,14 +74,14 @@ WHERE ws.colown = 'self' AND ws.colcode = tempowners.colcode AND ws.colacronym =
 
 insert into nsowners
 	SELECT colcode, colacronym, nsowmname, colown, colcdatec, null, colrel
-	FROM tempowners;	
+	FROM tempowners;
 
 \COPY nsowners to 'nsowners.txt';
 
 
 -- convert relation table of works and exhibitions table and export file
 insert into nsworks_exhibitions
-	SELECT discode, disacronym, 'Seattle Art Museum' AS nswemname1, disnameexpo, disstartdate, 'Seattle Art Museum' AS nswemname2, disenddate 
+	SELECT discode, disacronym, 'Seattle Art Museum' AS nswemname1, disnameexpo, disstartdate, 'Seattle Art Museum' AS nswemname2, disenddate
 	FROM showed;
 
 \COPY nsworks_exhibitions to 'nsworks_exhibitions.txt';
