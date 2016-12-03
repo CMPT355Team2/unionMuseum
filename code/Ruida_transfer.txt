@@ -1,0 +1,597 @@
+--Name: Ruida Xie
+--NSID: rux793
+--Student Number: 11194258
+--CMPT355 Team2 Project
+
+
+-- transfer data from collections to nsworks
+insert into nsworks 
+	select 
+	colnumkey, colalphakey, 'Birmingham Museum and Art Gallery' as nswsmname, 
+	colcname, coltype, colsubtype, 
+	colnewcharacter, colartist, comcdate, 
+	acqcdate, coldescription 
+	from collections;
+
+-- update nsworks 
+-- 	set nswsmname = dcname 
+-- 	from donors 
+-- 	where 
+-- 	nsworks.nswscode = donors.dnumkey 
+-- 	and nsworks.nswscode in (
+-- 		select colnumkey 
+-- 		from collections 
+-- 		where acqsource = 'potentially borrowed'
+-- 		);
+
+update nsworks 
+	set nswsncategory = 'sculpture' 
+	where 
+	nsworks.nswsncategory = 'others' 
+	;
+
+update nsworks 
+	set nswsregion = 'Europe' 
+	;
+
+update nsworks 
+	set nswsregion = 'Asia' 
+	WHERE
+	nsworks.nswsncategory = 'porcelain'
+	;
+
+\COPY nsworks to 'nsworks.txt';
+
+
+
+-- transfer data from exhibitions to nsexhibitions
+insert into nsexhibitions 
+	SELECT 
+	exicname, estcdate, eencdate, 'Birmingham Museum and Art Gallery' as nsexmname, 
+	exidescription 
+	FROM exhibitions;
+
+-- update nsexhibitions
+-- 	set nsexename = 'travelling 1' 
+-- 	where
+-- 	nsexename = 'Saskatoon Travelling Exhibition';
+
+-- update nsexhibitions
+-- 	set nsexename = 'travelling 2' 
+-- 	where
+-- 	nsexename = 'Regina Travelling Exhibition';
+
+-- update nsexhibitions
+-- 	set nsexename = 'travelling 3' 
+-- 	where
+-- 	nsexename = 'Rose Town Travelling Exhibition';
+
+-- update nsexhibitions
+-- 	set nsexename = 'travelling 4' 
+-- 	where
+-- 	nsexename = 'Young Town Travelling Exhibition';
+
+-- update nsexhibitions
+-- 	set nsexename = 'travelling 5' 
+-- 	where
+-- 	nsexename = 'Warman Travelling Exhibition';
+
+update nsexhibitions
+	set nsexedesc = 'Travelling exhibition in Saskatoon display history of Saskatoon.' 
+	where
+	nsexedesc = 'travelling 1 exhibition.';
+
+update nsexhibitions
+	set nsexedesc = 'Travelling exhibition in Regina display history of Regina.' 
+	where
+	nsexedesc = 'travelling 2 exhibition.';
+
+update nsexhibitions
+	set nsexedesc = 'Travelling exhibition in Rose Town display history of Rose Town.' 
+	where
+	nsexedesc = 'travelling 3 exhibition.';
+
+update nsexhibitions
+	set nsexedesc = 'Travelling exhibition in Young Town display history of Young Town.' 
+	where
+	nsexedesc = 'travelling 4 exhibition.';
+
+update nsexhibitions
+	set nsexedesc = 'Travelling exhibition in Warman display history of Warman.' 
+	where
+	nsexedesc = 'travelling 5 exhibition.';
+
+\COPY nsexhibitions to 'nsexhibitions.txt';
+
+
+
+-- convert locations table and export file
+insert into nslocations 
+	SELECT loclname, 'Birmingham Museum and Art Gallery' AS nslocmname, 
+	'patron' AS nslocsname, null AS nslocsecurity, null AS nslocinsvalue, 
+	locmetrelen, locmetrewid, locmetrehei, 
+	locamountmin, locamountmax FROM locations;
+
+delete from nslocations 
+	where 
+	nslocations.nsloclname = 'on loan'
+	;
+
+insert into nslocations 
+	SELECT tladdress, 'Birmingham Museum and Art Gallery' AS nslocmname, 
+	tlsponsor, tlsecurity, tlinvalue, null AS nslocmeterlen, 
+	null AS nslocmeterwid, null AS nslocmeterhei, 
+	null AS nsloccapacitymin, null AS nsloccapacitymax 
+	FROM templocation;
+
+\COPY nslocations to 'nslocations.txt';
+
+
+
+
+-- convert nsinstitutions table and export file
+insert into nsinstitutions values ('Tweety', '306.231.5562', '110 Edinburgh Place');
+insert into nsinstitutions values ('Van Gogh Museum', '306.331.5551', '104 White Swan Drive');
+insert into nsinstitutions values ('Popeye', '306.277.2134', '114 Preston AVE N');
+insert into nsinstitutions values ('Birmingham Museum and Art Gallery', '306.690.2177', '2388 Second Street Birmingham');
+insert into nsinstitutions values ('Denver Art Museum', '306.009.2356', '307 Fendi Road');
+insert into nsinstitutions values ('Metropolitan Museum of Art_', '306.112.0987', '109 Kingsman AVE S');
+insert into nsinstitutions values ('Superman', '306.123.8876', '2111 Gotham Place N');
+insert into nsinstitutions values ('British Museum', '306.323.0955', '2317 Charlie Road W');
+insert into nsinstitutions values ('Spider-Man', '306.222.4563', '103 7th Street E');
+insert into nsinstitutions values ('Bugs Bunny', '306.334.5678', '991 Cuberland AVE N');
+insert into nsinstitutions values ('Bart Simpson', '306.111.0211', '987 Richard AVE N');
+insert into nsinstitutions values ('Batman', '306.713.5467', '281 Gotham Road W');
+
+\COPY nsinstitutions to 'nsinstitutions.txt';
+
+
+
+
+-- convert owners table and export file
+DROP TABLE IF EXISTS tempowners CASCADE;
+
+CREATE TABLE tempowners (
+	numberkey nscode,
+	letterkey nsacronym,
+	museumname nsmname,
+	institutionname nsmname,
+	startdate nssdate,
+	enddate nsedate,
+	status nsstatus
+);
+
+insert into nsowners
+	SELECT colnumkey, colalphakey, null AS museumname, null AS institutionname, acqcdate, null AS nsowedate, acqsource
+	FROM collections
+	;
+
+UPDATE tempowners
+SET museumname = 'Birmingham Museum and Art Gallery'
+WHERE status = 'owned';
+
+UPDATE tempowners
+SET institutionname = 'Birmingham Museum and Art Gallery'
+WHERE status = 'owned';
+
+UPDATE tempowners
+SET museumname = 'Birmingham Museum and Art Gallery'
+WHERE status = 'borrowed';
+
+UPDATE tempowners
+SET status = 'long-term borrowed'
+WHERE status = 'borrowed';
+
+UPDATE tempowners
+SET institutionname = dcname
+FROM donors
+WHERE status = 'long-term borrowed' and donors.dnumkey = tempowners.numberkey;
+
+UPDATE tempowners
+SET museumname = 'Birmingham Museum and Art Gallery'
+FROM 
+WHERE status = 'potentially borrowed';
+
+UPDATE tempowners
+SET institutionname = dcname
+FROM donors
+WHERE status = 'potentially borrowed' and donors.dnumkey = tempowners.numberkey;
+
+UPDATE tempowners
+SET enddate = '2016-10-21'
+WHERE status = 'sold';
+
+UPDATE tempowners
+SET museumname = 'Birmingham Museum and Art Gallery'
+WHERE status = 'sold';
+
+UPDATE tempowners
+SET institutionname = 'British Museum'
+WHERE status = 'sold';
+
+insert into nsowners
+	SELECT numberkey, letterkey, museumname, institutionname, startdate, enddate, status
+	FROM tempowners;	
+
+\COPY nsowners to 'nsowners.txt';
+
+
+
+
+-- convert relation table of works and exhibitions table and export file
+
+insert into nsworks_exhibitions
+	SELECT ecnumkey, ecalphakey, 'Birmingham Museum and Art Gallery' AS nswemname1, eccname, ecscdate, 'Birmingham Museum and Art Gallery' AS nswemname2, ececdate 
+	FROM exhibition_collection;
+
+\COPY nsworks_exhibitions to 'nsworks_exhibitions.txt';
+
+
+
+
+-- convert relation table of exhibitions and locations table and export file
+insert into nsexhibitions_locations
+	SELECT elcname, elscdate, 'Birmingham Museum and Art Gallery' AS nselmname1, ellname, 'Birmingham Museum and Art Gallery' AS nselmname2, 'patron' AS nselsname, elecdate
+	FROM exhibition_location;
+
+insert into nsexhibitions_locations
+	SELECT tecname, tescdate, 'Birmingham Museum and Art Gallery' AS nselmname1, teaddress, 'Birmingham Museum and Art Gallery' AS nselmname2, 'UPDATE' AS etsponame, teecdate
+	FROM templocation_exhibition;
+
+insert into nsexhibitions_locations
+	values (
+		'travelling 1',
+		'2016-10-25',
+		'Birmingham Museum and Art Gallery',
+		'Saskatoon',
+		'Birmingham Museum and Art Gallery',
+		'SaskTel',
+		'2016-11-15'
+		);
+
+insert into nsexhibitions_locations
+	values (
+		'travelling 2',
+		'2016-11-22',
+		'Birmingham Museum and Art Gallery',
+		'Regina',
+		'Birmingham Museum and Art Gallery',
+		'RBC',
+		'2016-12-13'
+		);
+
+insert into nsexhibitions_locations
+	values (
+		'travelling 3',
+		'2016-12-20',
+		'Birmingham Museum and Art Gallery',
+		'Rose Town',
+		'Birmingham Museum and Art Gallery',
+		'BMO',
+		'2017-01-10'
+		);
+
+insert into nsexhibitions_locations
+	values (
+		'travelling 4',
+		'2017-01-17',
+		'Birmingham Museum and Art Gallery',
+		'Young Town',
+		'Birmingham Museum and Art Gallery',
+		'Shawn',
+		'2017-02-07'
+		);
+
+insert into nsexhibitions_locations
+	values (
+		'travelling 5',
+		'2017-02-14',
+		'Birmingham Museum and Art Gallery',
+		'Warman',
+		'Birmingham Museum and Art Gallery',
+		'Vandasta',
+		'2017-03-07'
+		);
+
+
+\COPY nsexhibitions_locations to 'nsexhibitions_locations.txt';
+
+
+
+
+
+-- convert medium table and export file
+insert into nsmedium
+	SELECT cmalphakey, cmnumkey, 'Birmingham Museum and Art Gallery' AS nsmedmname, cmmedium
+	FROM collectionmedium;
+
+\COPY nsmedium to 'nsmedium.txt';
+
+
+
+
+-- convert doors table and export file
+insert into nsdoors
+	SELECT encatename1, 'Birmingham Museum and Art Gallery' AS nsdrmname1, 'patron' AS nsdrsname2, encatename2, 'Birmingham Museum and Art Gallery' AS nsdrmname1, 'patron' AS nsdrsname2
+	FROM doors;
+
+insert into nsdoors
+	values (
+		'lobby',
+		'Birmingham Museum and Art Gallery',
+		'patron',
+		'storage',
+		'Birmingham Museum and Art Gallery',
+		'patron'
+		);
+
+insert into nsdoors
+	values (
+		'lobby',
+		'Birmingham Museum and Art Gallery',
+		'patron',
+		'small gallery A',
+		'Birmingham Museum and Art Gallery',
+		'patron'
+		);
+
+insert into nsdoors
+	values (
+		'lobby',
+		'Birmingham Museum and Art Gallery',
+		'patron',
+		'small gallery B',
+		'Birmingham Museum and Art Gallery',
+		'patron'
+		);
+
+insert into nsdoors
+	values (
+		'small gallery A',
+		'Birmingham Museum and Art Gallery',
+		'patron',
+		'small gallery B',
+		'Birmingham Museum and Art Gallery',
+		'patron'
+		);
+
+insert into nsdoors
+	values (
+		'small gallery A',
+		'Birmingham Museum and Art Gallery',
+		'patron',
+		'large gallery C',
+		'Birmingham Museum and Art Gallery',
+		'patron'
+		);
+
+insert into nsdoors
+	values (
+		'small gallery B',
+		'Birmingham Museum and Art Gallery',
+		'patron',
+		'large gallery C',
+		'Birmingham Museum and Art Gallery',
+		'patron'
+		);
+
+insert into nsdoors
+	values (
+		'small gallery B',
+		'Birmingham Museum and Art Gallery',
+		'patron',
+		'large gallery D',
+		'Birmingham Museum and Art Gallery',
+		'patron'
+		);
+
+\COPY nsdoors to 'nsdoors.txt';
+
+
+
+
+-- convert relation table of works and locations table and export file
+insert into nsworks_locations
+	select clnumkey, clalphakey, 'Birmingham Museum and Art Gallery' AS nswlmname1, cllname, 'Birmingham Museum and Art Gallery' AS nswlmname2, 'patron' AS nswlsname, clscdate, clecdate
+	FROM collection_location;
+
+insert into nsworks_locations
+	SELECT tcnumkey, tcalphakey, 'Birmingham Museum and Art Gallery' AS nswlmname1, tcaddress, 'Birmingham Museum and Art Gallery' AS nswlmname2, wtsponame, tcstdate, tcetdate
+	FROM templocation_collection;
+
+insert into nsworks_locations
+	values (
+		'1906866',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Saskatoon',
+		'Birmingham Museum and Art Gallery',
+		'SaskTel',
+		'2016-10-25 00:00:00',
+		'2016-11-15 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1904399',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Saskatoon',
+		'Birmingham Museum and Art Gallery',
+		'SaskTel',
+		'2016-10-25 00:00:00',
+		'2016-11-15 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1909006',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Saskatoon',
+		'Birmingham Museum and Art Gallery',
+		'SaskTel',
+		'2016-10-25 00:00:00',
+		'2016-11-15 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1906866',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Regina',
+		'Birmingham Museum and Art Gallery',
+		'RBC',
+		'2016-11-22 00:00:00',
+		'2016-12-13 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1904399',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Regina',
+		'Birmingham Museum and Art Gallery',
+		'RBC',
+		'2016-11-22 00:00:00',
+		'2016-12-13 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1909006',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Regina',
+		'Birmingham Museum and Art Gallery',
+		'RBC',
+		'2016-11-22 00:00:00',
+		'2016-12-13 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1906866',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Rose Town',
+		'Birmingham Museum and Art Gallery',
+		'BMO',
+		'2016-12-20 00:00:00',
+		'2017-01-10 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1904399',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Rose Town',
+		'Birmingham Museum and Art Gallery',
+		'BMO',
+		'2016-12-20 00:00:00',
+		'2017-01-10 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1909006',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Rose Town',
+		'Birmingham Museum and Art Gallery',
+		'BMO',
+		'2016-12-20 00:00:00',
+		'2017-01-10 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1906866',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Young Town',
+		'Birmingham Museum and Art Gallery',
+		'Shawn',
+		'2017-01-17 00:00:00',
+		'2017-02-07 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1904399',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Young Town',
+		'Birmingham Museum and Art Gallery',
+		'Shawn',
+		'2017-01-17 00:00:00',
+		'2017-02-07 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1909006',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Young Town',
+		'Birmingham Museum and Art Gallery',
+		'Shawn',
+		'2017-01-17 00:00:00',
+		'2017-02-07 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1906866',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Warman',
+		'Birmingham Museum and Art Gallery',
+		'Vandasta',
+		'2017-02-14 00:00:00',
+		'2017-03-07 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1904399',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Warman',
+		'Birmingham Museum and Art Gallery',
+		'Vandasta',
+		'2017-02-14 00:00:00',
+		'2017-03-07 00:00:00'
+		);
+
+insert into nsworks_locations
+	values (
+		'1909006',
+		'BMAGP',
+		'Birmingham Museum and Art Gallery',
+		'Warman',
+		'Birmingham Museum and Art Gallery',
+		'Vandasta',
+		'2017-02-14 00:00:00',
+		'2017-03-07 00:00:00'
+		);
+
+\COPY nsworks_locations to 'nsworks_locations.txt';
+
+
+
+
+Problem: 1. nstransactions
+		 2. count attribute in nsexhibitions table
+
+
+
+
+
+
+
+
+
