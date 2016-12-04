@@ -107,7 +107,7 @@ insert into nsinstitutions values ('Birmingham Museum and Art Gallery', '306.690
 insert into nsinstitutions values ('Denver Art Museum', '306.009.2356', '307 Fendi Road');
 insert into nsinstitutions values ('Metropolitan Museum of Art_', '306.112.0987', '109 Kingsman AVE S');
 insert into nsinstitutions values ('Superman', '306.123.8876', '2111 Gotham Place N');
-insert into nsinstitutions values ('British Museum', '306.323.0955', '2317 Charlie Road W');
+insert into nsinstitutions values ('National Museum of China', '306.323.0955', '2317 Charlie Road W');
 insert into nsinstitutions values ('Spider-Man', '306.222.4563', '103 7th Street E');
 insert into nsinstitutions values ('Bugs Bunny', '306.334.5678', '991 Cuberland AVE N');
 insert into nsinstitutions values ('Bart Simpson', '306.111.0211', '987 Richard AVE N');
@@ -580,7 +580,7 @@ insert into nsworks_locations
 
 
 ---- convert transactions table and export file
---Birmingham Museum and Art Gallery bought 15 collections, borrowed 15 collections, sold 3 collections. (maybe 4 loans)
+--Birmingham Museum and Art Gallery bought 15 collections, borrowed 15 collections, sold 3 collections. 
 insert into nstransactions
 	SELECT nsowcode, nsowacronym, nsowmname, nsowinsname, nsowedate, null as nstredate
 	FROM nsowners
@@ -609,6 +609,8 @@ insert into nstransactions
 
 
 
+
+
 -- update integer key
 UPDATE nsworks
 set nswscode = nswscode - '1909145';
@@ -623,6 +625,104 @@ UPDATE nsinstitutions
 set nsinsinsname = 'National Museum of China'
 WHERE 
 nsinsinsname = 'British Museum';
+
+
+
+
+
+
+
+
+-- convert nschangedvalue table and export file
+insert into nschangedvalue 
+	select 
+	nswscode, nswsacronym, nswsmname, 
+	nswsadateacq, null as nscvedate, '123' AS nscvinsvalue 
+	from nsworks;
+
+UPDATE nschangedvalue
+set nscvinsvalue = colinvalue
+FROM collections
+WHERE nscvcode = (collections.colnumkey - '1909145') * '-1' 
+;
+
+UPDATE nschangedvalue
+set nscvinsvalue = colinvalue
+FROM collections
+WHERE nscvcode = collections.colnumkey - '1909145'
+;
+
+\COPY nschangedvalue to 'nschangedvalue.txt';
+
+
+
+
+
+
+
+
+-- convert nschangedcount table and export file
+insert into nschangedcount 
+	select 
+	exicname, estcdate, 'Birmingham Museum and Art Gallery' as nsccmname, 
+	estcdate, null as nscvedate, '123' AS nscccount 
+	from exhibitions;
+
+UPDATE nschangedcount
+set nscccount = exiamount
+FROM exhibitions
+WHERE exhibitions.exicname = nschangedcount.nsccename and exhibitions.estcdate = nschangedcount.nsccsdate
+;
+
+\COPY nschangedcount to 'nschangedcount.txt';
+
+
+
+
+
+
+
+
+-- convert nschangedemail table and export file
+insert into nschangedemail values ('Tweety', 'tyu@asf.com', current_date, null);
+insert into nschangedemail values ('Van Gogh Museum', 'uyuw@oob.com', current_date, null);
+insert into nschangedemail values ('Popeye', 'qwefa@ppm.com', current_date, null);
+insert into nschangedemail values ('Birmingham Museum and Art Gallery', 'qwoeur@ddv.com', current_date, null);
+insert into nschangedemail values ('Denver Art Museum', 'qwefm@pmm.com', current_date, null);
+insert into nschangedemail values ('Metropolitan Museum of Art_', 'qwoe@mmz.com', current_date, null);
+insert into nschangedemail values ('Superman', 'qqx@pnm.com', current_date, null);
+insert into nschangedemail values ('National Museum of China', 'uioq@xxb.com', current_date, null);
+insert into nschangedemail values ('Spider-Man', 'bvwq@ppxx.com', current_date, null);
+insert into nschangedemail values ('Bugs Bunny', 'qoov@mzzs.com', current_date, null);
+insert into nschangedemail values ('Bart Simpson', 'aii@bbv.com', current_date, null);
+insert into nschangedemail values ('Batman', 'pzsd@vbww.com', current_date, null);
+
+insert into nschangedemail values ('Beijing Museum', 'asd@aaa.com', current_date, null);
+insert into nschangedemail values ('New York Museum', 'asd@bbb.com', current_date, null);
+insert into nschangedemail values ('Shanghai Museum', 'asd@ccc.com', current_date, null);
+insert into nschangedemail values ('London Museum', 'asd@ddd.com', current_date, null);
+insert into nschangedemail values ('Vancouver Museum', 'asd@eee.com', current_date, null);
+insert into nschangedemail values ('Calgary Museum', 'asd@fff.com', current_date, null);
+
+\COPY nschangedemail to 'nschangedemail.txt';
+
+
+
+
+
+-- update potentially borrowed works
+UPDATE nsworks
+set nswsadateacq = null
+FROM nsowners
+WHERE nsowcode = nswscode and nsowstatus = 'potentially borrowed'
+;
+
+UPDATE nsowners
+set nsowsdate = current_date
+WHERE nsowstatus = 'potentially borrowed';
+
+
+
 
 \COPY nsworks to 'nsworks.txt';
 \COPY nsexhibitions to 'nsexhibitions.txt';

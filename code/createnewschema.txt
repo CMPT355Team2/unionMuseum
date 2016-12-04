@@ -148,7 +148,7 @@ CREATE TABLE nschangedcount (
 			ON UPDATE CASCADE
       		ON DELETE SET NULL,
 	nsccsdatecs nssdate NOT NULL,
-	nsccsdatece nsedate NOT NULL,
+	nsccsdatece nsedate,
 	nscccount nscount NOT NULL,
 	CHECK (nsccsdatecs < nsccsdatece),
 	PRIMARY KEY (nsccename, nsccsdate, nsccmname, nsccsdatecs)
@@ -184,7 +184,7 @@ CREATE TABLE nschangedemail (
       		ON DELETE SET NULL,
     nsceemail nsemail NOT NULL,
     nscesdate nssdate NOT NULL,
-    nsceedate nsedate NOT NULL,
+    nsceedate nsedate,
     CHECK (nscesdate < nsceedate),
     PRIMARY KEY (nsceinsname)
 );

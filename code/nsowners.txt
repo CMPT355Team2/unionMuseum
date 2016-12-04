@@ -1,3 +1,13 @@
+72407	BMAGL	Birmingham Museum and Art Gallery	Van Gogh Museum	2016-12-04	\N	potentially borrowed
+62769	BMAGF	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	2016-12-04	\N	potentially borrowed
+43982	BMAGP	Birmingham Museum and Art Gallery	National Museum of China	2016-12-04	\N	potentially borrowed
+84576	BMAGC	Birmingham Museum and Art Gallery	National Museum of China	2016-12-04	\N	potentially borrowed
+24903	BMAGC	Birmingham Museum and Art Gallery	National Museum of China	2016-12-04	\N	potentially borrowed
+44104	BMAGP	Birmingham Museum and Art Gallery	Denver Art Museum	2016-12-04	\N	potentially borrowed
+56336	BMAGF	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	2016-12-04	\N	potentially borrowed
+18879	BMAGF	Birmingham Museum and Art Gallery	Van Gogh Museum	2016-12-04	\N	potentially borrowed
+67956	BMAGV	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	2016-12-04	\N	potentially borrowed
+79870	BMAGL	Birmingham Museum and Art Gallery	Denver Art Museum	2016-12-04	\N	potentially borrowed
 24287	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	1993-03-24	2016-10-21	sold
 22019	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	1999-01-31	2016-10-21	sold
 60200	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N	owned
@@ -30,11 +40,6 @@
 73083	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1992-09-04	\N	owned
 75158	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1994-04-23	\N	owned
 15955	BMAGF	Birmingham Museum and Art Gallery	Batman	1995-10-12	\N	long-term borrowed
-67981	BMAGV	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	1997-09-11	\N	potentially borrowed
-52294	BMAGC	Birmingham Museum and Art Gallery	Denver Art Museum	2001-08-19	\N	potentially borrowed
-72257	BMAGL	Birmingham Museum and Art Gallery	Van Gogh Museum	2001-04-02	\N	potentially borrowed
-72407	BMAGL	Birmingham Museum and Art Gallery	Van Gogh Museum	2001-11-10	\N	potentially borrowed
-62769	BMAGF	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	2001-09-14	\N	potentially borrowed
 88918	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1998-09-22	\N	owned
 88039	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1997-01-18	\N	owned
 92092	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2001-12-07	\N	owned
@@ -50,7 +55,6 @@
 96959	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2006-02-01	\N	owned
 16126	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1995-10-25	\N	owned
 75943	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1995-09-06	\N	owned
-43982	BMAGP	Birmingham Museum and Art Gallery	National Museum of China	2003-12-07	\N	potentially borrowed
 37902	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1997-04-07	\N	owned
 53863	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1993-03-04	\N	owned
 73924	BMAGA	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1993-06-09	\N	owned
@@ -63,16 +67,10 @@
 28224	BMAGV	Birmingham Museum and Art Gallery	Bart Simpson	1997-03-31	\N	long-term borrowed
 74268	BMAGC	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1998-04-13	\N	owned
 88299	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1997-04-04	\N	owned
-84576	BMAGC	Birmingham Museum and Art Gallery	National Museum of China	2003-07-21	\N	potentially borrowed
-24903	BMAGC	Birmingham Museum and Art Gallery	National Museum of China	2002-12-31	\N	potentially borrowed
 56396	BMAGF	Birmingham Museum and Art Gallery	Bugs Bunny	2006-04-15	\N	long-term borrowed
-44104	BMAGP	Birmingham Museum and Art Gallery	Denver Art Museum	2003-02-04	\N	potentially borrowed
-56336	BMAGF	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	2004-08-08	\N	potentially borrowed
-18879	BMAGF	Birmingham Museum and Art Gallery	Van Gogh Museum	2008-08-08	\N	potentially borrowed
-67956	BMAGV	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	1997-01-10	\N	potentially borrowed
+67981	BMAGV	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	2016-12-04	\N	potentially borrowed
 96044	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2005-06-16	\N	owned
 90884	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-02-09	\N	long-term borrowed
-79870	BMAGL	Birmingham Museum and Art Gallery	Denver Art Museum	1999-01-15	\N	potentially borrowed
 99999	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2009-09-18	\N	owned
 97577	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2006-07-22	\N	owned
 20284	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2011-11-07	\N	owned
@@ -80,6 +78,8 @@
 88860	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1998-05-05	\N	owned
 88861	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2012-12-30	\N	owned
 96901	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2006-04-06	\N	owned
+52294	BMAGC	Birmingham Museum and Art Gallery	Denver Art Museum	2016-12-04	\N	potentially borrowed
+72257	BMAGL	Birmingham Museum and Art Gallery	Van Gogh Museum	2016-12-04	\N	potentially borrowed
 96951	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2006-09-06	\N	owned
 78232	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1997-03-27	\N	owned
 90897	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-06-22	\N	long-term borrowed
@@ -93,7 +93,6 @@
 89863	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N	owned
 59500	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N	owned
 78101	BMAGF	Birmingham Museum and Art Gallery	Batman	1999-04-26	\N	long-term borrowed
-79008	BMAGV	Birmingham Museum and Art Gallery	Van Gogh Museum	1998-05-03	\N	potentially borrowed
 16073	BMAGV	Birmingham Museum and Art Gallery	Bugs Bunny	1998-08-12	\N	long-term borrowed
 5022	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N	owned
 4746	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1993-03-21	\N	owned
@@ -107,4 +106,5 @@
 836	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N	owned
 139	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1990-10-25	\N	owned
 18894	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	1998-03-19	2016-10-21	sold
-1748	BMAGP	Birmingham Museum and Art Gallery	National Museum of China	2007-12-31	\N	potentially borrowed
+79008	BMAGV	Birmingham Museum and Art Gallery	Van Gogh Museum	2016-12-04	\N	potentially borrowed
+1748	BMAGP	Birmingham Museum and Art Gallery	National Museum of China	2016-12-04	\N	potentially borrowed
