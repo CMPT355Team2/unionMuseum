@@ -191,6 +191,12 @@ insert into nsowners
 	SELECT numberkey, letterkey, museumname, institutionname, startdate, enddate, status
 	FROM tempowners;	
 
+UPDATE nsowners
+set nsowinsname = 'Denver Art Museum', nsowstatus = 'purchased'
+WHERE 
+nsowsdate = '2016-10-25'
+;
+
 \COPY nsowners to 'nsowners.txt';
 
 DROP TABLE IF EXISTS tempowners CASCADE;
@@ -372,7 +378,6 @@ insert into nsdoors
 		);
 
 \COPY nsdoors to 'nsdoors.txt';
-
 
 
 
@@ -604,14 +609,28 @@ insert into nstransactions
 
 
 
+-- update integer key
+UPDATE nsworks
+set nswscode = nswscode - '1909145';
+
+UPDATE nsworks
+set nswscode = nswscode * '-1'
+WHERE
+nswscode < 0
+;
 
 
-
-
-
-
-
-
+\COPY nsworks to 'nsworks.txt';
+\COPY nsexhibitions to 'nsexhibitions.txt';
+\COPY nslocations to 'nslocations.txt';
+\COPY nstransactions to 'nstransactions.txt';
+\COPY nsworks_locations to 'nsworks_locations.txt';
+\COPY nsdoors to 'nsdoors.txt';
+\COPY nsmedium to 'nsmedium.txt';
+\COPY nsexhibitions_locations to 'nsexhibitions_locations.txt';
+\COPY nsworks_exhibitions to 'nsworks_exhibitions.txt';
+\COPY nsowners to 'nsowners.txt';
+\COPY nsinstitutions to 'nsinstitutions.txt';
 
 
 

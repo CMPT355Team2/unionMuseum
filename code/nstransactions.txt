@@ -1,33 +1,33 @@
-1933432	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
-1931164	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
-1928039	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
-2000042	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-06-22	\N
-1906781	BMAGP	Birmingham Museum and Art Gallery	Tweety	2006-07-30	\N
-1995572	BMAGV	Birmingham Museum and Art Gallery	Bugs Bunny	1998-08-11	\N
-1893072	BMAGV	Birmingham Museum and Art Gallery	Bugs Bunny	1998-08-12	\N
-1937369	BMAGV	Birmingham Museum and Art Gallery	Bart Simpson	1997-03-31	\N
-1967640	BMAGC	Birmingham Museum and Art Gallery	Superman	1996-07-14	\N
-1967306	BMAGC	Birmingham Museum and Art Gallery	Tweety	1997-03-06	\N
-1993571	BMAGC	Birmingham Museum and Art Gallery	Batman	2003-05-07	\N
-1928144	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	1998-01-14	\N
-1987246	BMAGF	Birmingham Museum and Art Gallery	Batman	1999-04-26	\N
-1906839	BMAGP	Birmingham Museum and Art Gallery	Popeye	2006-08-13	\N
-1906866	BMAGP	Birmingham Museum and Art Gallery	Popeye	2006-08-16	\N
-1965541	BMAGF	Birmingham Museum and Art Gallery	Bugs Bunny	2006-04-15	\N
-2000029	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-02-09	\N
-1925100	BMAGF	Birmingham Museum and Art Gallery	Batman	1995-10-12	\N
-1906758	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1906856	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1908309	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1927458	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1906709	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1904123	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1926022	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1999008	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1999006	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1968645	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1969345	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1965230	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1995463	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1995037	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-1995437	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+60200	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+56085	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+86318	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+85892	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+86292	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+24287	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
+22019	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
+86427	BMAGV	Birmingham Museum and Art Gallery	Bugs Bunny	1998-08-11	\N
+18999	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	1998-01-14	\N
+58495	BMAGC	Birmingham Museum and Art Gallery	Superman	1996-07-14	\N
+58161	BMAGC	Birmingham Museum and Art Gallery	Tweety	1997-03-06	\N
+84426	BMAGC	Birmingham Museum and Art Gallery	Batman	2003-05-07	\N
+15955	BMAGF	Birmingham Museum and Art Gallery	Batman	1995-10-12	\N
+28224	BMAGV	Birmingham Museum and Art Gallery	Bart Simpson	1997-03-31	\N
+56396	BMAGF	Birmingham Museum and Art Gallery	Bugs Bunny	2006-04-15	\N
+90884	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-02-09	\N
+90897	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-06-22	\N
+16877	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+89861	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+18313	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+89863	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+59500	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+78101	BMAGF	Birmingham Museum and Art Gallery	Batman	1999-04-26	\N
+18894	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
+16073	BMAGV	Birmingham Museum and Art Gallery	Bugs Bunny	1998-08-12	\N
+5022	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+2436	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+2387	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+2364	BMAGP	Birmingham Museum and Art Gallery	Tweety	2006-07-30	\N
+2306	BMAGP	Birmingham Museum and Art Gallery	Popeye	2006-08-13	\N
+2289	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+2279	BMAGP	Birmingham Museum and Art Gallery	Popeye	2006-08-16	\N
+836	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N

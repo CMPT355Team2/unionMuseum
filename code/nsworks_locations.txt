@@ -1,183 +1,183 @@
-1995167	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1998063	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1998638	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1983655	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1997444	BMAGF	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1981098	BMAGF	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-2006043	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-2006046	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-2006096	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-2006602	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-2005189	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-2006405	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-2009144	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-2006722	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-1929429	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-1999018	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-1992001	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-1981038	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-1998005	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-1982228	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-28 00:00:00
-1984303	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-28 00:00:00
-1985215	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-28 00:00:00
-1965416	BMAGT	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-28 00:00:00
-1965509	BMAGT	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-28 00:00:00
-1987377	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-18 00:00:00
-1996128	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-18 00:00:00
-1996221	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-18 00:00:00
-1963008	BMAGP	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
-1983069	BMAGA	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
-1983413	BMAGC	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
-1982157	BMAGA	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
-1981120	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
-1981468	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
-1997014	BMAGL	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
-1986112	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
-1987422	BMAGF	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
-2001237	BMAGF	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
-2001162	BMAGF	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
-1995168	BMAGV	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
-1995147	BMAGV	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
-1995331	BMAGV	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
-1997184	BMAGV	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
-1995407	BMAGV	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
-1974006	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1970283	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1973042	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-2000015	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1975404	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1973082	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-2006104	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1925271	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1985088	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1906795	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
-1998006	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-2000001	BMAGL	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-1961001	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
-1982228	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1984303	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1985215	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1965416	BMAGT	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1965509	BMAGT	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1987377	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1996128	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1996221	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1995167	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1998063	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1998638	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1983655	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1997444	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1981098	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
-1982228	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1984303	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1985215	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1965416	BMAGT	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1965509	BMAGT	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1987377	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1996128	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1996221	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1995167	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1998063	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1906758	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1906856	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1908309	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1927458	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1906709	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1904123	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1926022	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1999008	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1999006	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1968645	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1969345	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1965230	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1995463	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1995037	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1995437	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
-1998638	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1983655	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1997444	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1981098	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
-1965541	BMAGF	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
-1995572	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
-1937369	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
-1906866	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
-1904399	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
-1909006	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
-1925100	BMAGF	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
-1963008	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
-1983069	BMAGA	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
-1983413	BMAGC	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
-1982157	BMAGA	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
-1981120	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
-1963008	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1983069	BMAGA	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1983413	BMAGC	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1982157	BMAGA	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1981120	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1981468	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1997014	BMAGL	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1986112	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1982228	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1984303	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1985215	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1965416	BMAGT	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1965509	BMAGT	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1987377	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1996128	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1996221	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1995167	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1998063	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1998638	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1983655	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1997444	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1981098	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
-1933432	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-21 00:00:00
-1931164	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-21 00:00:00
-1928039	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-21 00:00:00
-1931968	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1947047	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1958206	BMAGA	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1906839	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1906781	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1993571	BMAGC	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-2000042	BMAGL	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-2000029	BMAGL	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1928144	BMAGL	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1987246	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1965541	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1995572	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1937369	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1906866	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1904399	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1909006	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1925100	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1893072	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1967306	BMAGC	Birmingham Museum and Art Gallery	lobby	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1967640	BMAGC	Birmingham Museum and Art Gallery	lobby	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1955401	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
-1981468	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
-1997014	BMAGL	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
-1986112	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
-1963008	BMAGP	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
-1983069	BMAGA	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
-1983413	BMAGC	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
-1982157	BMAGA	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
-1981120	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
-1981468	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
-1997014	BMAGL	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
-1986112	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
-1906866	BMAGP	Birmingham Museum and Art Gallery	Saskatoon	Birmingham Museum and Art Gallery	SaskTel	2016-10-25 00:00:00	2016-11-15 00:00:00
-1904399	BMAGP	Birmingham Museum and Art Gallery	Saskatoon	Birmingham Museum and Art Gallery	SaskTel	2016-10-25 00:00:00	2016-11-15 00:00:00
-1909006	BMAGP	Birmingham Museum and Art Gallery	Saskatoon	Birmingham Museum and Art Gallery	SaskTel	2016-10-25 00:00:00	2016-11-15 00:00:00
-1906866	BMAGP	Birmingham Museum and Art Gallery	Regina	Birmingham Museum and Art Gallery	RBC	2016-11-22 00:00:00	2016-12-13 00:00:00
-1904399	BMAGP	Birmingham Museum and Art Gallery	Regina	Birmingham Museum and Art Gallery	RBC	2016-11-22 00:00:00	2016-12-13 00:00:00
-1909006	BMAGP	Birmingham Museum and Art Gallery	Regina	Birmingham Museum and Art Gallery	RBC	2016-11-22 00:00:00	2016-12-13 00:00:00
-1906866	BMAGP	Birmingham Museum and Art Gallery	Rose Town	Birmingham Museum and Art Gallery	BMO	2016-12-20 00:00:00	2017-01-10 00:00:00
-1904399	BMAGP	Birmingham Museum and Art Gallery	Rose Town	Birmingham Museum and Art Gallery	BMO	2016-12-20 00:00:00	2017-01-10 00:00:00
-1909006	BMAGP	Birmingham Museum and Art Gallery	Rose Town	Birmingham Museum and Art Gallery	BMO	2016-12-20 00:00:00	2017-01-10 00:00:00
-1906866	BMAGP	Birmingham Museum and Art Gallery	Young Town	Birmingham Museum and Art Gallery	Shawn	2017-01-17 00:00:00	2017-02-07 00:00:00
-1904399	BMAGP	Birmingham Museum and Art Gallery	Young Town	Birmingham Museum and Art Gallery	Shawn	2017-01-17 00:00:00	2017-02-07 00:00:00
-1909006	BMAGP	Birmingham Museum and Art Gallery	Young Town	Birmingham Museum and Art Gallery	Shawn	2017-01-17 00:00:00	2017-02-07 00:00:00
-1906866	BMAGP	Birmingham Museum and Art Gallery	Warman	Birmingham Museum and Art Gallery	Vandasta	2017-02-14 00:00:00	2017-03-07 00:00:00
-1904399	BMAGP	Birmingham Museum and Art Gallery	Warman	Birmingham Museum and Art Gallery	Vandasta	2017-02-14 00:00:00	2017-03-07 00:00:00
-1909006	BMAGP	Birmingham Museum and Art Gallery	Warman	Birmingham Museum and Art Gallery	Vandasta	2017-02-14 00:00:00	2017-03-07 00:00:00
+60200	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+56085	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+86318	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+97260	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+86023	BMAGV	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
+86022	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+86022	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+86022	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+86022	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+86002	BMAGV	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
+46256	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+85892	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+86292	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+24287	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-21 00:00:00
+76070	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-28 00:00:00
+76070	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+76070	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+76070	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+22019	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-21 00:00:00
+86427	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
+86427	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+86186	BMAGV	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
+89493	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+89493	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+89493	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+89493	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+56271	BMAGT	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-28 00:00:00
+56271	BMAGT	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+56271	BMAGT	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+56271	BMAGT	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+18999	BMAGL	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+64861	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+90870	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+78277	BMAGF	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
+58495	BMAGC	Birmingham Museum and Art Gallery	lobby	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+58161	BMAGC	Birmingham Museum and Art Gallery	lobby	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+84426	BMAGC	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+49061	BMAGA	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+22823	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+72323	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
+72323	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+72323	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
+72323	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
+87869	BMAGL	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
+87869	BMAGL	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+87869	BMAGL	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
+87869	BMAGL	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
+76967	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
+76967	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+76967	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
+76967	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
+73083	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-28 00:00:00
+73083	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+73083	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+73083	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+75158	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-28 00:00:00
+75158	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+75158	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+75158	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+15955	BMAGF	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
+15955	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+88918	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+88918	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+88918	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+88918	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+88039	BMAGV	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
+92092	BMAGF	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
+56364	BMAGT	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-28 00:00:00
+56364	BMAGT	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+56364	BMAGT	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+56364	BMAGT	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+92017	BMAGF	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
+71953	BMAGF	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+71953	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+71953	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+71953	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+86983	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-18 00:00:00
+86983	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+86983	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+86983	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+87076	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-18 00:00:00
+87076	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+87076	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+87076	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+61138	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+63897	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+66259	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+63937	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+96959	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+16126	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+75943	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+37902	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+53863	BMAGP	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
+53863	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
+53863	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+53863	BMAGP	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
+73924	BMAGA	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
+73924	BMAGA	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
+73924	BMAGA	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+73924	BMAGA	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
+73012	BMAGA	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
+73012	BMAGA	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
+73012	BMAGA	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+73012	BMAGA	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
+89873	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+90856	BMAGL	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+51856	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+86262	BMAGV	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-23 00:00:00	2017-02-23 00:00:00
+74510	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+74510	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+74510	BMAGV	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+74510	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+28224	BMAGV	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
+28224	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+74268	BMAGC	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
+74268	BMAGC	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
+74268	BMAGC	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+74268	BMAGC	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
+88299	BMAGF	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+88299	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+88299	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+88299	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+56396	BMAGF	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
+56396	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+96044	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+90884	BMAGL	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+99999	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+97577	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+20284	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+71893	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+88860	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+88861	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+96901	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+96951	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+78232	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2016-12-18 00:00:00
+78232	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-10 00:00:00	2016-08-26 00:00:00
+78232	BMAGF	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-02-10 00:00:00	2016-08-10 00:00:00
+78232	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+90897	BMAGL	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+16877	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+89861	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+96898	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+97457	BMAGO	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+82856	BMAGM	Birmingham Museum and Art Gallery	large gallery C	Birmingham Museum and Art Gallery	patron	2016-08-15 00:00:00	2016-12-28 00:00:00
+71975	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-10-28 00:00:00	2017-02-23 00:00:00
+71975	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-07-15 00:00:00	2016-08-26 00:00:00
+71975	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-28 00:00:00
+71975	BMAGM	Birmingham Museum and Art Gallery	small gallery A	Birmingham Museum and Art Gallery	patron	2016-01-15 00:00:00	2016-07-15 00:00:00
+18313	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+89863	BMAGM	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+59500	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+78101	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+18894	BMAGF	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	2016-10-21 00:00:00
+16073	BMAGV	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+5022	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+4746	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
+4746	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+4746	BMAGP	Birmingham Museum and Art Gallery	Saskatoon	Birmingham Museum and Art Gallery	SaskTel	2016-10-25 00:00:00	2016-11-15 00:00:00
+4746	BMAGP	Birmingham Museum and Art Gallery	Regina	Birmingham Museum and Art Gallery	RBC	2016-11-22 00:00:00	2016-12-13 00:00:00
+4746	BMAGP	Birmingham Museum and Art Gallery	Rose Town	Birmingham Museum and Art Gallery	BMO	2016-12-20 00:00:00	2017-01-10 00:00:00
+4746	BMAGP	Birmingham Museum and Art Gallery	Young Town	Birmingham Museum and Art Gallery	Shawn	2017-01-17 00:00:00	2017-02-07 00:00:00
+4746	BMAGP	Birmingham Museum and Art Gallery	Warman	Birmingham Museum and Art Gallery	Vandasta	2017-02-14 00:00:00	2017-03-07 00:00:00
+2436	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+2387	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+2364	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+2350	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-09-01 00:00:00	2017-01-31 00:00:00
+2306	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+2289	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+2279	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
+2279	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+2279	BMAGP	Birmingham Museum and Art Gallery	Saskatoon	Birmingham Museum and Art Gallery	SaskTel	2016-10-25 00:00:00	2016-11-15 00:00:00
+2279	BMAGP	Birmingham Museum and Art Gallery	Regina	Birmingham Museum and Art Gallery	RBC	2016-11-22 00:00:00	2016-12-13 00:00:00
+2279	BMAGP	Birmingham Museum and Art Gallery	Rose Town	Birmingham Museum and Art Gallery	BMO	2016-12-20 00:00:00	2017-01-10 00:00:00
+2279	BMAGP	Birmingham Museum and Art Gallery	Young Town	Birmingham Museum and Art Gallery	Shawn	2017-01-17 00:00:00	2017-02-07 00:00:00
+2279	BMAGP	Birmingham Museum and Art Gallery	Warman	Birmingham Museum and Art Gallery	Vandasta	2017-02-14 00:00:00	2017-03-07 00:00:00
+836	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-10-25 00:00:00	\N
+139	BMAGP	Birmingham Museum and Art Gallery	small gallery B	Birmingham Museum and Art Gallery	patron	2016-03-26 00:00:00	2016-08-26 00:00:00
+139	BMAGP	Birmingham Museum and Art Gallery	storage	Birmingham Museum and Art Gallery	patron	2016-08-26 00:00:00	\N
+139	BMAGP	Birmingham Museum and Art Gallery	Saskatoon	Birmingham Museum and Art Gallery	SaskTel	2016-10-25 00:00:00	2016-11-15 00:00:00
+139	BMAGP	Birmingham Museum and Art Gallery	Regina	Birmingham Museum and Art Gallery	RBC	2016-11-22 00:00:00	2016-12-13 00:00:00
+139	BMAGP	Birmingham Museum and Art Gallery	Rose Town	Birmingham Museum and Art Gallery	BMO	2016-12-20 00:00:00	2017-01-10 00:00:00
+139	BMAGP	Birmingham Museum and Art Gallery	Young Town	Birmingham Museum and Art Gallery	Shawn	2017-01-17 00:00:00	2017-02-07 00:00:00
+139	BMAGP	Birmingham Museum and Art Gallery	Warman	Birmingham Museum and Art Gallery	Vandasta	2017-02-14 00:00:00	2017-03-07 00:00:00
