@@ -18,9 +18,9 @@ DROP DOMAIN IF EXISTS nsauthor CASCADE;
 DROP DOMAIN IF EXISTS nscdatecom CASCADE;
 DROP DOMAIN IF EXISTS nsadateacq CASCADE;
 DROP DOMAIN IF EXISTS nsinsvalue CASCADE;
-DROP DOMAIN IF EXISTS nstype CASCADE;
-DROP DOMAIN IF EXISTS nsstype CASCADE;
-DROP DOMAIN IF EXISTS nsntype CASCADE;
+DROP DOMAIN IF EXISTS nscategory CASCADE;
+DROP DOMAIN IF EXISTS nsregion CASCADE;
+DROP DOMAIN IF EXISTS nscentury CASCADE;
 DROP DOMAIN IF EXISTS nswdesc CASCADE;
 DROP DOMAIN IF EXISTS nsedesc CASCADE;
 DROP DOMAIN IF EXISTS nssdate CASCADE;
@@ -97,7 +97,7 @@ CREATE TABLE nsworks (
 	nswscdatecom nscdatecom NOT NULL,
 	nswsadateacq nsadateacq,
 	nswswdesc nswdesc NOT NULL,
-	CHECK (nswscdatecom < nswsadateacq AND nswsadateacq > timestamp '1990-07-01'),
+	CHECK (nswscdatecom < nswsadateacq AND nswsadateacq > timestamp '1990-07-01' AND nswscode <= 99999),
 	PRIMARY KEY (nswscode, nswsacronym, nswsmname)
 );
 
@@ -125,7 +125,7 @@ CREATE TABLE nschangedvalue (
 	nscvedate nsedate,
 	nscvinsvalue nsinsvalue NOT NULL,
 	CHECK (nscvsdate < nscvedate),
-	PRIMARY KEY (nscvcode, nscvacronym, nscvmname)
+	PRIMARY KEY (nscvcode, nscvacronym, nscvmname, nscvsdate)
 
 );
 

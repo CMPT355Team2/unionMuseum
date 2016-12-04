@@ -1,0 +1,74 @@
+-- when insert a new works trigger a funtion which can help locate this work into storage.
+CREATE OR REPLACE FUNCTION insert_new_works() 
+RETURNS trigger AS $insert_new_works_f$
+BEGIN
+
+	insert into nsworks_locations 
+		select new.nswscode, new.nswsacronym, new.nswsmname, 'Storage', new.nswsmname, 'patron', new.nswsadateacq, null
+		WHERE new.nswsadateacq is not null;
+
+RETURN NEW;
+END;
+$insert_new_works_f$ LANGUAGE plpgsql;
+
+
+DROP TRIGGER IF EXISTS insert_new_works_f ON nsworks;
+CREATE TRIGGER insert_new_works_f AFTER INSERT ON nsworks FOR EACH ROW EXECUTE PROCEDURE insert_new_works();
+
+
+
+-- after inserted all the new relationships of works and locations, try to update the previous locations end time
+CREATE OR REPLACE FUNCTION wl_date_change() 
+RETURNS trigger AS $wl_date_change_f$
+BEGIN
+
+	UPDATE nsworks_locations SET nswletime = NEW.nswlstime 
+	WHERE nswlacronym = NEW.nswlacronym AND nswlcode = NEW.nswlcode AND nswlmname1 = NEW.nswlmname1 AND (nswllname = 'Storage' OR nswllname = 'Lobby Expo') AND nswlstime < NEW.nswlstime AND nswletime ISNULL;
+
+RETURN NEW;
+END;
+$wl_date_change_f$ LANGUAGE plpgsql;
+
+DROP TRIGGER IF EXISTS wl_date_change_f ON nsworks_locations;
+CREATE TRIGGER wl_date_change_f AFTER INSERT ON nsworks_locations FOR EACH ROW EXECUTE PROCEDURE wl_date_change();
+
+
+
+-- after inserted new changed exhibition's count, try to update the previous exhibition's count end time
+CREATE OR REPLACE FUNCTION change_exhibition_count()
+RETURNS trigger AS $change_exhibition_count_f$
+BEGIN
+
+	UPDATE nschangedcount SET nsccsdatece = new.nsccsdatecs
+	WHERE nsccename = new.nsccename and nsccsdate = new.nsccsdate and nsccmname = new.nsccmname and nsccsdatecs < new.nsccsdatecs and nsccsdatece is null;
+
+RETURN NEW;
+END;
+$change_exhibition_count_f$ LANGUAGE plpgsql;
+
+DROP TRIGGER IF EXISTS change_exhibition_count_f ON nschangedcount;
+CREATE TRIGGER change_exhibition_count_f AFTER INSERT ON nschangedcount FOR EACH ROW EXECUTE PROCEDURE change_exhibition_count();
+
+
+-- trigger between owners and transactions table
+CREATE OR REPLACE FUNCTION owners_transactions()
+RETURNS trigger AS $owners_transactions_f$
+BEGIN
+
+	UPDATE nsowners SET nsowetime = new.nsowstime
+	WHERE nsowcode = new.nsowcode and nsowacronym = new.nsowacronym and nsowmname = new.nsowmname and nsowetime is null and nsowstatus <> new.nsowstatus;
+	
+	insert into nstransactions 
+		select new.nsowcode, new.nsowacronym, new.nsowmname, new.nsowinsname, new.nsowstime, null
+		where UPPER(new.nsowstatus) <> UPPER('Potentially borrowed');
+
+	insert into nstransactions
+		select new.nsowcode, new.nsowacronym, new.nsowmname, new.nsowinsname, new.nsowetime, null
+		where UPPER(new.nsowstatus) = UPPER('Potentially borrowed');
+
+RETURN NEW;
+END;
+$owners_transactions_f$ LANGUAGE plpgsql;
+
+DROP TRIGGER IF EXISTS owners_transactions_f ON nsowners;
+CREATE TRIGGER owners_transactions_f AFTER INSERT ON nsowners FOR EACH ROW EXECUTE PROCEDURE owners_transactions();

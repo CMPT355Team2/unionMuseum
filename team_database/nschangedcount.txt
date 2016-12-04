@@ -1,0 +1,14 @@
+20th Century Exhibition	2016-07-12	Seattle Art Museum	2016-07-12	\N	10
+Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-09-04	\N	16
+Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-08-14	\N	24
+19th Century Exhibition	2016-11-10	Seattle Art Museum	2016-11-10	\N	17
+Album and Others	2016-12-09	Seattle Art Museum	2016-12-09	\N	0
+Hanging Scroll Special	2016-12-23	Seattle Art Museum	2016-12-23	\N	0
+18th Century Exhibition	2016-05-12	Seattle Art Museum	2016-05-12	\N	8
+Handscroll Special	2016-05-14	Seattle Art Museum	2016-05-14	\N	12
+Fan Painting and others	2016-05-04	Seattle Art Museum	2016-05-04	\N	7
+Travelling Exihibition Sask A	2016-11-12	Seattle Art Museum	2016-11-12	\N	5
+Travelling Exihibition Sask B	2016-12-10	Seattle Art Museum	2016-12-10	\N	5
+Travelling Exihibition Sask C	2017-01-07	Seattle Art Museum	2017-01-07	\N	5
+Travelling Exihibition Sask D	2017-02-04	Seattle Art Museum	2017-02-04	\N	5
+Travelling Exihibition Sask E	2017-03-04	Seattle Art Museum	2017-03-04	\N	5

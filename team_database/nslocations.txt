@@ -1,0 +1,10 @@
+Lobby Expo	Seattle Art Museum	patron	\N	\N	100	20	3	2	4
+Unique Expo	Seattle Art Museum	patron	\N	\N	50	30	3	7	16
+Century Expo	Seattle Art Museum	patron	\N	\N	50	30	3	7	16
+Summary Expo	Seattle Art Museum	patron	\N	\N	100	30	3	14	24
+Storage	Seattle Art Museum	patron	\N	\N	100	40	3	0	600
+Saskatoon	Seattle Art Museum	Sponsor A	Sask Security A	30	\N	\N	\N	\N	\N
+Regina	Seattle Art Museum	Sponsor B	Sask Security B	30	\N	\N	\N	\N	\N
+Moose Jaw	Seattle Art Museum	Sponsor C	Sask Security C	30	\N	\N	\N	\N	\N
+Yorkton	Seattle Art Museum	Sponsor D	Sask Security D	30	\N	\N	\N	\N	\N
+Prince Albert	Seattle Art Museum	Sponsor E	Sask Security E	30	\N	\N	\N	\N	\N

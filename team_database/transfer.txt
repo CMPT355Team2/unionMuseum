@@ -53,31 +53,100 @@ insert into nsinstitutions values ('Other', '306.221.5332', '103 Cuberland AVE S
 insert into nsinstitutions values ('Jerry', '306.221.5342', '104 Cuberland AVE S');
 insert into nsinstitutions values ('Tom', '306.231.5342', '105 Cuberland AVE S');
 insert into nsinstitutions values ('Petter', '306.251.5342', '106 Cuberland AVE S');
+insert into nsinstitutions values ('Kongzi college', '306.261.5342', '107 Cuberland AVE S');
+insert into nsinstitutions values(
+        'Chinese Kongzi College',
+        '306.152.1991',
+	'103 Wonderland AVE S'
+);
+
+insert into nsinstitutions values(
+        'Institutions Iron',
+        '306.152.2626',
+	'201 Cumberland AVE S'
+);
+
+insert into nsinstitutions values(
+        'Institutions Metal',
+        '306.152.4646',
+	'201 Tyler AVE S'	
+);
+
+insert into nsinstitutions values(
+        'Institutions Jasper',
+        '306.152.3636',
+	'301 Karl AVE S'
+);
 
 
 -- convert owners table and export file
 DROP TABLE IF EXISTS tempowners CASCADE;
 
 CREATE TABLE tempowners AS
-	SELECT colcode, colacronym, 'Seattle Art Museum' AS nsowmname, colown, colcdatec, null AS nsowedate, colrel
+	SELECT colcode, colacronym, 'Seattle Art Museum' AS nsowmname, colown, colcdatea, null AS nsowetime, colrel
 	FROM  works;
 
 UPDATE tempowners
-SET colcdatec = CURRENT_DATE
+SET colcdatea = CURRENT_DATE
 FROM works ws
 WHERE ws.colown = 'Other' AND ws.colcode = tempowners.colcode AND ws.colacronym = tempowners.colacronym;
+
+UPDATE tempowners
+SET colrel = 'purchased'
+FROM works ws
+WHERE ws.colcdatea = timestamp '2016-10-25' AND ws.colcode = tempowners.colcode AND ws.colacronym = tempowners.colacronym;
 
 UPDATE tempowners
 SET colown = 'Seattle Art Museum'
 FROM works ws
 WHERE ws.colown = 'self' AND ws.colcode = tempowners.colcode AND ws.colacronym = tempowners.colacronym;
 
-insert into nsowners
-	SELECT colcode, colacronym, nsowmname, colown, colcdatec, null, colrel
+UPDATE tempowners
+SET colown = 'Kongzi college'
+FROM works ws
+WHERE ws.colrel = 'sold' AND ws.colcode = tempowners.colcode AND ws.colacronym = tempowners.colacronym;
+
+UPDATE tempowners
+SET colown = 'Tom'
+FROM works ws
+WHERE tempowners.colrel = 'purchased' AND ws.colcode = tempowners.colcode AND ws.colacronym = tempowners.colacronym;
+
+insert into nsowners 
+	SELECT colcode, colacronym, nsowmname, colown, colcdatea, null, colrel
 	FROM tempowners;	
+
+update nsowners
+set nsowetime = '2016-10-21'
+WHERE nsowners.nsowstatus = 'sold';
+
+update nsowners
+set nsowstatus = 'owned'
+WHERE nsowners.nsowetime = timestamp '2016-10-21 00:00:00';
+
+insert into nsowners
+	select ow.nsowcode, ow.nsowacronym, ow.nsowmname, ow.nsowinsname, ow.nsowetime, null, 'sold'
+	from nsowners ow
+	WHERE ow.nsowetime = timestamp '2016-10-21 00:00:00';
 
 \COPY nsowners to 'nsowners.txt';
 
+-- convert transactions table and export file
+insert into nstransactions
+	select nsowcode, nsowacronym, nsowmname, nsowinsname, nsowstime, nsowetime
+	FROM nsowners
+	WHERE nsowners.nsowstatus <> 'owned' AND UPPER(nsowners.nsowstatus) <> UPPER('Potentially borrowed');
+
+-- update nstransactions
+-- set nstrstime = nstretime, nstretime = null
+-- from nsowners ow
+-- WHERE nstransactions.nstrcode = ow.nsowcode and nstransactions.nstracronym = ow.nsowacronym and nstransactions.nstrmname = ow.nsowmname and nstransactions.nstrinsname = ow.nsowinsname and nstransactions.nstrstime = ow.nsowstime and ow.nsowstatus = 'sold';
+
+-- update nstransactions
+-- set nstretime = null
+-- from nsowners ow
+-- WHERE nstransactions.nstrcode = ow.nsowcode and nstransactions.nstracronym = ow.nsowacronym and nstransactions.nstrmname = ow.nsowmname and nstransactions.nstrinsname = ow.nsowinsname and nstransactions.nstrstime = ow.nsowstime and ow.nsowstatus = 'sold';
+
+\COPY nstransactions to 'nstransactions.txt';
 
 -- convert relation table of works and exhibitions table and export file
 insert into nsworks_exhibitions
@@ -136,3 +205,29 @@ insert into nschangedvalue
 	WHERE works.colown = 'Other';
 
 \COPY nschangedvalue to 'nschangedvalue.txt';
+
+insert into nschangedemail values ('Seattle Art Museum', 'sam@gmail.com', CURRENT_DATE, null);
+insert into nschangedemail values ('Other', 'other@gmail.com', CURRENT_DATE);
+insert into nschangedemail values ('Jerry', 'jerry@gmail.com', CURRENT_DATE, null);
+insert into nschangedemail values ('Tom', 'tom@gmail.com', CURRENT_DATE, null);
+insert into nschangedemail values ('Petter', 'petter@gmail.com', CURRENT_DATE, null);
+insert into nschangedemail values ('Kongzi college', 'kzc@gmail.com', CURRENT_DATE, null);
+insert into nschangedemail values ('Chinese Kongzi College', 'ckzc@gmail.com', CURRENT_DATE, null);
+insert into nschangedemail values ('Institutions Iron', 'insti@gmail.com', CURRENT_DATE, null);
+insert into nschangedemail values ('Institutions Metal', 'instm@gmail.com', CURRENT_DATE, null);
+insert into nschangedemail values ('Institutions Jasper', 'instj@gmail.com', CURRENT_DATE, null);
+
+\COPY nschangedemail to 'nschangedemail.txt';
+
+insert into nschangedcount 
+	select
+		ex.nsexename,
+		ex.nsexsdate,
+		ex.nsexmname,
+		ex.nsexsdate,
+		null,
+		(SELECT COUNT(*) FROM nsworks_exhibitions we WHERE ex.nsexename = we.nsweename AND ex.nsexsdate = we.nswesdate AND ex.nsexmname = we.nswemname2)
+	FROM
+		nsexhibitions ex;
+
+\COPY nschangedcount to 'nschangedcount.txt';

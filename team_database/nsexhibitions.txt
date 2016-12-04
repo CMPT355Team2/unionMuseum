@@ -1,0 +1,14 @@
+20th Century Exhibition	2016-07-12	2016-11-05	Seattle Art Museum	"This unprecedented exhibition features masterpieces of 20th-century Chinese painting. The selected works, the majority of which are from China, were created between the turn of the century and the present day."
+Chinese Calligraphy	2016-09-04	2016-12-04	Seattle Art Museum	"Chinese calligraphy is a form of calligraphy widely practiced in China and revered in the Chinese cultural sphere, which often includes Japan, Korea and Vietnam. The calligraphic tradition of East Asia originated and developed from China."
+Hanging Scroll Special	2016-08-14	2016-12-18	Seattle Art Museum	"A?hanging scroll is one of the many traditional ways to display and exhibit East Asian painting and calligraphy. The hanging scroll was displayed in a room for appreciation; it is to be distinguished from the?handscroll, which was narrower and designed to be viewed flat on a table in sections and then stored away again."
+19th Century Exhibition	2016-11-10	2017-03-10	Seattle Art Museum	This unprecedented exhibition features masterpieces of 20th-century Chinese painting. The selected works, the majority of which are from China, were created between the turn of the century and the present day.
+Album and Others	2016-12-09	2017-05-09	Seattle Art Museum	A showcase for the traditional Chinese Album and other type of art exhibitions
+Hanging Scroll Special	2016-12-23	2017-03-23	Seattle Art Museum	A hanging scroll is one of the many traditional ways to display and exhibit East Asian painting and calligraphy.
+18th Century Exhibition	2016-05-12	2016-07-11	Seattle Art Museum	This unprecedented exhibition features masterpieces of 18th-century Chinese painting. The selected works, the majority of which are from China, were created between the turn of the century and the present day.
+Handscroll Special	2016-05-14	2016-07-10	Seattle Art Museum	The handscroll is a long narrow scroll for displaying a series of scenes in Chinese, Japanese, or Korean painting and calligraphy.
+Fan Painting and others	2016-05-04	2016-07-04	Seattle Art Museum	A showcase for the traditional Chinese Fan Painting and other type of art exhibitions
+Travelling Exihibition Sask A	2016-11-12	2016-12-03	Seattle Art Museum	A showcase for the traditional Chinese Fan Painting and other type of art exhibitions
+Travelling Exihibition Sask B	2016-12-10	2016-12-31	Seattle Art Museum	A showcase for the traditional Chinese Fan Painting and other type of art exhibitions
+Travelling Exihibition Sask C	2017-01-07	2017-01-28	Seattle Art Museum	A showcase for the traditional Chinese Fan Painting and other type of art exhibitions
+Travelling Exihibition Sask D	2017-02-04	2017-02-25	Seattle Art Museum	A showcase for the traditional Chinese Fan Painting and other type of art exhibitions
+Travelling Exihibition Sask E	2017-03-04	2017-03-25	Seattle Art Museum	A showcase for the traditional Chinese Fan Painting and other type of art exhibitions

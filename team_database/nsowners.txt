@@ -1,0 +1,113 @@
+1977	ZQX	Seattle Art Museum	Petter	1995-06-15 00:00:00	\N	Long-term borrowed
+1939	TL	Seattle Art Museum	Jerry	2010-09-04 00:00:00	\N	Long-term borrowed
+1866	QH	Seattle Art Museum	Jerry	2010-01-04 00:00:00	\N	Long-term borrowed
+1740	CL	Seattle Art Museum	Jerry	2011-12-04 00:00:00	\N	Long-term borrowed
+1741	HS	Seattle Art Museum	Jerry	1991-12-16 00:00:00	\N	Long-term borrowed
+1946	ZDQ	Seattle Art Museum	Jerry	2005-11-08 00:00:00	\N	Long-term borrowed
+18911	SZL	Seattle Art Museum	Tom	1999-12-04 00:00:00	\N	Long-term borrowed
+1691	UNKA	Seattle Art Museum	Tom	1994-05-18 00:00:00	\N	Long-term borrowed
+1999	WFY	Seattle Art Museum	Tom	2001-10-06 00:00:00	\N	Long-term borrowed
+1699	UNKA	Seattle Art Museum	Tom	1994-07-17 00:00:00	\N	Long-term borrowed
+1977	ZD	Seattle Art Museum	Tom	2007-09-06 00:00:00	\N	Long-term borrowed
+1619	SMJ	Seattle Art Museum	Petter	2005-05-02 00:00:00	\N	Long-term borrowed
+19281	TG	Seattle Art Museum	Petter	1999-11-10 00:00:00	\N	Long-term borrowed
+19282	TG	Seattle Art Museum	Petter	1999-11-10 00:00:00	\N	Long-term borrowed
+1900	WGX	Seattle Art Museum	Petter	1995-06-05 00:00:00	\N	Long-term borrowed
+1440	YH	Seattle Art Museum	Seattle Art Museum	2007-12-22 00:00:00	\N	owned
+1299	UNKA	Seattle Art Museum	Seattle Art Museum	2007-12-22 00:00:00	\N	owned
+1939	CCF	Seattle Art Museum	Seattle Art Museum	2006-01-14 00:00:00	\N	owned
+1555	HC	Seattle Art Museum	Seattle Art Museum	2007-01-31 00:00:00	\N	owned
+1689	ST	Seattle Art Museum	Seattle Art Museum	2007-12-22 00:00:00	\N	owned
+1130	LAZ	Seattle Art Museum	Seattle Art Museum	2011-10-13 00:00:00	\N	owned
+1561	WBR	Seattle Art Museum	Seattle Art Museum	2007-12-22 00:00:00	\N	owned
+1629	SSC	Seattle Art Museum	Seattle Art Museum	2007-12-22 00:00:00	\N	owned
+1638	SM	Seattle Art Museum	Seattle Art Museum	2002-04-25 00:00:00	\N	owned
+1762	LP	Seattle Art Museum	Seattle Art Museum	1995-06-18 00:00:00	\N	owned
+1699	BDSR	Seattle Art Museum	Seattle Art Museum	2012-01-08 00:00:00	\N	owned
+1345	XC	Seattle Art Museum	Seattle Art Museum	2014-12-20 00:00:00	\N	owned
+1624	LY	Seattle Art Museum	Seattle Art Museum	2011-08-13 00:00:00	\N	owned
+1499	UNKA	Seattle Art Museum	Seattle Art Museum	2008-01-31 00:00:00	\N	owned
+1729	HD	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1700	ZL	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1599	UNKA	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1980	GWD	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1991	YDX	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1939	ZKY	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+16991	SY	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+17991	UNKA	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1627	ZRT	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+16991	HR	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1701	XY	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1794	YB	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1672	XYC	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1780	HY	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1955	LYD	Seattle Art Museum	Other	2016-12-04 00:00:00	\N	Potentially borrowed
+1991	RZY	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1793	ZDW	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1450	XHS	Seattle Art Museum	Seattle Art Museum	1990-07-02 00:00:00	\N	owned
+1887	RBN	Seattle Art Museum	Seattle Art Museum	2012-01-08 00:00:00	\N	owned
+1978	LSZ	Seattle Art Museum	Seattle Art Museum	2001-12-31 00:00:00	\N	owned
+1368	UNKA	Seattle Art Museum	Seattle Art Museum	2002-12-31 00:00:00	\N	owned
+1944	SYM	Seattle Art Museum	Seattle Art Museum	2003-12-31 00:00:00	\N	owned
+1731	HS	Seattle Art Museum	Seattle Art Museum	2002-10-31 00:00:00	\N	owned
+1921	QBS	Seattle Art Museum	Seattle Art Museum	2002-01-31 00:00:00	\N	owned
+1701	SC	Seattle Art Museum	Seattle Art Museum	2001-12-31 00:00:00	\N	owned
+1991	CCF	Seattle Art Museum	Seattle Art Museum	1999-12-31 00:00:00	\N	owned
+19391	CCF	Seattle Art Museum	Seattle Art Museum	1997-05-07 00:00:00	\N	owned
+2009	HRD	Seattle Art Museum	Seattle Art Museum	2011-03-01 00:00:00	\N	owned
+1942	SYM	Seattle Art Museum	Seattle Art Museum	2001-04-05 00:00:00	\N	owned
+1980	TJN	Seattle Art Museum	Seattle Art Museum	2002-04-13 00:00:00	\N	owned
+1971	RZY	Seattle Art Museum	Seattle Art Museum	2001-12-12 00:00:00	\N	owned
+1899	DH	Seattle Art Museum	Seattle Art Museum	2001-01-31 00:00:00	\N	owned
+1961	SYM	Seattle Art Museum	Seattle Art Museum	2001-12-13 00:00:00	\N	owned
+2009	XB	Seattle Art Museum	Seattle Art Museum	2010-05-18 00:00:00	\N	owned
+1943	SYM	Seattle Art Museum	Seattle Art Museum	1998-05-09 00:00:00	\N	owned
+1930	YYR	Seattle Art Museum	Seattle Art Museum	1997-08-09 00:00:00	\N	owned
+1775	LP	Seattle Art Museum	Seattle Art Museum	2003-11-08 00:00:00	\N	owned
+1988	CCF	Seattle Art Museum	Seattle Art Museum	2010-08-04 00:00:00	\N	owned
+1955	WFY	Seattle Art Museum	Seattle Art Museum	1994-09-01 00:00:00	\N	owned
+1700	GQP	Seattle Art Museum	Seattle Art Museum	1996-09-09 00:00:00	\N	owned
+1879	WTH	Seattle Art Museum	Seattle Art Museum	2009-06-08 00:00:00	\N	owned
+1891	WDC	Seattle Art Museum	Seattle Art Museum	1993-01-07 00:00:00	\N	owned
+1978	CCF	Seattle Art Museum	Seattle Art Museum	2010-08-05 00:00:00	\N	owned
+1712	LM	Seattle Art Museum	Seattle Art Museum	2001-09-06 00:00:00	\N	owned
+1812	SXY	Seattle Art Museum	Seattle Art Museum	2004-12-04 00:00:00	\N	owned
+1940	SYM	Seattle Art Museum	Seattle Art Museum	2003-11-07 00:00:00	\N	owned
+1755	CJR	Seattle Art Museum	Seattle Art Museum	2006-01-08 00:00:00	\N	owned
+1792	ZY	Seattle Art Museum	Seattle Art Museum	2008-03-01 00:00:00	\N	owned
+1962	SYM	Seattle Art Museum	Seattle Art Museum	2009-04-09 00:00:00	\N	owned
+19781	CCF	Seattle Art Museum	Seattle Art Museum	2010-08-06 00:00:00	\N	owned
+1638	WJZ	Seattle Art Museum	Seattle Art Museum	2001-09-30 00:00:00	\N	owned
+1969	CCW	Seattle Art Museum	Seattle Art Museum	2003-03-03 00:00:00	\N	owned
+1891	UNKA	Seattle Art Museum	Seattle Art Museum	2002-02-02 00:00:00	\N	owned
+1955	WZY	Seattle Art Museum	Seattle Art Museum	2001-06-06 00:00:00	\N	owned
+1960	ZSA	Seattle Art Museum	Seattle Art Museum	1997-10-31 00:00:00	\N	owned
+1999	CCF	Seattle Art Museum	Seattle Art Museum	2003-12-31 00:00:00	\N	owned
+1939	GQF	Seattle Art Museum	Seattle Art Museum	1996-12-04 00:00:00	\N	owned
+1999	CHN	Seattle Art Museum	Seattle Art Museum	2002-12-31 00:00:00	\N	owned
+2007	WLT	Seattle Art Museum	Seattle Art Museum	2012-08-08 00:00:00	\N	owned
+1999	QBS	Seattle Art Museum	Seattle Art Museum	2002-12-31 00:00:00	\N	owned
+1891	SZL	Seattle Art Museum	Seattle Art Museum	2002-10-10 00:00:00	\N	owned
+1988	WLT	Seattle Art Museum	Seattle Art Museum	1998-08-05 00:00:00	\N	owned
+2009	CY	Seattle Art Museum	Seattle Art Museum	2010-08-08 00:00:00	\N	owned
+1899	ZH	Seattle Art Museum	Seattle Art Museum	2010-12-06 00:00:00	\N	owned
+1928	TG	Seattle Art Museum	Seattle Art Museum	2001-12-31 00:00:00	\N	owned
+1739	CF	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1965	LGS	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1977	KSW	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1947	CJY	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+19683	CCW	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1991	CSW	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1967	LGS	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1985	CSX	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1899	GDS	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1699	LL	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1899	QY	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1999	RCY	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1599	LJ	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N	purchased
+1521	WZG	Seattle Art Museum	Kongzi college	2011-10-13 00:00:00	2016-10-21 00:00:00	owned
+1492	SZ	Seattle Art Museum	Kongzi college	2008-05-31 00:00:00	2016-10-21 00:00:00	owned
+1810	CHS	Seattle Art Museum	Kongzi college	2008-01-01 00:00:00	2016-10-21 00:00:00	owned
+1521	WZG	Seattle Art Museum	Kongzi college	2016-10-21 00:00:00	\N	sold
+1492	SZ	Seattle Art Museum	Kongzi college	2016-10-21 00:00:00	\N	sold
+1810	CHS	Seattle Art Museum	Kongzi college	2016-10-21 00:00:00	\N	sold

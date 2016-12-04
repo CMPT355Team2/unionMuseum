@@ -1,0 +1,43 @@
+-- CMPT355 Team 2
+
+-- transfer shuo's old database data into new team database schema
+-- import works data
+\copy works from 'nsworks.txt';
+
+-- import exhibitions data
+\COPY exhibitions from 'nsexhibitions.txt';
+
+-- import locations data
+\COPY locations from 'nslocations.txt';
+
+-- import institutions data
+insert into institutions values ('Seattle Art Museum', '206.654.3100', '1300 First Avenue Seattle, WA 98101');
+insert into institutions values ('Other', '306.221.5332', '103 Cuberland AVE S');
+insert into institutions values ('Jerry', '306.221.5342', '104 Cuberland AVE S');
+insert into institutions values ('Tom', '306.231.5342', '105 Cuberland AVE S');
+insert into institutions values ('Petter', '306.251.5342', '106 Cuberland AVE S');
+insert into institutions values ('Kongzi college', '306.261.5342', '107 Cuberland AVE S');	
+
+-- import owners data
+\COPY owners from 'nsowners.txt';
+
+-- import transcations data
+\COPY transactions from 'nstransactions.txt';
+
+-- import works-exhibitions data
+\COPY works_exhibitions from 'nsworks_exhibitions.txt';
+
+-- import works-locations data
+\COPY works_locations from 'nsworks_locations.txt';
+
+-- import works-locations data
+\COPY exhibitions_locations from 'nsexhibitions_locations.txt';
+
+-- import medium data
+\COPY medium from 'nsmedium.txt';
+
+-- import doors data
+\COPY doors from 'nsdoors.txt';
+
+-- import changedvalue date
+\COPY changedvalue from 'nschangedvalue.txt';

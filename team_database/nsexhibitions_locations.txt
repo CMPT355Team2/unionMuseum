@@ -1,0 +1,14 @@
+18th Century Exhibition	2016-05-12	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-07-11
+19th Century Exhibition	2016-11-10	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2017-03-10
+20th Century Exhibition	2016-07-12	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-11-05
+Album and Others	2016-12-09	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2017-05-09
+Chinese Calligraphy	2016-09-04	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-12-04
+Fan Painting and others	2016-05-04	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-07-04
+Handscroll Special	2016-05-14	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-07-10
+Hanging Scroll Special	2016-08-14	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-12-18
+Hanging Scroll Special	2016-12-23	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2017-03-23
+Travelling Exihibition Sask A	2016-11-12	Seattle Art Museum	Saskatoon	Seattle Art Museum	Sponsor A	2016-12-03
+Travelling Exihibition Sask B	2016-12-10	Seattle Art Museum	Regina	Seattle Art Museum	Sponsor B	2016-12-31
+Travelling Exihibition Sask C	2017-01-07	Seattle Art Museum	Moose Jaw	Seattle Art Museum	Sponsor C	2017-01-28
+Travelling Exihibition Sask D	2017-02-04	Seattle Art Museum	Yorkton	Seattle Art Museum	Sponsor D	2017-02-25
+Travelling Exihibition Sask E	2017-03-04	Seattle Art Museum	Prince Albert	Seattle Art Museum	Sponsor E	2017-03-25
