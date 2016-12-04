@@ -224,7 +224,6 @@ CREATE TABLE nstransactions (
       		ON DELETE SET NULL,
 	nstrsdate nssdate not null,
 	nstredate nsedate,
-	nstrinsvalue nsinsvalue not null,
 	CHECK (nstrsdate < nstredate),
 	PRIMARY KEY (nstrcode, nstracronym, nstrmname, nstrinsname, nstrsdate)
 

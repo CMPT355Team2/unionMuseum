@@ -10,3 +10,9 @@ Bugs Bunny	306.334.5678	991 Cuberland AVE N
 Bart Simpson	306.111.0211	987 Richard AVE N
 Batman	306.713.5467	281 Gotham Road W
 Metropolitan Museum of Art_	306.112.0987	109 Kingsman AVE S
+Beijing Museum	306.123.4567	abcd street, Beijing
+New York Museum	306.777.8899	dfgs street, New York
+Shanghai Museum	306.111.6519	qwer street, Shanghai
+London Museum	306.666.6666	uiop street, London
+Vancouver Museum	306.908.8771	ujng street, Vancouver
+Calgary Museum	306.887.7990	zxcv street, Calgary

@@ -13,17 +13,6 @@ insert into nsworks
 	acqcdate, coldescription 
 	from collections;
 
--- update nsworks 
--- 	set nswsmname = dcname 
--- 	from donors 
--- 	where 
--- 	nsworks.nswscode = donors.dnumkey 
--- 	and nsworks.nswscode in (
--- 		select colnumkey 
--- 		from collections 
--- 		where acqsource = 'potentially borrowed'
--- 		);
-
 update nsworks 
 	set nswsncategory = 'sculpture' 
 	where 
@@ -44,37 +33,14 @@ update nsworks
 
 
 
+
+
 -- transfer data from exhibitions to nsexhibitions
 insert into nsexhibitions 
 	SELECT 
 	exicname, estcdate, eencdate, 'Birmingham Museum and Art Gallery' as nsexmname, 
 	exidescription 
 	FROM exhibitions;
-
--- update nsexhibitions
--- 	set nsexename = 'travelling 1' 
--- 	where
--- 	nsexename = 'Saskatoon Travelling Exhibition';
-
--- update nsexhibitions
--- 	set nsexename = 'travelling 2' 
--- 	where
--- 	nsexename = 'Regina Travelling Exhibition';
-
--- update nsexhibitions
--- 	set nsexename = 'travelling 3' 
--- 	where
--- 	nsexename = 'Rose Town Travelling Exhibition';
-
--- update nsexhibitions
--- 	set nsexename = 'travelling 4' 
--- 	where
--- 	nsexename = 'Young Town Travelling Exhibition';
-
--- update nsexhibitions
--- 	set nsexename = 'travelling 5' 
--- 	where
--- 	nsexename = 'Warman Travelling Exhibition';
 
 update nsexhibitions
 	set nsexedesc = 'Travelling exhibition in Saskatoon display history of Saskatoon.' 
@@ -105,6 +71,8 @@ update nsexhibitions
 
 
 
+
+
 -- convert locations table and export file
 insert into nslocations 
 	SELECT loclname, 'Birmingham Museum and Art Gallery' AS nslocmname, 
@@ -129,6 +97,8 @@ insert into nslocations
 
 
 
+
+
 -- convert nsinstitutions table and export file
 insert into nsinstitutions values ('Tweety', '306.231.5562', '110 Edinburgh Place');
 insert into nsinstitutions values ('Van Gogh Museum', '306.331.5551', '104 White Swan Drive');
@@ -143,7 +113,16 @@ insert into nsinstitutions values ('Bugs Bunny', '306.334.5678', '991 Cuberland 
 insert into nsinstitutions values ('Bart Simpson', '306.111.0211', '987 Richard AVE N');
 insert into nsinstitutions values ('Batman', '306.713.5467', '281 Gotham Road W');
 
+insert into nsinstitutions values ('Beijing Museum', '306.123.4567', 'abcd street, Beijing');
+insert into nsinstitutions values ('New York Museum', '306.777.8899', 'dfgs street, New York');
+insert into nsinstitutions values ('Shanghai Museum', '306.111.6519', 'qwer street, Shanghai');
+insert into nsinstitutions values ('London Museum', '306.666.6666', 'uiop street, London');
+insert into nsinstitutions values ('Vancouver Museum', '306.908.8771', 'ujng street, Vancouver');
+insert into nsinstitutions values ('Calgary Museum', '306.887.7990', 'zxcv street, Calgary');
+
 \COPY nsinstitutions to 'nsinstitutions.txt';
+
+
 
 
 
@@ -189,7 +168,6 @@ WHERE status = 'long-term borrowed' and donors.dnumkey = tempowners.numberkey;
 
 UPDATE tempowners
 SET museumname = 'Birmingham Museum and Art Gallery'
-FROM 
 WHERE status = 'potentially borrowed';
 
 UPDATE tempowners
@@ -215,16 +193,22 @@ insert into nsowners
 
 \COPY nsowners to 'nsowners.txt';
 
+DROP TABLE IF EXISTS tempowners CASCADE;
 
 
 
--- convert relation table of works and exhibitions table and export file
+
+
+
+-- convert relation table of collections and exhibitions table and export file
 
 insert into nsworks_exhibitions
 	SELECT ecnumkey, ecalphakey, 'Birmingham Museum and Art Gallery' AS nswemname1, eccname, ecscdate, 'Birmingham Museum and Art Gallery' AS nswemname2, ececdate 
 	FROM exhibition_collection;
 
 \COPY nsworks_exhibitions to 'nsworks_exhibitions.txt';
+
+
 
 
 
@@ -310,6 +294,8 @@ insert into nsmedium
 
 
 
+
+
 -- convert doors table and export file
 insert into nsdoors
 	SELECT encatename1, 'Birmingham Museum and Art Gallery' AS nsdrmname1, 'patron' AS nsdrsname2, encatename2, 'Birmingham Museum and Art Gallery' AS nsdrmname1, 'patron' AS nsdrsname2
@@ -390,7 +376,9 @@ insert into nsdoors
 
 
 
--- convert relation table of works and locations table and export file
+
+
+-- convert relation table of collections and locations table and export file
 insert into nsworks_locations
 	select clnumkey, clalphakey, 'Birmingham Museum and Art Gallery' AS nswlmname1, cllname, 'Birmingham Museum and Art Gallery' AS nswlmname2, 'patron' AS nswlsname, clscdate, clecdate
 	FROM collection_location;
@@ -584,8 +572,46 @@ insert into nsworks_locations
 
 
 
-Problem: 1. nstransactions
-		 2. count attribute in nsexhibitions table
+
+
+---- convert transactions table and export file
+--Birmingham Museum and Art Gallery bought 15 collections, borrowed 15 collections, sold 3 collections. (maybe 4 loans)
+insert into nstransactions
+	SELECT nsowcode, nsowacronym, nsowmname, nsowinsname, nsowedate, null as nstredate
+	FROM nsowners
+	WHERE
+	nsowstatus = 'sold'
+	;
+
+insert into nstransactions
+	SELECT nsowcode, nsowacronym, nsowmname, nsowinsname, nsowsdate, null as nstredate
+	FROM nsowners
+	WHERE
+	nsowstatus = 'long-term borrowed'
+	;
+
+
+insert into nstransactions
+	SELECT nsowcode, nsowacronym, nsowmname, nsowinsname, nsowsdate, null as nstredate
+	FROM nsowners
+	WHERE
+	nsowsdate = '2016-10-25'
+	;
+
+\COPY nstransactions to 'nstransactions.txt';
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

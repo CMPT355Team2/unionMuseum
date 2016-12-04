@@ -1,0 +1,33 @@
+1933432	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
+1931164	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
+1928039	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
+2000042	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-06-22	\N
+1906781	BMAGP	Birmingham Museum and Art Gallery	Tweety	2006-07-30	\N
+1995572	BMAGV	Birmingham Museum and Art Gallery	Bugs Bunny	1998-08-11	\N
+1893072	BMAGV	Birmingham Museum and Art Gallery	Bugs Bunny	1998-08-12	\N
+1937369	BMAGV	Birmingham Museum and Art Gallery	Bart Simpson	1997-03-31	\N
+1967640	BMAGC	Birmingham Museum and Art Gallery	Superman	1996-07-14	\N
+1967306	BMAGC	Birmingham Museum and Art Gallery	Tweety	1997-03-06	\N
+1993571	BMAGC	Birmingham Museum and Art Gallery	Batman	2003-05-07	\N
+1928144	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	1998-01-14	\N
+1987246	BMAGF	Birmingham Museum and Art Gallery	Batman	1999-04-26	\N
+1906839	BMAGP	Birmingham Museum and Art Gallery	Popeye	2006-08-13	\N
+1906866	BMAGP	Birmingham Museum and Art Gallery	Popeye	2006-08-16	\N
+1965541	BMAGF	Birmingham Museum and Art Gallery	Bugs Bunny	2006-04-15	\N
+2000029	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-02-09	\N
+1925100	BMAGF	Birmingham Museum and Art Gallery	Batman	1995-10-12	\N
+1906758	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1906856	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1908309	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1927458	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1906709	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1904123	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1926022	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1999008	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1999006	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1968645	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1969345	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1965230	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1995463	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1995037	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
+1995437	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
