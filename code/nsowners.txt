@@ -1,3 +1,6 @@
+67981	BMAGV	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	2016-12-04	\N	potentially borrowed
+52294	BMAGC	Birmingham Museum and Art Gallery	Denver Art Museum	2016-12-04	\N	potentially borrowed
+72257	BMAGL	Birmingham Museum and Art Gallery	Van Gogh Museum	2016-12-04	\N	potentially borrowed
 72407	BMAGL	Birmingham Museum and Art Gallery	Van Gogh Museum	2016-12-04	\N	potentially borrowed
 62769	BMAGF	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	2016-12-04	\N	potentially borrowed
 43982	BMAGP	Birmingham Museum and Art Gallery	National Museum of China	2016-12-04	\N	potentially borrowed
@@ -8,8 +11,8 @@
 18879	BMAGF	Birmingham Museum and Art Gallery	Van Gogh Museum	2016-12-04	\N	potentially borrowed
 67956	BMAGV	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	2016-12-04	\N	potentially borrowed
 79870	BMAGL	Birmingham Museum and Art Gallery	Denver Art Museum	2016-12-04	\N	potentially borrowed
-24287	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	1993-03-24	2016-10-21	sold
-22019	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	1999-01-31	2016-10-21	sold
+24287	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	1993-03-24	2016-10-21	owned
+22019	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	1999-01-31	2016-10-21	owned
 60200	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N	owned
 56085	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N	owned
 86318	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N	owned
@@ -68,7 +71,6 @@
 74268	BMAGC	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1998-04-13	\N	owned
 88299	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1997-04-04	\N	owned
 56396	BMAGF	Birmingham Museum and Art Gallery	Bugs Bunny	2006-04-15	\N	long-term borrowed
-67981	BMAGV	Birmingham Museum and Art Gallery	Metropolitan Museum of Art_	2016-12-04	\N	potentially borrowed
 96044	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2005-06-16	\N	owned
 90884	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-02-09	\N	long-term borrowed
 99999	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2009-09-18	\N	owned
@@ -78,8 +80,9 @@
 88860	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1998-05-05	\N	owned
 88861	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2012-12-30	\N	owned
 96901	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2006-04-06	\N	owned
-52294	BMAGC	Birmingham Museum and Art Gallery	Denver Art Museum	2016-12-04	\N	potentially borrowed
-72257	BMAGL	Birmingham Museum and Art Gallery	Van Gogh Museum	2016-12-04	\N	potentially borrowed
+24287	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	2016-10-21	\N	sold
+22019	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	2016-10-21	\N	sold
+18894	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	2016-10-21	\N	sold
 96951	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2006-09-06	\N	owned
 78232	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1997-03-27	\N	owned
 90897	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-06-22	\N	long-term borrowed
@@ -105,6 +108,6 @@
 2279	BMAGP	Birmingham Museum and Art Gallery	Popeye	2006-08-16	\N	long-term borrowed
 836	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N	owned
 139	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	1990-10-25	\N	owned
-18894	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	1998-03-19	2016-10-21	sold
 79008	BMAGV	Birmingham Museum and Art Gallery	Van Gogh Museum	2016-12-04	\N	potentially borrowed
 1748	BMAGP	Birmingham Museum and Art Gallery	National Museum of China	2016-12-04	\N	potentially borrowed
+18894	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	1998-03-19	2016-10-21	owned

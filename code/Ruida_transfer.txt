@@ -722,6 +722,24 @@ set nsowsdate = current_date
 WHERE nsowstatus = 'potentially borrowed';
 
 
+-- modify nsowners table
+insert into nsowners 
+	select 
+	nsowcode, nsowacronym, nsowmname, 
+	nsowinsname, nsowedate, null AS nsowedate, nsowstatus 
+	from nsowners
+	where nsowstatus = 'sold'
+	;
+
+update nsowners
+	set nsowstatus = 'owned'
+	where nsowstatus = 'sold' and nsowedate = '2016-10-21'
+	;
+
+\COPY nsowners to 'nsowners.txt';
+
+
+
 
 
 \COPY nsworks to 'nsworks.txt';
