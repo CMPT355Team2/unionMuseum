@@ -619,6 +619,10 @@ WHERE
 nswscode < 0
 ;
 
+UPDATE nsinstitutions
+set nsinsinsname = 'National Museum of China'
+WHERE 
+nsinsinsname = 'British Museum';
 
 \COPY nsworks to 'nsworks.txt';
 \COPY nsexhibitions to 'nsexhibitions.txt';

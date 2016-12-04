@@ -1,10 +1,10 @@
+24287	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	2016-10-21	\N
+22019	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	2016-10-21	\N
 60200	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
 56085	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
 86318	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
 85892	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
 86292	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
-24287	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
-22019	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
 86427	BMAGV	Birmingham Museum and Art Gallery	Bugs Bunny	1998-08-11	\N
 18999	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	1998-01-14	\N
 58495	BMAGC	Birmingham Museum and Art Gallery	Superman	1996-07-14	\N
@@ -12,6 +12,7 @@
 84426	BMAGC	Birmingham Museum and Art Gallery	Batman	2003-05-07	\N
 15955	BMAGF	Birmingham Museum and Art Gallery	Batman	1995-10-12	\N
 28224	BMAGV	Birmingham Museum and Art Gallery	Bart Simpson	1997-03-31	\N
+18894	BMAGF	Birmingham Museum and Art Gallery	National Museum of China	2016-10-21	\N
 56396	BMAGF	Birmingham Museum and Art Gallery	Bugs Bunny	2006-04-15	\N
 90884	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-02-09	\N
 90897	BMAGL	Birmingham Museum and Art Gallery	Spider-Man	2000-06-22	\N
@@ -21,7 +22,6 @@
 89863	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
 59500	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
 78101	BMAGF	Birmingham Museum and Art Gallery	Batman	1999-04-26	\N
-18894	BMAGF	Birmingham Museum and Art Gallery	British Museum	2016-10-21	\N
 16073	BMAGV	Birmingham Museum and Art Gallery	Bugs Bunny	1998-08-12	\N
 5022	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
 2436	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum and Art Gallery	2016-10-25	\N
