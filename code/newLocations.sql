@@ -1,5 +1,5 @@
-
 DROP TABLE IF EXISTS templocations CASCADE;
+DROP VIEW IF EXISTS newLocations CASCADE;
 
 CREATE TABLE templocations 
 AS SELECT * FROM ( 
@@ -28,15 +28,34 @@ AS abc (
 	);
 
 insert into locations
-	SELECT loclname, locmname, locsname, locsecurity, locinsvalue, locmeterlen, locmeterwid, locmeterhei, loccapacitymin, loccapacitymax
-	FROM templocations
-	where (locsecurity ISNULL and locinsvalue ISNULL) and locmeterlen NOTNULL and locmeterwid NOTNULL and locmeterhei NOTNULL and loccapacitymin NOTNULL and loccapacitymax NOTNULL
+	SELECT templocations.loclname, templocations.locmname, templocations.locsname, templocations.locsecurity, templocations.locinsvalue, templocations.locmeterlen, templocations.locmeterwid, templocations.locmeterhei, templocations.loccapacitymin, templocations.loccapacitymax
+	FROM templocations, locations
+	where (templocations.locsecurity ISNULL and templocations.locinsvalue ISNULL) and templocations.locmeterlen NOTNULL and templocations.locmeterwid NOTNULL and templocations.locmeterhei NOTNULL and templocations.loccapacitymin NOTNULL and templocations.loccapacitymax NOTNULL
+	and (templocations.loclname <> locations.loclname or templocations.locmname <> locations.locmname or templocations.locsname <> locations.locsname)
 	;
 
 insert into locations
-	SELECT loclname, locmname, locsname, locsecurity, locinsvalue, locmeterlen, locmeterwid, locmeterhei, loccapacitymin, loccapacitymax
-	FROM templocations
-	where (locsecurity NOTNULL and locinsvalue NOTNULL) and locmeterlen ISNULL and locmeterwid ISNULL and locmeterhei ISNULL and loccapacitymin ISNULL and loccapacitymax ISNULL
+	SELECT templocations.loclname, templocations.locmname, templocations.locsname, templocations.locsecurity, templocations.locinsvalue, templocations.locmeterlen, templocations.locmeterwid, templocations.locmeterhei, templocations.loccapacitymin, templocations.loccapacitymax
+	FROM templocations, locations
+	where (templocations.locsecurity NOTNULL and templocations.locinsvalue NOTNULL) and templocations.locmeterlen ISNULL and templocations.locmeterwid ISNULL and templocations.locmeterhei ISNULL and templocations.loccapacitymin ISNULL and templocations.loccapacitymax ISNULL
+	and (templocations.loclname <> locations.loclname or templocations.locmname <> locations.locmname or templocations.locsname <> locations.locsname)
 	;
 
-DROP TABLE IF EXISTS templocations CASCADE;
+
+CREATE VIEW newLocations
+	AS SELECT 
+		locations.loclname AS "Location Name",
+		locations.locmname AS "Museum Name",
+		locations.locsname AS "Sponsor Name",
+		locations.locsecurity AS "Security Name",
+		locations.locinsvalue AS "Insurance Value",
+		locations.locmeterlen AS "Location Length",
+		locations.locmeterwid AS "Location Width",
+		locations.locmeterhei AS "Location Height",
+		locations.loccapacitymin AS "Minimum Capacity",
+		locations.loccapacitymax AS "Maximum Capacity"
+	FROM
+		locations, templocations
+	where
+		locations.loclname = templocations.loclname and locations.locmname = templocations.locmname
+;
