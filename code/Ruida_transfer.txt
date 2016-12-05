@@ -42,30 +42,30 @@ insert into nsexhibitions
 	exidescription 
 	FROM exhibitions;
 
-update nsexhibitions
-	set nsexedesc = 'Travelling exhibition in Saskatoon display history of Saskatoon.' 
-	where
-	nsexedesc = 'travelling 1 exhibition.';
+-- update nsexhibitions
+-- 	set nsexedesc = 'Travelling exhibition in Saskatoon display history of Saskatoon.' 
+-- 	where
+-- 	nsexedesc = 'travelling 1 exhibition.';
 
-update nsexhibitions
-	set nsexedesc = 'Travelling exhibition in Regina display history of Regina.' 
-	where
-	nsexedesc = 'travelling 2 exhibition.';
+-- update nsexhibitions
+-- 	set nsexedesc = 'Travelling exhibition in Regina display history of Regina.' 
+-- 	where
+-- 	nsexedesc = 'travelling 2 exhibition.';
 
-update nsexhibitions
-	set nsexedesc = 'Travelling exhibition in Rose Town display history of Rose Town.' 
-	where
-	nsexedesc = 'travelling 3 exhibition.';
+-- update nsexhibitions
+-- 	set nsexedesc = 'Travelling exhibition in Rose Town display history of Rose Town.' 
+-- 	where
+-- 	nsexedesc = 'travelling 3 exhibition.';
 
-update nsexhibitions
-	set nsexedesc = 'Travelling exhibition in Young Town display history of Young Town.' 
-	where
-	nsexedesc = 'travelling 4 exhibition.';
+-- update nsexhibitions
+-- 	set nsexedesc = 'Travelling exhibition in Young Town display history of Young Town.' 
+-- 	where
+-- 	nsexedesc = 'travelling 4 exhibition.';
 
-update nsexhibitions
-	set nsexedesc = 'Travelling exhibition in Warman display history of Warman.' 
-	where
-	nsexedesc = 'travelling 5 exhibition.';
+-- update nsexhibitions
+-- 	set nsexedesc = 'Travelling exhibition in Warman display history of Warman.' 
+-- 	where
+-- 	nsexedesc = 'travelling 5 exhibition.';
 
 \COPY nsexhibitions to 'nsexhibitions.txt';
 
