@@ -140,7 +140,7 @@ CREATE TABLE tempowners (
 	status nsstatus
 );
 
-insert into nsowners
+insert into tempowners
 	SELECT colnumkey, colalphakey, null AS museumname, null AS institutionname, acqcdate, null AS nsowedate, acqsource
 	FROM collections
 	;
