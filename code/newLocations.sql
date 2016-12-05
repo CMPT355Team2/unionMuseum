@@ -30,15 +30,15 @@ AS abc (
 insert into locations
 	SELECT templocations.loclname, templocations.locmname, templocations.locsname, templocations.locsecurity, templocations.locinsvalue, templocations.locmeterlen, templocations.locmeterwid, templocations.locmeterhei, templocations.loccapacitymin, templocations.loccapacitymax
 	FROM templocations, locations
-	where (templocations.locsecurity ISNULL and templocations.locinsvalue ISNULL) and templocations.locmeterlen NOTNULL and templocations.locmeterwid NOTNULL and templocations.locmeterhei NOTNULL and templocations.loccapacitymin NOTNULL and templocations.loccapacitymax NOTNULL
-	and (templocations.loclname <> locations.loclname or templocations.locmname <> locations.locmname or templocations.locsname <> locations.locsname)
+	where ((templocations.loclname, templocations.locmname, templocations.locsname) NOT IN (SELECT loclname, locmname, locsname FROM locations))
+	and ((templocations.locsecurity NOTNULL and templocations.locinsvalue NOTNULL) and templocations.locmeterlen ISNULL and templocations.locmeterwid ISNULL and templocations.locmeterhei ISNULL and templocations.loccapacitymin ISNULL and templocations.loccapacitymax ISNULL)
 	;
 
 insert into locations
 	SELECT templocations.loclname, templocations.locmname, templocations.locsname, templocations.locsecurity, templocations.locinsvalue, templocations.locmeterlen, templocations.locmeterwid, templocations.locmeterhei, templocations.loccapacitymin, templocations.loccapacitymax
 	FROM templocations, locations
-	where (templocations.locsecurity NOTNULL and templocations.locinsvalue NOTNULL) and templocations.locmeterlen ISNULL and templocations.locmeterwid ISNULL and templocations.locmeterhei ISNULL and templocations.loccapacitymin ISNULL and templocations.loccapacitymax ISNULL
-	and (templocations.loclname <> locations.loclname or templocations.locmname <> locations.locmname or templocations.locsname <> locations.locsname)
+	where ((templocations.loclname, templocations.locmname, templocations.locsname) NOT IN (SELECT loclname, locmname, locsname FROM locations))
+	and ((templocations.locsecurity NOTNULL and templocations.locinsvalue NOTNULL) and templocations.locmeterlen ISNULL and templocations.locmeterwid ISNULL and templocations.locmeterhei ISNULL and templocations.loccapacitymin ISNULL and templocations.loccapacitymax ISNULL)
 	;
 
 

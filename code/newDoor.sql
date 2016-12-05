@@ -25,20 +25,15 @@ AS abc (
 insert into doors 
 	SELECT tempdoors.drlname1, tempdoors.drmname1, tempdoors.drsname1, tempdoors.drlname2, tempdoors.drmname2, tempdoors.drsname2
 	FROM tempdoors, doors
-	where tempdoors.drmname1 in ('Museum of Moving Image', 'Seattle Art Museum', 'Birmingham Museum and Art Gallery', 'Prado Museum', 'Art Gallery NSW')
+	where ((tempdoors.drlname1, tempdoors.drmname1, tempdoors.drsname1, tempdoors.drlname2, tempdoors.drmname2, tempdoors.drsname2) NOT IN (SELECT doors.drlname1, doors.drmname1, doors.drsname1, doors.drlname2, doors.drmname2, doors.drsname2 FROM doors))
+	and (tempdoors.drmname1 in ('Museum of Moving Image', 'Seattle Art Museum', 'Birmingham Museum and Art Gallery', 'Prado Museum', 'Art Gallery NSW')
 	and tempdoors.drmname1 = tempdoors.drmname2 
 	and tempdoors.drlname1 <> tempdoors.drlname2 
 	and tempdoors.drlname1 in (SELECT loclname FROM locations where tempdoors.drmname1 = locmname and locsecurity ISNULL) 
 	and tempdoors.drlname2 in (SELECT loclname FROM locations where tempdoors.drmname2 = locmname and locsecurity ISNULL)
 	and tempdoors.drsname1 = tempdoors.drsname2
-	and tempdoors.drsname1 = 'patron'
-	and (doors.drlname1 <> tempdoors.drlname1
-	or doors.drmname1 <> tempdoors.drmname1
-	or doors.drsname1 <> tempdoors.drsname1
-	or doors.drlname2 <> tempdoors.drlname2
-	or doors.drmname2 <> tempdoors.drmname2
-	or doors.drsname2 <> tempdoors.drsname2
-	);
+	and tempdoors.drsname1 = 'patron')
+	;
 
 CREATE VIEW newDoors
 	AS SELECT 
