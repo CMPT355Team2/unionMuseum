@@ -1,0 +1,14 @@
+exhibition1	2016-07-01	Prado Museum	galleryA	Prado Museum	patron	2016-12-31
+exhibition2	2016-08-01	Prado Museum	galleryB	Prado Museum	patron	2017-01-31
+exhibition3	2016-09-01	Prado Museum	galleryC	Prado Museum	patron	2017-03-01
+exhibition4	2017-01-05	Prado Museum	galleryA	Prado Museum	patron	2017-05-05
+exhibition5	2017-02-05	Prado Museum	galleryB	Prado Museum	patron	2017-07-05
+exhibition6	2017-03-06	Prado Museum	galleryC	Prado Museum	patron	2017-06-06
+old_exhibition1	2016-01-01	Prado Museum	galleryA	Prado Museum	patron	2016-06-30
+old_exhibition2	2016-02-01	Prado Museum	galleryB	Prado Museum	patron	2016-07-30
+old_exhibition3	2016-03-01	Prado Museum	galleryC	Prado Museum	patron	2016-08-30
+travellingExhibition1	2017-01-07	Prado Museum	Saskatoon	Prado Museum	sponsor1	2017-01-28
+travellingExhibition2	2017-02-04	Prado Museum	Kindersley	Prado Museum	sponsor2	2017-02-25
+travellingExhibition3	2017-03-04	Prado Museum	Nipawin	Prado Museum	sponsor3	2017-03-25
+travellingExhibition4	2017-04-01	Prado Museum	Battleford	Prado Museum	sponsor4	2017-04-22
+travellingExhibition5	2017-04-29	Prado Museum	Regina	Prado Museum	sponsor5	2017-05-20

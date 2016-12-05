@@ -1,0 +1,11 @@
+storage	Art Gallery NSW	patron	\N	\N	30	35	10	0	600
+lobby	Art Gallery NSW	patron	\N	\N	5	5	10	2	4
+gallerySmallA	Art Gallery NSW	patron	\N	\N	10	10	10	7	16
+gallerySmallB	Art Gallery NSW	patron	\N	\N	10	10	10	7	16
+galleryLarge	Art Gallery NSW	patron	\N	\N	15	20	10	14	24
+galleryLarge2	Art Gallery NSW	patron	\N	\N	16	21	10	15	25
+Moose Jaw	Art Gallery NSW	Spider Man	Marc	5000	0	0	0	0	15
+Prince Albert	Art Gallery NSW	Super Man	Jessica	5000	0	0	0	0	15
+Regina	Art Gallery NSW	Jack	Jerry	5000	0	0	0	0	15
+Swift Current	Art Gallery NSW	Super Man	Jessica	5000	0	0	0	0	15
+Yorkton	Art Gallery NSW	Harry	Jeff	5000	0	0	0	0	15

@@ -1,0 +1,12 @@
+Art Gallery NSW	300.000.1700	Art Gallery Rd, Sydney NSW 2000, Australia
+Cookie Monster	400.000.8886	10 Cookie Street
+Patrick Star	500.000.0000	120 Conch Street, Bikini Bottom, Pacific Ocea
+spongebob	600.000.0000	124 Conch Street Bikini Bottom Pacific Ocean
+British Museum	700.000.0000	Great Russell St, London WC1B 3DG, UK
+Other Museum	800.000.0000	9 Cookie Street, Saskatoon, SK
+U of T	416.970.2011	27 King's College Cir, Toronto
+U of A	786.490.3111	116 St & 85 Ave, Edmonton
+U of C	406.220.5110	2500 University Dr NW, Calgary
+U of S	306.960.4343	91 Campus Dr, Saskatoon
+U of M	806.430.1960	66 Chancellors Cir, Winnipeg
+SFU	776.780.3111	 8888 University Dr, Burnaby

@@ -1,0 +1,10 @@
+Seattle Art Museum	sam@gmail.com	2016-12-04	\N
+Other	other@gmail.com	2016-12-04	\N
+Jerry	jerry@gmail.com	2016-12-04	\N
+Tom	tom@gmail.com	2016-12-04	\N
+Petter	petter@gmail.com	2016-12-04	\N
+Kongzi college	kzc@gmail.com	2016-12-04	\N
+Chinese Kongzi College	ckzc@gmail.com	2016-12-04	\N
+Institutions Iron	insti@gmail.com	2016-12-04	\N
+Institutions Metal	instm@gmail.com	2016-12-04	\N
+Institutions Jasper	instj@gmail.com	2016-12-04	\N

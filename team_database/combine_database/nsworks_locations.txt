@@ -1,0 +1,219 @@
+19683	CCW	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1739	CF	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1947	CJY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1991	CSW	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1740	CL	Seattle Art Museum	Storage	Seattle Art Museum	patron	2011-12-04 00:00:00	2016-05-12 00:00:00
+1999	CHN	Seattle Art Museum	Storage	Seattle Art Museum	patron	2002-12-31 00:00:00	2016-05-04 00:00:00
+1969	CCW	Seattle Art Museum	Storage	Seattle Art Museum	patron	2003-03-03 00:00:00	2016-05-14 00:00:00
+19781	CCF	Seattle Art Museum	Storage	Seattle Art Museum	patron	2010-08-06 00:00:00	2016-05-14 00:00:00
+19391	CCF	Seattle Art Museum	Storage	Seattle Art Museum	patron	1997-05-07 00:00:00	2016-05-14 00:00:00
+1939	CCF	Seattle Art Museum	Storage	Seattle Art Museum	patron	2006-01-14 00:00:00	2016-05-14 00:00:00
+1755	CJR	Seattle Art Museum	Storage	Seattle Art Museum	patron	2006-01-08 00:00:00	2016-07-12 00:00:00
+1999	CCF	Seattle Art Museum	Storage	Seattle Art Museum	patron	2003-12-31 00:00:00	2016-07-12 00:00:00
+1978	CCF	Seattle Art Museum	Storage	Seattle Art Museum	patron	2010-08-05 00:00:00	2016-08-14 00:00:00
+1988	CCF	Seattle Art Museum	Storage	Seattle Art Museum	patron	2010-08-04 00:00:00	2016-08-14 00:00:00
+1699	BDSR	Seattle Art Museum	Storage	Seattle Art Museum	patron	2012-01-08 00:00:00	2016-08-14 00:00:00
+1991	CCF	Seattle Art Museum	Storage	Seattle Art Museum	patron	1999-12-31 00:00:00	2016-08-14 00:00:00
+1985	CSX	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1899	GDS	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1555	HC	Seattle Art Museum	Storage	Seattle Art Museum	patron	2007-01-31 00:00:00	\N
+1741	HS	Seattle Art Museum	Storage	Seattle Art Museum	patron	1991-12-16 00:00:00	\N
+1977	KSW	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1965	LGS	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1967	LGS	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1599	LJ	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1699	LL	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1866	QH	Seattle Art Museum	Storage	Seattle Art Museum	patron	2010-01-04 00:00:00	\N
+1899	QY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1999	RCY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1991	RZY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+19282	TG	Seattle Art Museum	Storage	Seattle Art Museum	patron	1999-11-10 00:00:00	\N
+1939	TL	Seattle Art Museum	Storage	Seattle Art Museum	patron	2010-09-04 00:00:00	\N
+1691	UNKA	Seattle Art Museum	Storage	Seattle Art Museum	patron	1994-05-18 00:00:00	\N
+1699	UNKA	Seattle Art Museum	Storage	Seattle Art Museum	patron	1994-07-17 00:00:00	\N
+1891	UNKA	Seattle Art Museum	Storage	Seattle Art Museum	patron	2002-02-02 00:00:00	\N
+1999	WFY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2001-10-06 00:00:00	\N
+1900	WGX	Seattle Art Museum	Storage	Seattle Art Museum	patron	1995-06-05 00:00:00	\N
+2007	WLT	Seattle Art Museum	Storage	Seattle Art Museum	patron	2012-08-08 00:00:00	\N
+1977	ZD	Seattle Art Museum	Storage	Seattle Art Museum	patron	2007-09-06 00:00:00	\N
+1946	ZDQ	Seattle Art Museum	Storage	Seattle Art Museum	patron	2005-11-08 00:00:00	\N
+1793	ZDW	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-10-25 00:00:00	\N
+1899	ZH	Seattle Art Museum	Storage	Seattle Art Museum	patron	2010-12-06 00:00:00	\N
+1977	ZQX	Seattle Art Museum	Storage	Seattle Art Museum	patron	1995-06-15 00:00:00	\N
+1740	CL	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-05-12 00:00:00	2016-07-11 00:00:00
+1792	ZY	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-05-12 00:00:00	2016-07-11 00:00:00
+1712	LM	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-05-12 00:00:00	2016-07-11 00:00:00
+1700	GQP	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-05-12 00:00:00	2016-07-11 00:00:00
+1775	LP	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-05-12 00:00:00	2016-07-11 00:00:00
+1701	SC	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-05-12 00:00:00	2016-07-11 00:00:00
+1731	HS	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-05-12 00:00:00	2016-07-11 00:00:00
+1762	LP	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-05-12 00:00:00	2016-07-11 00:00:00
+1619	SMJ	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-05-04 00:00:00	2016-07-04 00:00:00
+18911	SZL	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-05-04 00:00:00	2016-07-04 00:00:00
+1999	CHN	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-05-04 00:00:00	2016-07-04 00:00:00
+1879	WTH	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-05-04 00:00:00	2016-07-04 00:00:00
+1299	UNKA	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-05-04 00:00:00	2016-07-04 00:00:00
+1492	SZ	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+1521	WZG	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+1985	CSX	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+1991	RZY	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+1891	SZL	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+1969	CCW	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+1638	WJZ	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+19781	CCF	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+1962	SYM	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+1943	SYM	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+19391	CCF	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+1939	CCF	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-05-14 00:00:00	2016-07-10 00:00:00
+1792	ZY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2008-03-01 00:00:00	2016-05-12 00:00:00
+1712	LM	Seattle Art Museum	Storage	Seattle Art Museum	patron	2001-09-06 00:00:00	2016-05-12 00:00:00
+1700	GQP	Seattle Art Museum	Storage	Seattle Art Museum	patron	1996-09-09 00:00:00	2016-05-12 00:00:00
+1775	LP	Seattle Art Museum	Storage	Seattle Art Museum	patron	2003-11-08 00:00:00	2016-05-12 00:00:00
+1701	SC	Seattle Art Museum	Storage	Seattle Art Museum	patron	2001-12-31 00:00:00	2016-05-12 00:00:00
+1731	HS	Seattle Art Museum	Storage	Seattle Art Museum	patron	2002-10-31 00:00:00	2016-05-12 00:00:00
+1762	LP	Seattle Art Museum	Storage	Seattle Art Museum	patron	1995-06-18 00:00:00	2016-05-12 00:00:00
+1619	SMJ	Seattle Art Museum	Storage	Seattle Art Museum	patron	2005-05-02 00:00:00	2016-05-04 00:00:00
+18911	SZL	Seattle Art Museum	Storage	Seattle Art Museum	patron	1999-12-04 00:00:00	2016-05-04 00:00:00
+1879	WTH	Seattle Art Museum	Storage	Seattle Art Museum	patron	2009-06-08 00:00:00	2016-05-04 00:00:00
+1299	UNKA	Seattle Art Museum	Storage	Seattle Art Museum	patron	2007-12-22 00:00:00	2016-05-04 00:00:00
+1891	SZL	Seattle Art Museum	Storage	Seattle Art Museum	patron	2002-10-10 00:00:00	2016-05-14 00:00:00
+1638	WJZ	Seattle Art Museum	Storage	Seattle Art Museum	patron	2001-09-30 00:00:00	2016-05-14 00:00:00
+1962	SYM	Seattle Art Museum	Storage	Seattle Art Museum	patron	2009-04-09 00:00:00	2016-05-14 00:00:00
+1943	SYM	Seattle Art Museum	Storage	Seattle Art Museum	patron	1998-05-09 00:00:00	2016-05-14 00:00:00
+1740	CL	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-11 00:00:00	\N
+1619	SMJ	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-04 00:00:00	\N
+18911	SZL	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-04 00:00:00	\N
+1999	CHN	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-04 00:00:00	\N
+1879	WTH	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-04 00:00:00	\N
+1299	UNKA	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-04 00:00:00	\N
+1492	SZ	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	\N
+1521	WZG	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	\N
+1985	CSX	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	\N
+1991	RZY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	\N
+1891	SZL	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	\N
+1969	CCW	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	\N
+1638	WJZ	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	\N
+1943	SYM	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	\N
+19391	CCF	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	\N
+1939	CCF	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	\N
+1755	CJR	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-07-12 00:00:00	2016-11-05 00:00:00
+1928	TG	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-07-12 00:00:00	2016-11-05 00:00:00
+1999	QBS	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-07-12 00:00:00	2016-11-05 00:00:00
+1955	WZY	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-07-12 00:00:00	2016-11-05 00:00:00
+1960	ZSA	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-07-12 00:00:00	2016-11-05 00:00:00
+1999	CCF	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-07-12 00:00:00	2016-11-05 00:00:00
+1939	GQF	Seattle Art Museum	Storage	Seattle Art Museum	patron	1996-12-04 00:00:00	2016-07-12 00:00:00
+1962	SYM	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	2016-07-12 00:00:00
+19781	CCF	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-10 00:00:00	2016-07-12 00:00:00
+1940	SYM	Seattle Art Museum	Storage	Seattle Art Museum	patron	2003-11-07 00:00:00	2016-07-12 00:00:00
+19281	TG	Seattle Art Museum	Storage	Seattle Art Museum	patron	1999-11-10 00:00:00	2016-09-04 00:00:00
+1899	DH	Seattle Art Museum	Storage	Seattle Art Museum	patron	2001-01-31 00:00:00	2016-09-04 00:00:00
+1812	SXY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2004-12-04 00:00:00	2016-09-04 00:00:00
+1775	LP	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-11 00:00:00	2016-09-04 00:00:00
+1944	SYM	Seattle Art Museum	Storage	Seattle Art Museum	patron	2003-12-31 00:00:00	2016-09-04 00:00:00
+1762	LP	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-11 00:00:00	2016-09-04 00:00:00
+1638	SM	Seattle Art Museum	Storage	Seattle Art Museum	patron	2002-04-25 00:00:00	2016-09-04 00:00:00
+1988	WLT	Seattle Art Museum	Storage	Seattle Art Museum	patron	1998-08-05 00:00:00	2016-09-04 00:00:00
+2009	CY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2010-08-08 00:00:00	2016-09-04 00:00:00
+2009	HRD	Seattle Art Museum	Storage	Seattle Art Museum	patron	2011-03-01 00:00:00	2016-09-04 00:00:00
+1939	GQF	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-07-12 00:00:00	2016-11-05 00:00:00
+1962	SYM	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-07-12 00:00:00	2016-11-05 00:00:00
+19781	CCF	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-07-12 00:00:00	2016-11-05 00:00:00
+1940	SYM	Seattle Art Museum	Century Expo	Seattle Art Museum	patron	2016-07-12 00:00:00	2016-11-05 00:00:00
+19281	TG	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1899	DH	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1812	SXY	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1775	LP	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1944	SYM	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1762	LP	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1638	SM	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1988	WLT	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+2009	CY	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+2009	HRD	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1942	SYM	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1980	TJN	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1971	RZY	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1961	SYM	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+2009	XB	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1701	SC	Seattle Art Museum	Unique Expo	Seattle Art Museum	patron	2016-09-04 00:00:00	2016-12-04 00:00:00
+1792	ZY	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1731	HS	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1712	LM	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1978	CCF	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1891	WDC	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1955	WFY	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1988	CCF	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1345	XC	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1887	RBN	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1450	XHS	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1499	UNKA	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1624	LY	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1699	BDSR	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1629	SSC	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1561	WBR	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1130	LAZ	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1689	ST	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1440	YH	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1930	YYR	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1991	CCF	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1700	GQP	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1921	QBS	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1368	UNKA	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1978	LSZ	Seattle Art Museum	Summary Expo	Seattle Art Museum	patron	2016-08-14 00:00:00	2016-12-18 00:00:00
+1928	TG	Seattle Art Museum	Storage	Seattle Art Museum	patron	2001-12-31 00:00:00	2016-07-12 00:00:00
+1999	QBS	Seattle Art Museum	Storage	Seattle Art Museum	patron	2002-12-31 00:00:00	2016-07-12 00:00:00
+1955	WZY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2001-06-06 00:00:00	2016-07-12 00:00:00
+1960	ZSA	Seattle Art Museum	Storage	Seattle Art Museum	patron	1997-10-31 00:00:00	2016-07-12 00:00:00
+1942	SYM	Seattle Art Museum	Storage	Seattle Art Museum	patron	2001-04-05 00:00:00	2016-09-04 00:00:00
+1980	TJN	Seattle Art Museum	Storage	Seattle Art Museum	patron	2002-04-13 00:00:00	2016-09-04 00:00:00
+1971	RZY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2001-12-12 00:00:00	2016-09-04 00:00:00
+1961	SYM	Seattle Art Museum	Storage	Seattle Art Museum	patron	2001-12-13 00:00:00	2016-09-04 00:00:00
+2009	XB	Seattle Art Museum	Storage	Seattle Art Museum	patron	2010-05-18 00:00:00	2016-09-04 00:00:00
+1701	SC	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-11 00:00:00	2016-09-04 00:00:00
+1792	ZY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-11 00:00:00	2016-08-14 00:00:00
+1731	HS	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-11 00:00:00	2016-08-14 00:00:00
+1712	LM	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-11 00:00:00	2016-08-14 00:00:00
+1891	WDC	Seattle Art Museum	Storage	Seattle Art Museum	patron	1993-01-07 00:00:00	2016-08-14 00:00:00
+1955	WFY	Seattle Art Museum	Storage	Seattle Art Museum	patron	1994-09-01 00:00:00	2016-08-14 00:00:00
+1345	XC	Seattle Art Museum	Storage	Seattle Art Museum	patron	2014-12-20 00:00:00	2016-08-14 00:00:00
+1887	RBN	Seattle Art Museum	Storage	Seattle Art Museum	patron	2012-01-08 00:00:00	2016-08-14 00:00:00
+1450	XHS	Seattle Art Museum	Storage	Seattle Art Museum	patron	1990-07-02 00:00:00	2016-08-14 00:00:00
+1499	UNKA	Seattle Art Museum	Storage	Seattle Art Museum	patron	2008-01-31 00:00:00	2016-08-14 00:00:00
+1624	LY	Seattle Art Museum	Storage	Seattle Art Museum	patron	2011-08-13 00:00:00	2016-08-14 00:00:00
+1629	SSC	Seattle Art Museum	Storage	Seattle Art Museum	patron	2007-12-22 00:00:00	2016-08-14 00:00:00
+1561	WBR	Seattle Art Museum	Storage	Seattle Art Museum	patron	2007-12-22 00:00:00	2016-08-14 00:00:00
+1130	LAZ	Seattle Art Museum	Storage	Seattle Art Museum	patron	2011-10-13 00:00:00	2016-08-14 00:00:00
+1689	ST	Seattle Art Museum	Storage	Seattle Art Museum	patron	2007-12-22 00:00:00	2016-08-14 00:00:00
+1440	YH	Seattle Art Museum	Storage	Seattle Art Museum	patron	2007-12-22 00:00:00	2016-08-14 00:00:00
+1930	YYR	Seattle Art Museum	Storage	Seattle Art Museum	patron	1997-08-09 00:00:00	2016-08-14 00:00:00
+1700	GQP	Seattle Art Museum	Storage	Seattle Art Museum	patron	2016-07-11 00:00:00	2016-08-14 00:00:00
+1921	QBS	Seattle Art Museum	Storage	Seattle Art Museum	patron	2002-01-31 00:00:00	2016-08-14 00:00:00
+1368	UNKA	Seattle Art Museum	Storage	Seattle Art Museum	patron	2002-12-31 00:00:00	2016-08-14 00:00:00
+1978	LSZ	Seattle Art Museum	Storage	Seattle Art Museum	patron	2001-12-31 00:00:00	2016-08-14 00:00:00
+1939	CCF	Seattle Art Museum	Lobby Expo	Seattle Art Museum	patron	2016-07-01 00:00:00	\N
+1991	CCF	Seattle Art Museum	Lobby Expo	Seattle Art Museum	patron	2016-07-01 00:00:00	\N
+19683	CCW	Seattle Art Museum	Saskatoon	Seattle Art Museum	Sponsor A	2016-11-12 00:00:00	2016-12-03 00:00:00
+1739	CF	Seattle Art Museum	Saskatoon	Seattle Art Museum	Sponsor A	2016-11-12 00:00:00	2016-12-03 00:00:00
+1947	CJY	Seattle Art Museum	Saskatoon	Seattle Art Museum	Sponsor A	2016-11-12 00:00:00	2016-12-03 00:00:00
+1991	CSW	Seattle Art Museum	Saskatoon	Seattle Art Museum	Sponsor A	2016-11-12 00:00:00	2016-12-03 00:00:00
+1985	CSX	Seattle Art Museum	Saskatoon	Seattle Art Museum	Sponsor A	2016-11-12 00:00:00	2016-12-03 00:00:00
+1739	CF	Seattle Art Museum	Regina	Seattle Art Museum	Sponsor B	2016-12-10 00:00:00	2016-12-31 00:00:00
+1947	CJY	Seattle Art Museum	Regina	Seattle Art Museum	Sponsor B	2016-12-10 00:00:00	2016-12-31 00:00:00
+1991	CSW	Seattle Art Museum	Regina	Seattle Art Museum	Sponsor B	2016-12-10 00:00:00	2016-12-31 00:00:00
+1985	CSX	Seattle Art Museum	Regina	Seattle Art Museum	Sponsor B	2016-12-10 00:00:00	2016-12-31 00:00:00
+19683	CCW	Seattle Art Museum	Regina	Seattle Art Museum	Sponsor B	2016-12-10 00:00:00	2016-12-31 00:00:00
+1991	CSW	Seattle Art Museum	Moose Jaw	Seattle Art Museum	Sponsor C	2017-01-07 00:00:00	2017-01-28 00:00:00
+1985	CSX	Seattle Art Museum	Moose Jaw	Seattle Art Museum	Sponsor C	2017-01-07 00:00:00	2017-01-28 00:00:00
+19683	CCW	Seattle Art Museum	Moose Jaw	Seattle Art Museum	Sponsor C	2017-01-07 00:00:00	2017-01-28 00:00:00
+1739	CF	Seattle Art Museum	Moose Jaw	Seattle Art Museum	Sponsor C	2017-01-07 00:00:00	2017-01-28 00:00:00
+1947	CJY	Seattle Art Museum	Moose Jaw	Seattle Art Museum	Sponsor C	2017-01-07 00:00:00	2017-01-28 00:00:00
+1991	CSW	Seattle Art Museum	Yorkton	Seattle Art Museum	Sponsor D	2017-02-04 00:00:00	2017-02-25 00:00:00
+1985	CSX	Seattle Art Museum	Yorkton	Seattle Art Museum	Sponsor D	2017-02-04 00:00:00	2017-02-25 00:00:00
+19683	CCW	Seattle Art Museum	Yorkton	Seattle Art Museum	Sponsor D	2017-02-04 00:00:00	2017-02-25 00:00:00
+1739	CF	Seattle Art Museum	Yorkton	Seattle Art Museum	Sponsor D	2017-02-04 00:00:00	2017-02-25 00:00:00
+1947	CJY	Seattle Art Museum	Yorkton	Seattle Art Museum	Sponsor D	2017-02-04 00:00:00	2017-02-25 00:00:00
+1739	CF	Seattle Art Museum	Prince Albert	Seattle Art Museum	Sponsor E	2017-03-04 00:00:00	2017-03-25 00:00:00
+1947	CJY	Seattle Art Museum	Prince Albert	Seattle Art Museum	Sponsor E	2017-03-04 00:00:00	2017-03-25 00:00:00
+1991	CSW	Seattle Art Museum	Prince Albert	Seattle Art Museum	Sponsor E	2017-03-04 00:00:00	2017-03-25 00:00:00
+1985	CSX	Seattle Art Museum	Prince Albert	Seattle Art Museum	Sponsor E	2017-03-04 00:00:00	2017-03-25 00:00:00
+19683	CCW	Seattle Art Museum	Prince Albert	Seattle Art Museum	Sponsor E	2017-03-04 00:00:00	2017-03-25 00:00:00

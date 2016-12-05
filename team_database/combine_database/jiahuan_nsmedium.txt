@@ -1,0 +1,159 @@
+ASPOE	49909	Art Gallery NSW	brass
+ASRC	50301	Art Gallery NSW	deerhorn
+ASBWD	49302	Art Gallery NSW	stoneware
+ASBWD	49302	Art Gallery NSW	enamel
+ASRSO	50302	Art Gallery NSW	gouache
+ASRSO	50302	Art Gallery NSW	watercolour
+ASRSO	50302	Art Gallery NSW	Vasli paper
+AASBS	49801	Art Gallery NSW	synthetic polymer paint on canvas
+AATP	50201	Art Gallery NSW	ink
+AATP	50201	Art Gallery NSW	white wove paper
+AASO	50702	Art Gallery NSW	batik on silk
+AAW	51002	Art Gallery NSW	synthetic polymer paint on linen canvas
+AAJS	49901	Art Gallery NSW	pastel on white wove paper
+AUTR	49001	Art Gallery NSW	black ink
+AUTR	49001	Art Gallery NSW	ivory laid paper
+AUTBT	50903	Art Gallery NSW	oil on canvas
+AUHR	49002	Art Gallery NSW	paper
+AUHR	49002	Art Gallery NSW	watercolour
+AUHAA	49802	Art Gallery NSW	ivory wove paper
+AUTIA	50002	Art Gallery NSW	clay
+AUTIA	50002	Art Gallery NSW	wax
+AUTIA	50002	Art Gallery NSW	wick
+AUTIA	50002	Art Gallery NSW	silicone
+AUMP	50901	Art Gallery NSW	synthetic polymer paint
+AUMP	50901	Art Gallery NSW	concrete on hardboard
+AUTNH	50902	Art Gallery NSW	oil on canvas on hardboard
+AUASR	49908	Art Gallery NSW	watercolour
+AUASR	49908	Art Gallery NSW	paper
+AUBT	50001	Art Gallery NSW	steel
+AUBT	50001	Art Gallery NSW	aluminium
+AUBT	50001	Art Gallery NSW	fiberglass
+AUBT	50001	Art Gallery NSW	rubber
+AUBT	50001	Art Gallery NSW	leather
+AAIN	51415	Art Gallery NSW	inks
+AUBT	50001	Art Gallery NSW	lacquer
+ASH	49903	Art Gallery NSW	silk
+ASH	49903	Art Gallery NSW	weft
+ASC	49904	Art Gallery NSW	scrolls
+ASC	49904	Art Gallery NSW	ink
+ASRK	50120	Art Gallery NSW	canvas
+ASFOR	50332	Art Gallery NSW	canvas
+ASPIR	50203	Art Gallery NSW	scrolls
+ASPIR	50203	Art Gallery NSW	ink
+ASSB	49401	Art Gallery NSW	stoneware
+ASLC	49701	Art Gallery NSW	porcelain
+AATSP	63217	Art Gallery NSW	textured Somerset satin paper
+ASLC	49701	Art Gallery NSW	enamel
+ASS	49710	Art Gallery NSW	brass
+ASB	49804	Art Gallery NSW	silver alloy
+AST	49805	Art Gallery NSW	gold
+ASOB	49704	Art Gallery NSW	porcelain
+AAGWF	17003	Art Gallery NSW	black ink
+ASOB	49704	Art Gallery NSW	enamel
+ASMFL	49905	Art Gallery NSW	scrolls
+ASMFL	49905	Art Gallery NSW	ink
+ASRST	50401	Art Gallery NSW	watercolour
+ASRST	50401	Art Gallery NSW	Vasli paper
+WEPHA	49703	Art Gallery NSW	oil on canvas
+PMN	49105	Art Gallery NSW	grass stem
+PMN	49105	Art Gallery NSW	split rattan
+PMN	49105	Art Gallery NSW	cotton fabric
+PMN	49105	Art Gallery NSW	wood pendant
+PMN	49105	Art Gallery NSW	plant fibre string
+AAES	65427	Art Gallery NSW	white paper
+AAOBW	64192	Art Gallery NSW	oil on board
+AAST	50801	Art Gallery NSW	batik on silk
+AAWSB	49702	Art Gallery NSW	ochre on carved wood
+ASK	49705	Art Gallery NSW	porcelain
+WEL	49202	Art Gallery NSW	paper
+WED	49304	Art Gallery NSW	bronze
+WEGOM	50701	Art Gallery NSW	porcelain
+WECB	49806	Art Gallery NSW	polyester resin
+WED	49303	Art Gallery NSW	bronze
+WELTR	49707	Art Gallery NSW	wood
+WEW	49902	Art Gallery NSW	wood
+WEJL	50202	Art Gallery NSW	oil and wax on linen
+WETVA	49706	Art Gallery NSW	woodcut
+WETLC	50501	Art Gallery NSW	paper
+WEC	50503	Art Gallery NSW	steel
+WETF	37122	Art Gallery NSW	paper
+WERAT	44586	Art Gallery NSW	paper
+ASM	42265	Art Gallery NSW	gold
+WEDS	60207	Art Gallery NSW	soft-paste porcelain
+WEVAC	62218	Art Gallery NSW	hard-paste porcelain
+WEPWW	32147	Art Gallery NSW	watercolour
+WEPWW	32147	Art Gallery NSW	gouache
+WEPWW	32147	Art Gallery NSW	ink
+WETNO	51155	Art Gallery NSW	tempera on hardboard
+AUJB	64161	Art Gallery NSW	inkjet print
+AUTBX	60513	Art Gallery NSW	oil on canvas
+AUTFN	53260	Art Gallery NSW	ivory wove paper
+AUTFN	53260	Art Gallery NSW	black ink
+AULIS	33265	Art Gallery NSW	oil on canvas
+AURT	31822	Art Gallery NSW	black ink
+WETA	52111	Art Gallery NSW	paper
+WETE	62265	Art Gallery NSW	paper
+WETAT	52112	Art Gallery NSW	paper
+WEGFB	31221	Art Gallery NSW	oil on board
+WEWBW	64256	Art Gallery NSW	paper
+ASGW	49173	Art Gallery NSW	canvas
+ASAST	52151	Art Gallery NSW	canvas
+WEGFB	31222	Art Gallery NSW	oil on canvas
+WELLW	53362	Art Gallery NSW	paper
+PSHD	90303	Art Gallery NSW	carved and painted wood
+PTPSK	70803	Art Gallery NSW	animal skin
+PKRT	1203	Art Gallery NSW	conus shell
+PGSF	80403	Art Gallery NSW	carved Cycas
+AANNK	20903	Art Gallery NSW	linen canvas
+WEJYM	49803	Art Gallery NSW	oil on canvas
+WEGOM	50703	Art Gallery NSW	silk
+PN	49201	Art Gallery NSW	cowrie shells
+PN	49201	Art Gallery NSW	plant fibre string
+PN	49201	Art Gallery NSW	pangi seed
+PNO	49104	Art Gallery NSW	plant fibre string
+PNO	49104	Art Gallery NSW	bone
+PNO	49104	Art Gallery NSW	pig tails
+PB	51201	Art Gallery NSW	plant fibre string
+PB	51201	Art Gallery NSW	natural dyes
+PCSN	49106	Art Gallery NSW	cowrie shells
+PKM	51202	Art Gallery NSW	plant fibre string
+PGMSK	90203	Art Gallery NSW	carved wood
+PKM	51202	Art Gallery NSW	23 pigs' tails
+PLSH	51001	Art Gallery NSW	plant fibre string
+PSPE	103	Art Gallery NSW	plant fibres
+PLSH	51001	Art Gallery NSW	cowrie shells
+AAAHK	50103	Art Gallery NSW	canvas
+PCAXE	703	Art Gallery NSW	stone
+PHBD	20603	Art Gallery NSW	plant fibre string
+PKHW	20703	Art Gallery NSW	grass stem
+WEOA	11626	Art Gallery NSW	paper
+PLSH	51001	Art Gallery NSW	bivalve mollux shell
+PGSF	49003	Art Gallery NSW	(tree fern
+PRF	49004	Art Gallery NSW	earthenware
+PRF	49004	Art Gallery NSW	modelled
+PRF	49004	Art Gallery NSW	natural pigments
+AAMAT	57367	Art Gallery NSW	oil on canvas
+AUWFT	49101	Art Gallery NSW	wood
+AAAWE	81003	Art Gallery NSW	canvas
+AAFBT	90103	Art Gallery NSW	clothesline
+AATHB	30203	Art Gallery NSW	paper
+AAUIT	10603	Art Gallery NSW	paper
+AUWFT	49101	Art Gallery NSW	paper
+AUBIT	49907	Art Gallery NSW	watercolour
+AUBIT	49907	Art Gallery NSW	white gouache
+AAMFI	49709	Art Gallery NSW	carved and painted blackwood
+AAMFI	49709	Art Gallery NSW	wax
+AAMFI	49709	Art Gallery NSW	feathers
+AAMFI	49709	Art Gallery NSW	natural pigments
+AULPW	49501	Art Gallery NSW	charcoal
+AULPW	49501	Art Gallery NSW	cardboard
+AUBEC	49102	Art Gallery NSW	sanguine ink
+AUBEC	49102	Art Gallery NSW	ivory wove paper
+AUJKC	49103	Art Gallery NSW	glazed and painted terracotta
+AUBHI	49005	Art Gallery NSW	oil on canvas
+AUTB	49708	Art Gallery NSW	watercolour
+AUTB	49708	Art Gallery NSW	chinese white highlights
+AUPDC	50502	Art Gallery NSW	plywood
+AUPDC	50502	Art Gallery NSW	MDF
+AUPOG	49301	Art Gallery NSW	oil on canvas on cardboard

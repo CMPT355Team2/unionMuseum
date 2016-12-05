@@ -34,40 +34,6 @@ CREATE TRIGGER wl_date_change_f AFTER INSERT ON works_locations FOR EACH ROW EXE
 
 
 
--- after inserted new changed institution's email, try to update the previous institution's email end time
-CREATE OR REPLACE FUNCTION change_institution_email()
-RETURNS trigger AS $change_institution_email_f$
-BEGIN
-
-	UPDATE changedemail SET ceedate = new.cesdate
-	WHERE ceinsname = new.ceinsname and cesdate <> new.cesdate and ceemail <> new.ceemail and ceedate is null;
-
-RETURN NEW;
-END;
-$change_institution_email_f$ LANGUAGE plpgsql;
-
-DROP TRIGGER IF EXISTS change_institution_email_f ON changedemail;
-CREATE TRIGGER change_institution_email_f AFTER INSERT ON changedemail FOR EACH ROW EXECUTE PROCEDURE change_institution_email();
-
-
-
--- after inserted new changed work's insurance value, try to update the previous work's insurance value end time
-CREATE OR REPLACE FUNCTION change_work_value()
-RETURNS trigger AS $change_work_value_f$
-BEGIN
-
-	UPDATE changedvalue SET cvedate = new.cvsdate
-	WHERE cvcode = new.cvcode and cvacronym = new.cvacronym and cvmname = new.cvmname and cvsdate <> new.cvsdate and cvinsvalue <> new.cvinsvalue and cvedate is null;
-
-RETURN NEW;
-END;
-$change_work_value_f$ LANGUAGE plpgsql;
-
-DROP TRIGGER IF EXISTS change_work_value_f ON changedvalue;
-CREATE TRIGGER change_work_value_f AFTER INSERT ON changedvalue FOR EACH ROW EXECUTE PROCEDURE change_work_value();
-
-
-
 -- after inserted new changed exhibition's count, try to update the previous exhibition's count end time
 CREATE OR REPLACE FUNCTION change_exhibition_count()
 RETURNS trigger AS $change_exhibition_count_f$
@@ -89,15 +55,15 @@ CREATE OR REPLACE FUNCTION owners_transactions()
 RETURNS trigger AS $owners_transactions_f$
 BEGIN
 
-	UPDATE owners SET owedate = new.owsdate
-	WHERE owcode = new.owcode and owacronym = new.owacronym and owmname = new.owmname and owedate is null and UPPER(owstatus) <> UPPER(new.owstatus);
+	UPDATE owners SET owetime = new.owstime
+	WHERE owcode = new.owcode and owacronym = new.owacronym and owmname = new.owmname and owetime is null and owstatus <> new.owstatus;
 	
 	insert into transactions 
-		select new.owcode, new.owacronym, new.owmname, new.owinsname, new.owsdate, null
+		select new.owcode, new.owacronym, new.owmname, new.owinsname, new.owstime, null
 		where UPPER(new.owstatus) <> UPPER('Potentially borrowed');
 
 	insert into transactions
-		select new.owcode, new.owacronym, new.owmname, new.owinsname, new.owedate, null
+		select new.owcode, new.owacronym, new.owmname, new.owinsname, new.owetime, null
 		where UPPER(new.owstatus) = UPPER('Potentially borrowed');
 
 RETURN NEW;

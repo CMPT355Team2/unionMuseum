@@ -1,0 +1,18 @@
+Tweety	306.231.5562	110 Edinburgh Place
+Van Gogh Museum	306.331.5551	104 White Swan Drive
+Popeye	306.277.2134	114 Preston AVE N
+Birmingham Museum and Art Gallery	306.690.2177	2388 Second Street Birmingham
+Denver Art Museum	306.009.2356	307 Fendi Road
+Superman	306.123.8876	2111 Gotham Place N
+Spider-Man	306.222.4563	103 7th Street E
+Bugs Bunny	306.334.5678	991 Cuberland AVE N
+Bart Simpson	306.111.0211	987 Richard AVE N
+Batman	306.713.5467	281 Gotham Road W
+Metropolitan Museum of Art_	306.112.0987	109 Kingsman AVE S
+Beijing Museum	306.123.4567	abcd street, Beijing
+New York Museum	306.777.8899	dfgs street, New York
+Shanghai Museum	306.111.6519	qwer street, Shanghai
+London Museum	306.666.6666	uiop street, London
+Vancouver Museum	306.908.8771	ujng street, Vancouver
+Calgary Museum	306.887.7990	zxcv street, Calgary
+National Museum of China	306.323.0955	2317 Charlie Road W

@@ -1,0 +1,10 @@
+storage	Prado Museum	patron	\N	\N	50	45	4	0	600
+lobby	Prado Museum	patron	\N	\N	15	8	4	2	4
+galleryA	Prado Museum	patron	\N	\N	30	15	4	7	16
+galleryB	Prado Museum	patron	\N	\N	30	15	4	7	16
+galleryC	Prado Museum	patron	\N	\N	60	45	4	14	24
+Saskatoon	Prado Museum	sponsor1	guard1	100	\N	\N	\N	\N	\N
+Kindersley	Prado Museum	sponsor2	guard2	100	\N	\N	\N	\N	\N
+Nipawin	Prado Museum	sponsor3	guard3	100	\N	\N	\N	\N	\N
+Battleford	Prado Museum	sponsor4	guard4	100	\N	\N	\N	\N	\N
+Regina	Prado Museum	sponsor5	guard5	100	\N	\N	\N	\N	\N

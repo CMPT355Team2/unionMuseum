@@ -1,0 +1,33 @@
+30203	AATHB	Art Gallery NSW	Other Museum	2016-10-25	\N
+10603	AAUIT	Art Gallery NSW	Other Museum	2016-10-25	\N
+103	PSPE	Art Gallery NSW	Other Museum	2016-10-25	\N
+50103	AAAHK	Art Gallery NSW	Other Museum	2016-10-25	\N
+703	PCAXE	Art Gallery NSW	Other Museum	2016-10-25	\N
+20603	PHBD	Art Gallery NSW	Other Museum	2016-10-25	\N
+20703	PKHW	Art Gallery NSW	Other Museum	2016-10-25	\N
+20903	AANNK	Art Gallery NSW	Other Museum	2016-10-25	\N
+90303	PSHD	Art Gallery NSW	Other Museum	2016-10-25	\N
+70803	PTPSK	Art Gallery NSW	Other Museum	2016-10-25	\N
+1203	PKRT	Art Gallery NSW	Other Museum	2016-10-25	\N
+80403	PGSF	Art Gallery NSW	Other Museum	2016-10-25	\N
+90203	PGMSK	Art Gallery NSW	Other Museum	2016-10-25	\N
+81003	AAAWE	Art Gallery NSW	Other Museum	2016-10-25	\N
+90103	AAFBT	Art Gallery NSW	Other Museum	2016-10-25	\N
+50120	ASRK	Art Gallery NSW	Cookie Monster	1991-03-26	\N
+50332	ASFOR	Art Gallery NSW	Cookie Monster	1996-02-22	\N
+37122	WETF	Art Gallery NSW	spongebob	2005-05-08	\N
+44586	WERAT	Art Gallery NSW	Patrick Star	2000-12-05	\N
+42265	ASM	Art Gallery NSW	Cookie Monster	1990-07-11	\N
+11626	WEOA	Art Gallery NSW	spongebob	1998-10-16	\N
+52111	WETA	Art Gallery NSW	spongebob	1996-06-09	\N
+62265	WETE	Art Gallery NSW	spongebob	1999-12-08	\N
+52112	WETAT	Art Gallery NSW	spongebob	2000-01-02	\N
+31221	WEGFB	Art Gallery NSW	Patrick Star	2000-12-20	\N
+64256	WEWBW	Art Gallery NSW	Patrick Star	2005-05-05	\N
+49173	ASGW	Art Gallery NSW	Cookie Monster	1996-10-16	\N
+52151	ASAST	Art Gallery NSW	Cookie Monster	1991-02-02	\N
+31222	WEGFB	Art Gallery NSW	Patrick Star	2001-09-05	\N
+53362	WELLW	Art Gallery NSW	spongebob	1995-06-22	\N
+49803	WEJYM	Art Gallery NSW	Other Museum	2016-10-21	\N
+50703	WEGOM	Art Gallery NSW	Other Museum	2016-10-21	\N
+50502	AUPDC	Art Gallery NSW	Other Museum	2016-10-21	\N

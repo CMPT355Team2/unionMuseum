@@ -1,0 +1,7 @@
+lobby	Birmingham Museum and Art Gallery	patron	storage	Birmingham Museum and Art Gallery	patron
+lobby	Birmingham Museum and Art Gallery	patron	small gallery A	Birmingham Museum and Art Gallery	patron
+lobby	Birmingham Museum and Art Gallery	patron	small gallery B	Birmingham Museum and Art Gallery	patron
+small gallery A	Birmingham Museum and Art Gallery	patron	small gallery B	Birmingham Museum and Art Gallery	patron
+small gallery A	Birmingham Museum and Art Gallery	patron	large gallery C	Birmingham Museum and Art Gallery	patron
+small gallery B	Birmingham Museum and Art Gallery	patron	large gallery C	Birmingham Museum and Art Gallery	patron
+small gallery B	Birmingham Museum and Art Gallery	patron	large gallery D	Birmingham Museum and Art Gallery	patron

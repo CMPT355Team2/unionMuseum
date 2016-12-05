@@ -1,0 +1,312 @@
+-- Shuo Yuan
+-- shy844
+-- 11170609
+-- CMPT355
+
+
+-- create new schema domains, tables and attributes
+-- 1. domain
+DROP DOMAIN IF EXISTS code CASCADE;
+DROP DOMAIN IF EXISTS acronym CASCADE;
+DROP DOMAIN IF EXISTS mname CASCADE;
+DROP DOMAIN IF EXISTS wname CASCADE;
+DROP DOMAIN IF EXISTS lname CASCADE;
+DROP DOMAIN IF EXISTS sname CASCADE;
+DROP DOMAIN IF EXISTS ename CASCADE;
+DROP DOMAIN IF EXISTS insname CASCADE;
+DROP DOMAIN IF EXISTS author CASCADE;
+DROP DOMAIN IF EXISTS cdatecom CASCADE;
+DROP DOMAIN IF EXISTS adateacq CASCADE;
+DROP DOMAIN IF EXISTS insvalue CASCADE;
+DROP DOMAIN IF EXISTS category CASCADE;
+DROP DOMAIN IF EXISTS region CASCADE;
+DROP DOMAIN IF EXISTS century CASCADE;
+DROP DOMAIN IF EXISTS wdesc CASCADE;
+DROP DOMAIN IF EXISTS edesc CASCADE;
+DROP DOMAIN IF EXISTS sdate CASCADE;
+DROP DOMAIN IF EXISTS edate CASCADE;
+DROP DOMAIN IF EXISTS stime CASCADE;
+DROP DOMAIN IF EXISTS etime CASCADE;
+DROP DOMAIN IF EXISTS media CASCADE;
+DROP DOMAIN IF EXISTS meter CASCADE;
+DROP DOMAIN IF EXISTS capacity CASCADE;
+DROP DOMAIN IF EXISTS address CASCADE;
+DROP DOMAIN IF EXISTS security CASCADE;
+DROP DOMAIN IF EXISTS phone CASCADE;
+DROP DOMAIN IF EXISTS email CASCADE;
+DROP DOMAIN IF EXISTS status CASCADE;
+DROP DOMAIN IF EXISTS count CASCADE;
+DROP DOMAIN IF EXISTS owner CASCADE;
+
+DROP TABLE IF EXISTS works CASCADE;
+DROP TABLE IF EXISTS medium CASCADE;
+DROP TABLE IF EXISTS exhibitions CASCADE;
+DROP TABLE IF EXISTS locations CASCADE;
+DROP TABLE IF EXISTS doors CASCADE;
+DROP TABLE IF EXISTS institutions CASCADE;
+DROP TABLE IF EXISTS owners CASCADE;
+DROP TABLE IF EXISTS transactions CASCADE;
+DROP TABLE IF EXISTS changedvalue CASCADE;
+DROP TABLE IF EXISTS works_exhibitions CASCADE;
+DROP TABLE IF EXISTS works_locations CASCADE;
+DROP TABLE IF EXISTS exhibitions_locations CASCADE;
+DROP TABLE IF EXISTS changedcount CASCADE;
+DROP TABLE IF EXISTS changedemail CASCADE;
+
+CREATE DOMAIN code AS int;
+CREATE DOMAIN acronym AS varchar(5);
+CREATE DOMAIN mname AS varchar(40);
+CREATE DOMAIN wname AS varchar(100);
+CREATE DOMAIN lname AS varchar(20);
+CREATE DOMAIN sname AS varchar(40);
+CREATE DOMAIN ename AS varchar(40);
+CREATE DOMAIN insname AS varchar(40);
+CREATE DOMAIN author AS varchar(30);
+CREATE DOMAIN cdatecom AS date;
+CREATE DOMAIN adateacq AS date;
+CREATE DOMAIN insvalue AS int;
+CREATE DOMAIN region AS varchar(30);
+CREATE DOMAIN century AS varchar(30);
+CREATE DOMAIN category AS varchar(30);
+CREATE DOMAIN wdesc AS text;
+CREATE DOMAIN edesc AS text;
+CREATE DOMAIN sdate AS date;
+CREATE DOMAIN edate AS date;
+CREATE DOMAIN stime AS timestamp;
+CREATE DOMAIN etime AS timestamp;
+CREATE DOMAIN media AS varchar;
+CREATE DOMAIN meter AS int;
+CREATE DOMAIN capacity AS int;
+CREATE DOMAIN address AS varchar(50);
+CREATE DOMAIN security AS varchar(30);
+CREATE DOMAIN phone AS varchar(30);
+CREATE DOMAIN email AS varchar(30);
+CREATE DOMAIN status AS varchar(30);
+CREATE DOMAIN count AS int;
+CREATE DOMAIN owner AS varchar(30);
+
+CREATE TABLE works (
+	wscode code NOT NULL,
+	wsacronym acronym NOT NULL,
+	wsmname mname NOT NULL,
+	wswname wname NOT NULL,
+	wsregion region,
+	wscentury century,
+	wscategory category,
+	wsauthor author NOT NULL,
+	wscdatecom cdatecom NOT NULL,
+	wsadateacq adateacq,
+	wswdesc wdesc NOT NULL,
+	CHECK (wscdatecom < wsadateacq AND wsadateacq > timestamp '1990-07-01' AND wscode <= 99999),
+	PRIMARY KEY (wscode, wsacronym, wsmname)
+);
+
+CREATE TABLE medium (
+	medacronym acronym NOT NULL,
+	medcode code NOT NULL,
+	medmname mname NOT NULL,
+	medmedia media NOT NULL,
+	FOREIGN KEY (medcode, medacronym, medmname)
+		REFERENCES works
+			ON UPDATE CASCADE
+			ON DELETE SET NULL,
+	PRIMARY KEY (medacronym, medcode, medmname, medmedia)
+);
+
+CREATE TABLE changedvalue (
+	cvcode code NOT NULL,
+	cvacronym acronym NOT NULL,
+	cvmname mname NOT NULL,
+	FOREIGN KEY (cvcode, cvacronym, cvmname)
+		REFERENCES works
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+	cvsdate sdate NOT NULL,
+	cvedate edate,
+	cvinsvalue insvalue NOT NULL,
+	CHECK (cvsdate < cvedate),
+	PRIMARY KEY (cvcode, cvacronym, cvmname, cvsdate)
+
+);
+
+CREATE TABLE exhibitions (
+	exename ename NOT NULL,
+	exsdate sdate NOT NULL,
+	exedate edate NOT NULL,
+	exmname mname NOT NULL,
+	exedesc edesc NOT NULL,
+	CHECK (exsdate < exedate),
+	PRIMARY KEY (exename, exsdate, exmname)
+);
+
+CREATE TABLE changedcount (
+	ccename ename NOT NULL,
+	ccsdate sdate NOT NULL,
+	ccmname mname NOT NULL,
+	FOREIGN KEY (ccename, ccsdate, ccmname)
+		REFERENCES exhibitions
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+	ccsdatecs sdate NOT NULL,
+	ccsdatece edate,
+	cccount count,
+	CHECK (ccsdatecs < ccsdatece),
+	PRIMARY KEY (ccename, ccsdate, ccmname, ccsdatecs)
+);
+
+CREATE TABLE locations (
+	loclname lname NOT NULL,
+	locmname mname NOT NULL,
+	locsname sname NOT NULL,
+	locsecurity security,
+	locinsvalue insvalue,
+	locmeterlen meter,
+	locmeterwid meter,
+	locmeterhei meter,
+	loccapacitymin capacity,
+	loccapacitymax capacity,
+	CHECK (loccapacitymin <= loccapacitymax),
+	PRIMARY KEY (loclname, locmname, locsname)
+);
+
+CREATE TABLE institutions (
+	insinsname insname NOT NULL,
+	insphone phone NOT NULL,
+	insaddress address NOT NULL,
+	PRIMARY KEY (insinsname)
+);
+
+CREATE TABLE changedemail (
+	ceinsname insname NOT NULL,
+	FOREIGN KEY (ceinsname)
+		REFERENCES institutions
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+    ceemail email NOT NULL,
+    cesdate sdate NOT NULL,
+    ceedate edate,
+    CHECK (cesdate < ceedate),
+    PRIMARY KEY (ceinsname, ceemail, cesdate)
+);
+
+CREATE TABLE owners (
+	owcode code NOT NULL,
+	owacronym acronym NOT NULL,
+	owmname mname NOT NULL,
+	owinsname sname NOT NULL,
+	FOREIGN KEY (owcode, owacronym, owmname)
+		REFERENCES works
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+    FOREIGN KEY (owinsname)
+		REFERENCES institutions
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+	owsdate sdate NOT NULL,
+	owedate edate,
+	owstatus status NOT NULL,
+	CHECK (owsdate < owedate),
+	PRIMARY KEY (owcode, owacronym, owmname, owinsname, owsdate)
+);
+
+CREATE TABLE transactions (
+	trcode code not null,
+	tracronym acronym not null,
+	trmname mname not null,
+	trinsname sname not null,
+	FOREIGN KEY (trcode, tracronym, trmname)
+		REFERENCES works
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+    FOREIGN KEY (trinsname)
+		REFERENCES institutions
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+	trstime stime not null,
+	tretime etime,
+	CHECK (trstime < tretime),
+	PRIMARY KEY (trcode, tracronym, trmname, trinsname, trstime)
+
+);
+
+CREATE TABLE works_locations (
+	wlcode code not null,
+	wlacronym acronym not null,
+	wlmname1 mname not null,
+	FOREIGN KEY (wlcode, wlacronym, wlmname1)
+		REFERENCES works
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+	wllname lname NOT NULL,
+	wlmname2 mname NOT NULL,
+	wlsname sname NOT NULL,
+	FOREIGN KEY (wllname, wlmname2, wlsname)
+		REFERENCES locations
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+	wlstime stime not null,
+	wletime etime,
+	CHECK (wlstime < wletime AND wlmname1 = wlmname2),
+	PRIMARY KEY (wlcode, wlacronym, wlmname1, wllname, wlmname2, wlsname, wlstime)
+);
+
+CREATE TABLE works_exhibitions (
+	wecode code not null,
+	weacronym acronym not null,
+	wemname1 mname not null,
+	FOREIGN KEY (wecode, weacronym, wemname1)
+		REFERENCES works
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+    weename ename not null,
+    wesdate sdate not null,
+    wemname2 mname not null,
+    FOREIGN KEY (weename, wesdate, wemname2)
+		REFERENCES exhibitions
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+    weedate edate,
+    CHECK (wesdate < weedate AND wemname1 = wemname2),
+    PRIMARY KEY (wecode, weacronym, wemname1, weename, wesdate, wemname2)
+    
+);
+
+CREATE TABLE exhibitions_locations (
+	elename ename not null,
+    elsdate sdate not null,
+    elmname1 mname not null,
+    FOREIGN KEY (elename, elsdate, elmname1)
+		REFERENCES exhibitions
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+    ellname lname NOT NULL,
+	elmname2 mname NOT NULL,
+	elsname sname NOT NULL,
+	FOREIGN KEY (ellname, elmname2, elsname)
+		REFERENCES locations
+			ON UPDATE CASCADE
+      		ON DELETE SET NULL,
+    eledate edate,
+    CHECK (elsdate < eledate AND elmname1 = elmname2),
+    PRIMARY KEY (elename, elsdate, elmname1, ellname, elmname2, elsname)
+);
+
+CREATE TABLE doors (
+	drlname1 lname not NULL,
+	drmname1 mname not null,
+	drsname1 sname not null,
+	FOREIGN KEY (drlname1, drmname1, drsname1)
+		REFERENCES locations
+			ON UPDATE CASCADE
+			ON DELETE SET NULL,
+	drlname2 lname not NULL,
+	drmname2 mname not null,
+	drsname2 sname not null,
+	FOREIGN KEY (drlname2, drmname2, drsname2)
+		REFERENCES locations
+			ON UPDATE CASCADE
+			ON DELETE SET NULL,
+	CHECK (drmname1 = drmname2),
+	PRIMARY KEY (drlname1, drmname1, drsname1, drlname2, drmname2, drsname2)
+
+);

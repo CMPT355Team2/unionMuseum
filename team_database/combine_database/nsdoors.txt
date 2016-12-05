@@ -1,0 +1,6 @@
+Storage	Seattle Art Museum	patron	Lobby Expo	Seattle Art Museum	patron
+Century Expo	Seattle Art Museum	patron	Summary Expo	Seattle Art Museum	patron
+Lobby Expo	Seattle Art Museum	patron	Century Expo	Seattle Art Museum	patron
+Unique Expo	Seattle Art Museum	patron	Century Expo	Seattle Art Museum	patron
+Unique Expo	Seattle Art Museum	patron	Summary Expo	Seattle Art Museum	patron
+Lobby Expo	Seattle Art Museum	patron	Unique Expo	Seattle Art Museum	patron

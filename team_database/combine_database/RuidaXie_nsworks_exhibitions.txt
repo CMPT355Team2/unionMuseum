@@ -1,0 +1,149 @@
+97260	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+97260	BMAGO	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+86023	BMAGV	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+86023	BMAGV	Birmingham Museum and Art Gallery	Change in the inner city	2016-07-20	Birmingham Museum and Art Gallery	2016-10-18
+86022	BMAGV	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+86022	BMAGV	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+86022	BMAGV	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+86002	BMAGV	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+86002	BMAGV	Birmingham Museum and Art Gallery	Change in the inner city	2016-07-20	Birmingham Museum and Art Gallery	2016-10-18
+46256	BMAGV	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+46256	BMAGV	Birmingham Museum and Art Gallery	Change in the inner city	2016-07-20	Birmingham Museum and Art Gallery	2016-10-18
+76070	BMAGF	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+76070	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+76070	BMAGF	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+86427	BMAGV	Birmingham Museum and Art Gallery	previous collecting	2016-03-26	Birmingham Museum and Art Gallery	2016-08-26
+86186	BMAGV	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+86186	BMAGV	Birmingham Museum and Art Gallery	Change in the inner city	2016-07-20	Birmingham Museum and Art Gallery	2016-10-18
+89493	BMAGV	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+89493	BMAGV	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+89493	BMAGV	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+56271	BMAGT	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+56271	BMAGT	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+56271	BMAGT	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+64861	BMAGP	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+64861	BMAGP	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+90870	BMAGP	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+90870	BMAGP	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+78277	BMAGF	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+78277	BMAGF	Birmingham Museum and Art Gallery	Change in the inner city	2016-07-20	Birmingham Museum and Art Gallery	2016-10-18
+72323	BMAGM	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+72323	BMAGM	Birmingham Museum and Art Gallery	previous Ganesha	2016-01-15	Birmingham Museum and Art Gallery	2016-07-15
+87869	BMAGL	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+87869	BMAGL	Birmingham Museum and Art Gallery	previous Ganesha	2016-01-15	Birmingham Museum and Art Gallery	2016-07-15
+76967	BMAGM	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+76967	BMAGM	Birmingham Museum and Art Gallery	previous Ganesha	2016-01-15	Birmingham Museum and Art Gallery	2016-07-15
+73083	BMAGM	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+73083	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+73083	BMAGM	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+75158	BMAGF	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+75158	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+75158	BMAGF	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+15955	BMAGF	Birmingham Museum and Art Gallery	previous collecting	2016-03-26	Birmingham Museum and Art Gallery	2016-08-26
+88918	BMAGV	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+88918	BMAGV	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+88918	BMAGV	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+88039	BMAGV	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+88039	BMAGV	Birmingham Museum and Art Gallery	Change in the inner city	2016-07-20	Birmingham Museum and Art Gallery	2016-10-18
+92092	BMAGF	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+92092	BMAGF	Birmingham Museum and Art Gallery	Change in the inner city	2016-07-20	Birmingham Museum and Art Gallery	2016-10-18
+56364	BMAGT	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+56364	BMAGT	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+56364	BMAGT	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+92017	BMAGF	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+92017	BMAGF	Birmingham Museum and Art Gallery	Change in the inner city	2016-07-20	Birmingham Museum and Art Gallery	2016-10-18
+71953	BMAGF	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+71953	BMAGF	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+71953	BMAGF	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+86983	BMAGV	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+86983	BMAGV	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+86983	BMAGV	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+87076	BMAGV	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+87076	BMAGV	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+61138	BMAGP	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+61138	BMAGP	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+63897	BMAGP	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+63897	BMAGP	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+66259	BMAGP	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+66259	BMAGP	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+63937	BMAGP	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+63937	BMAGP	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+96959	BMAGP	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+96959	BMAGP	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+16126	BMAGP	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+16126	BMAGP	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+75943	BMAGP	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+75943	BMAGP	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+53863	BMAGP	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+53863	BMAGP	Birmingham Museum and Art Gallery	previous Ganesha	2016-01-15	Birmingham Museum and Art Gallery	2016-07-15
+73924	BMAGA	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+73924	BMAGA	Birmingham Museum and Art Gallery	previous Ganesha	2016-01-15	Birmingham Museum and Art Gallery	2016-07-15
+73012	BMAGA	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+73012	BMAGA	Birmingham Museum and Art Gallery	previous Ganesha	2016-01-15	Birmingham Museum and Art Gallery	2016-07-15
+89873	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+89873	BMAGM	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+90856	BMAGL	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+90856	BMAGL	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+51856	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+51856	BMAGM	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+86262	BMAGV	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+86262	BMAGV	Birmingham Museum and Art Gallery	Change in the inner city	2016-07-20	Birmingham Museum and Art Gallery	2016-10-18
+74510	BMAGV	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+74510	BMAGV	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+74510	BMAGV	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+28224	BMAGV	Birmingham Museum and Art Gallery	previous collecting	2016-03-26	Birmingham Museum and Art Gallery	2016-08-26
+74268	BMAGC	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+74268	BMAGC	Birmingham Museum and Art Gallery	previous Ganesha	2016-01-15	Birmingham Museum and Art Gallery	2016-07-15
+88299	BMAGF	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+88299	BMAGF	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+88299	BMAGF	Birmingham Museum and Art Gallery	Collecting Birmingham	2017-02-05	Birmingham Museum and Art Gallery	2017-05-05
+56396	BMAGF	Birmingham Museum and Art Gallery	previous collecting	2016-03-26	Birmingham Museum and Art Gallery	2016-08-26
+96044	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+96044	BMAGO	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+99999	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+99999	BMAGO	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+97577	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+97577	BMAGO	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+20284	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+20284	BMAGM	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+71893	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+71893	BMAGM	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+88860	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+88860	BMAGM	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+88861	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+88861	BMAGM	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+96901	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+96901	BMAGO	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+96951	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+96951	BMAGO	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+78232	BMAGF	Birmingham Museum and Art Gallery	previous east art	2016-02-10	Birmingham Museum and Art Gallery	2016-08-10
+78232	BMAGF	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+78232	BMAGF	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+96898	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+96898	BMAGO	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+97457	BMAGO	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+97457	BMAGO	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+82856	BMAGM	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+82856	BMAGM	Birmingham Museum and Art Gallery	East meets west	2016-08-15	Birmingham Museum and Art Gallery	2016-12-28
+71975	BMAGM	Birmingham Museum and Art Gallery	Celebrating Ganesha	2016-10-23	Birmingham Museum and Art Gallery	2017-02-23
+71975	BMAGM	Birmingham Museum and Art Gallery	previous Ganesha	2016-01-15	Birmingham Museum and Art Gallery	2016-07-15
+4746	BMAGP	Birmingham Museum and Art Gallery	previous collecting	2016-03-26	Birmingham Museum and Art Gallery	2016-08-26
+4746	BMAGP	Birmingham Museum and Art Gallery	travelling 1	2016-10-25	Birmingham Museum and Art Gallery	2016-11-15
+4746	BMAGP	Birmingham Museum and Art Gallery	travelling 2	2016-11-22	Birmingham Museum and Art Gallery	2016-12-13
+4746	BMAGP	Birmingham Museum and Art Gallery	travelling 3	2016-12-20	Birmingham Museum and Art Gallery	2017-01-10
+4746	BMAGP	Birmingham Museum and Art Gallery	travelling 4	2017-01-17	Birmingham Museum and Art Gallery	2017-02-07
+4746	BMAGP	Birmingham Museum and Art Gallery	travelling 5	2017-02-14	Birmingham Museum and Art Gallery	2017-03-07
+2350	BMAGP	Birmingham Museum and Art Gallery	Birmingham Museum in 130 Years	2017-01-02	Birmingham Museum and Art Gallery	2017-06-02
+2350	BMAGP	Birmingham Museum and Art Gallery	Birmingham big art project	2016-09-01	Birmingham Museum and Art Gallery	2017-01-31
+2279	BMAGP	Birmingham Museum and Art Gallery	previous collecting	2016-03-26	Birmingham Museum and Art Gallery	2016-08-26
+2279	BMAGP	Birmingham Museum and Art Gallery	travelling 1	2016-10-25	Birmingham Museum and Art Gallery	2016-11-15
+2279	BMAGP	Birmingham Museum and Art Gallery	travelling 2	2016-11-22	Birmingham Museum and Art Gallery	2016-12-13
+2279	BMAGP	Birmingham Museum and Art Gallery	travelling 3	2016-12-20	Birmingham Museum and Art Gallery	2017-01-10
+2279	BMAGP	Birmingham Museum and Art Gallery	travelling 4	2017-01-17	Birmingham Museum and Art Gallery	2017-02-07
+2279	BMAGP	Birmingham Museum and Art Gallery	travelling 5	2017-02-14	Birmingham Museum and Art Gallery	2017-03-07
+139	BMAGP	Birmingham Museum and Art Gallery	previous collecting	2016-03-26	Birmingham Museum and Art Gallery	2016-08-26
+139	BMAGP	Birmingham Museum and Art Gallery	travelling 1	2016-10-25	Birmingham Museum and Art Gallery	2016-11-15
+139	BMAGP	Birmingham Museum and Art Gallery	travelling 2	2016-11-22	Birmingham Museum and Art Gallery	2016-12-13
+139	BMAGP	Birmingham Museum and Art Gallery	travelling 3	2016-12-20	Birmingham Museum and Art Gallery	2017-01-10
+139	BMAGP	Birmingham Museum and Art Gallery	travelling 4	2017-01-17	Birmingham Museum and Art Gallery	2017-02-07
+139	BMAGP	Birmingham Museum and Art Gallery	travelling 5	2017-02-14	Birmingham Museum and Art Gallery	2017-03-07

@@ -1,0 +1,248 @@
+1552	SFBD	Prado Museum	storage	Prado Museum	patron	2004-02-21 00:00:00	2016-02-01 00:00:00
+1657	CHIM	Prado Museum	storage	Prado Museum	patron	1999-03-01 00:00:00	2016-02-01 00:00:00
+1710	VENU	Prado Museum	storage	Prado Museum	patron	2004-01-24 00:00:00	2016-02-01 00:00:00
+2150	COTB	Prado Museum	storage	Prado Museum	patron	2005-06-15 00:00:00	2016-02-01 00:00:00
+2603	MAHY	Prado Museum	storage	Prado Museum	patron	2000-04-20 00:00:00	2016-03-01 00:00:00
+2610	CAHB	Prado Museum	storage	Prado Museum	patron	2004-03-31 00:00:00	2016-03-01 00:00:00
+2691	FCMA	Prado Museum	storage	Prado Museum	patron	2001-07-02 00:00:00	2016-03-01 00:00:00
+2722	VCDV	Prado Museum	storage	Prado Museum	patron	1995-02-03 00:00:00	2016-03-01 00:00:00
+2728	MFVC	Prado Museum	storage	Prado Museum	patron	1997-08-08 00:00:00	2016-03-01 00:00:00
+5820	GTHS	Prado Museum	storage	Prado Museum	patron	1998-09-27 00:00:00	2016-07-01 00:00:00
+5831	UFIS	Prado Museum	storage	Prado Museum	patron	2015-10-10 00:00:00	2016-07-01 00:00:00
+3890	BADA	Prado Museum	storage	Prado Museum	patron	1994-06-03 00:00:00	2016-07-01 00:00:00
+8120	WADC	Prado Museum	storage	Prado Museum	patron	2013-12-10 00:00:00	2016-07-01 00:00:00
+7445	OTTK	Prado Museum	storage	Prado Museum	patron	1996-02-14 00:00:00	2016-07-01 00:00:00
+8551	BPMC	Prado Museum	storage	Prado Museum	patron	2009-05-21 00:00:00	2016-07-01 00:00:00
+8002	VSGE	Prado Museum	storage	Prado Museum	patron	1992-04-20 00:00:00	2016-07-01 00:00:00
+7201	LMLH	Prado Museum	storage	Prado Museum	patron	2012-12-20 00:00:00	2016-07-01 00:00:00
+3494	SCCD	Prado Museum	storage	Prado Museum	patron	2006-05-10 00:00:00	2016-08-01 00:00:00
+7414	MORO	Prado Museum	storage	Prado Museum	patron	2004-01-05 00:00:00	2016-08-01 00:00:00
+4600	CWCT	Prado Museum	storage	Prado Museum	patron	1997-07-12 00:00:00	\N
+7271	MMHV	Prado Museum	storage	Prado Museum	patron	2006-08-14 00:00:00	\N
+8126	CWDF	Prado Museum	storage	Prado Museum	patron	2013-09-01 00:00:00	\N
+4879	ICRC	Prado Museum	storage	Prado Museum	patron	1996-05-25 00:00:00	\N
+9610	VECC	Prado Museum	storage	Prado Museum	patron	1993-11-13 00:00:00	\N
+8500	NAYU	Prado Museum	storage	Prado Museum	patron	2011-02-18 00:00:00	\N
+4380	HEHO	Prado Museum	storage	Prado Museum	patron	1997-11-05 00:00:00	\N
+8020	LOSG	Prado Museum	storage	Prado Museum	patron	2001-10-21 00:00:00	\N
+7310	ROCY	Prado Museum	storage	Prado Museum	patron	2000-05-03 00:00:00	\N
+5003	PAMC	Prado Museum	storage	Prado Museum	patron	2011-01-31 00:00:00	\N
+3001	SLDP	Prado Museum	storage	Prado Museum	patron	1995-06-02 00:00:00	\N
+2934	FAWK	Prado Museum	storage	Prado Museum	patron	1992-06-08 00:00:00	\N
+4485	RDHT	Prado Museum	storage	Prado Museum	patron	2005-02-09 00:00:00	\N
+4649	TSFE	Prado Museum	storage	Prado Museum	patron	2003-01-22 00:00:00	\N
+3910	WRBT	Prado Museum	storage	Prado Museum	patron	2000-03-31 00:00:00	\N
+6751	LMKG	Prado Museum	storage	Prado Museum	patron	1994-01-22 00:00:00	\N
+3011	LFSF	Prado Museum	storage	Prado Museum	patron	1996-04-04 00:00:00	\N
+165	WICD	Prado Museum	storage	Prado Museum	patron	2015-09-30 00:00:00	2016-01-01 00:00:00
+336	SAIC	Prado Museum	storage	Prado Museum	patron	1998-04-23 00:00:00	2016-01-01 00:00:00
+342	DUYG	Prado Museum	storage	Prado Museum	patron	1995-03-03 00:00:00	2016-01-01 00:00:00
+409	ECVD	Prado Museum	storage	Prado Museum	patron	1992-11-12 00:00:00	2016-01-01 00:00:00
+451	FMCF	Prado Museum	storage	Prado Museum	patron	1991-03-26 00:00:00	2016-01-01 00:00:00
+777	CNMB	Prado Museum	storage	Prado Museum	patron	1992-01-22 00:00:00	2016-01-01 00:00:00
+934	DAHT	Prado Museum	storage	Prado Museum	patron	1993-07-23 00:00:00	2016-01-01 00:00:00
+1001	OSCM	Prado Museum	storage	Prado Museum	patron	1990-10-10 00:00:00	2016-01-01 00:00:00
+1124	TIBE	Prado Museum	storage	Prado Museum	patron	1994-10-30 00:00:00	2016-01-01 00:00:00
+1461	TLVN	Prado Museum	storage	Prado Museum	patron	2005-10-21 00:00:00	2016-01-01 00:00:00
+4131	FDOG	Prado Museum	storage	Prado Museum	patron	2002-03-21 00:00:00	2016-08-01 00:00:00
+5813	RREP	Prado Museum	storage	Prado Museum	patron	2014-01-25 00:00:00	2016-08-01 00:00:00
+7270	LPGF	Prado Museum	storage	Prado Museum	patron	1999-09-22 00:00:00	2016-09-01 00:00:00
+4243	WEIP	Prado Museum	storage	Prado Museum	patron	2013-03-01 00:00:00	2016-09-01 00:00:00
+8004	GOSP	Prado Museum	storage	Prado Museum	patron	1997-07-12 00:00:00	2016-09-01 00:00:00
+8010	VEMA	Prado Museum	storage	Prado Museum	patron	1999-09-23 00:00:00	2016-09-01 00:00:00
+3245	ADSD	Prado Museum	storage	Prado Museum	patron	2007-05-30 00:00:00	2016-09-01 00:00:00
+4117	LBSK	Prado Museum	storage	Prado Museum	patron	2008-09-24 00:00:00	2016-09-01 00:00:00
+6320	FENU	Prado Museum	storage	Prado Museum	patron	2006-10-24 00:00:00	2016-09-01 00:00:00
+4003	SGEH	Prado Museum	storage	Prado Museum	patron	2006-06-02 00:00:00	2016-09-01 00:00:00
+4707	TCIM	Prado Museum	storage	Prado Museum	patron	1993-07-10 00:00:00	2016-09-01 00:00:00
+8229	SFPT	Prado Museum	storage	Prado Museum	patron	2015-03-28 00:00:00	2016-09-01 00:00:00
+2878	ALDO	Prado Museum	storage	Prado Museum	patron	1994-12-02 00:00:00	2016-09-01 00:00:00
+3260	BULN	Prado Museum	storage	Prado Museum	patron	2001-07-10 00:00:00	2016-09-01 00:00:00
+3900	EMAG	Prado Museum	storage	Prado Museum	patron	1991-11-24 00:00:00	2016-09-01 00:00:00
+7520	FEMT	Prado Museum	storage	Prado Museum	patron	2005-12-19 00:00:00	2016-09-01 00:00:00
+8226	TBSP	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+2422	CDBC	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+2899	MKBD	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+4471	ALDA	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+2500	WINT	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+2573	SFAP	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+8003	WCPC	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+2896	HBAS	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+3535	TSOF	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+7181	TCSL	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+7890	BWTR	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+7841	TGOP	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+5542	ANGL	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+7533	DOAL	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	\N
+1124	TIBE	Prado Museum	storage	Prado Museum	patron	2016-06-30 00:00:00	\N
+165	WICD	Prado Museum	galleryA	Prado Museum	patron	2016-01-01 00:00:00	2016-06-30 00:00:00
+336	SAIC	Prado Museum	galleryA	Prado Museum	patron	2016-01-01 00:00:00	2016-06-30 00:00:00
+342	DUYG	Prado Museum	galleryA	Prado Museum	patron	2016-01-01 00:00:00	2016-06-30 00:00:00
+409	ECVD	Prado Museum	galleryA	Prado Museum	patron	2016-01-01 00:00:00	2016-06-30 00:00:00
+451	FMCF	Prado Museum	galleryA	Prado Museum	patron	2016-01-01 00:00:00	2016-06-30 00:00:00
+777	CNMB	Prado Museum	galleryA	Prado Museum	patron	2016-01-01 00:00:00	2016-06-30 00:00:00
+934	DAHT	Prado Museum	galleryA	Prado Museum	patron	2016-01-01 00:00:00	2016-06-30 00:00:00
+1001	OSCM	Prado Museum	galleryA	Prado Museum	patron	2016-01-01 00:00:00	2016-06-30 00:00:00
+1124	TIBE	Prado Museum	galleryA	Prado Museum	patron	2016-01-01 00:00:00	2016-06-30 00:00:00
+1461	TLVN	Prado Museum	galleryA	Prado Museum	patron	2016-01-01 00:00:00	2016-06-30 00:00:00
+1604	RMWN	Prado Museum	storage	Prado Museum	patron	2014-12-11 00:00:00	2016-02-01 00:00:00
+1930	HCBM	Prado Museum	storage	Prado Museum	patron	1990-12-30 00:00:00	2016-02-01 00:00:00
+2091	AHBA	Prado Museum	storage	Prado Museum	patron	2004-11-10 00:00:00	2016-02-01 00:00:00
+1657	CHIM	Prado Museum	storage	Prado Museum	patron	2016-07-30 00:00:00	\N
+1710	VENU	Prado Museum	storage	Prado Museum	patron	2016-07-30 00:00:00	\N
+1813	TSGD	Prado Museum	storage	Prado Museum	patron	2016-07-30 00:00:00	\N
+2103	DECK	Prado Museum	storage	Prado Museum	patron	2016-07-30 00:00:00	\N
+2150	COTB	Prado Museum	storage	Prado Museum	patron	2016-07-30 00:00:00	\N
+2152	ASAI	Prado Museum	storage	Prado Museum	patron	2016-07-30 00:00:00	\N
+1552	SFBD	Prado Museum	galleryB	Prado Museum	patron	2016-02-01 00:00:00	2016-07-30 00:00:00
+1604	RMWN	Prado Museum	galleryB	Prado Museum	patron	2016-02-01 00:00:00	2016-07-30 00:00:00
+1657	CHIM	Prado Museum	galleryB	Prado Museum	patron	2016-02-01 00:00:00	2016-07-30 00:00:00
+1710	VENU	Prado Museum	galleryB	Prado Museum	patron	2016-02-01 00:00:00	2016-07-30 00:00:00
+1813	TSGD	Prado Museum	galleryB	Prado Museum	patron	2016-02-01 00:00:00	2016-07-30 00:00:00
+1930	HCBM	Prado Museum	galleryB	Prado Museum	patron	2016-02-01 00:00:00	2016-07-30 00:00:00
+2091	AHBA	Prado Museum	galleryB	Prado Museum	patron	2016-02-01 00:00:00	2016-07-30 00:00:00
+2103	DECK	Prado Museum	galleryB	Prado Museum	patron	2016-02-01 00:00:00	2016-07-30 00:00:00
+2150	COTB	Prado Museum	galleryB	Prado Museum	patron	2016-02-01 00:00:00	2016-07-30 00:00:00
+2152	ASAI	Prado Museum	galleryB	Prado Museum	patron	2016-02-01 00:00:00	2016-07-30 00:00:00
+2349	TNTL	Prado Museum	storage	Prado Museum	patron	2004-04-01 00:00:00	2016-03-01 00:00:00
+2374	ISIT	Prado Museum	storage	Prado Museum	patron	2000-01-12 00:00:00	2016-03-01 00:00:00
+2349	TNTL	Prado Museum	storage	Prado Museum	patron	2016-08-30 00:00:00	\N
+2349	KITE	Prado Museum	storage	Prado Museum	patron	2016-08-30 00:00:00	\N
+2489	TPOI	Prado Museum	storage	Prado Museum	patron	2016-08-30 00:00:00	\N
+2524	BYMF	Prado Museum	storage	Prado Museum	patron	2016-08-30 00:00:00	\N
+2603	MAHY	Prado Museum	storage	Prado Museum	patron	2016-08-30 00:00:00	\N
+2610	CAHB	Prado Museum	storage	Prado Museum	patron	2016-08-30 00:00:00	\N
+2691	FCMA	Prado Museum	storage	Prado Museum	patron	2016-08-30 00:00:00	\N
+2722	VCDV	Prado Museum	storage	Prado Museum	patron	2016-08-30 00:00:00	\N
+2349	TNTL	Prado Museum	galleryC	Prado Museum	patron	2016-03-01 00:00:00	2016-08-30 00:00:00
+2349	KITE	Prado Museum	galleryC	Prado Museum	patron	2016-03-01 00:00:00	2016-08-30 00:00:00
+2374	ISIT	Prado Museum	galleryC	Prado Museum	patron	2016-03-01 00:00:00	2016-08-30 00:00:00
+2489	TPOI	Prado Museum	galleryC	Prado Museum	patron	2016-03-01 00:00:00	2016-08-30 00:00:00
+2524	BYMF	Prado Museum	galleryC	Prado Museum	patron	2016-03-01 00:00:00	2016-08-30 00:00:00
+2603	MAHY	Prado Museum	galleryC	Prado Museum	patron	2016-03-01 00:00:00	2016-08-30 00:00:00
+2610	CAHB	Prado Museum	galleryC	Prado Museum	patron	2016-03-01 00:00:00	2016-08-30 00:00:00
+3339	CRPA	Prado Museum	storage	Prado Museum	patron	2009-03-17 00:00:00	2016-07-01 00:00:00
+336	SAIC	Prado Museum	storage	Prado Museum	patron	2016-06-30 00:00:00	2016-07-01 00:00:00
+342	DUYG	Prado Museum	storage	Prado Museum	patron	2016-06-30 00:00:00	2016-07-01 00:00:00
+165	WICD	Prado Museum	storage	Prado Museum	patron	2016-06-30 00:00:00	2016-07-01 00:00:00
+409	ECVD	Prado Museum	storage	Prado Museum	patron	2016-06-30 00:00:00	2016-07-01 00:00:00
+451	FMCF	Prado Museum	storage	Prado Museum	patron	2016-06-30 00:00:00	2016-08-01 00:00:00
+1604	RMWN	Prado Museum	storage	Prado Museum	patron	2016-07-30 00:00:00	2016-08-01 00:00:00
+2729	FELI	Prado Museum	storage	Prado Museum	patron	1996-10-22 00:00:00	2016-08-01 00:00:00
+1930	HCBM	Prado Museum	storage	Prado Museum	patron	2016-07-30 00:00:00	2016-08-01 00:00:00
+7826	SFDC	Prado Museum	storage	Prado Museum	patron	2006-02-12 00:00:00	2016-08-01 00:00:00
+2091	AHBA	Prado Museum	storage	Prado Museum	patron	2016-07-30 00:00:00	2016-08-01 00:00:00
+1001	OSCM	Prado Museum	storage	Prado Museum	patron	2016-06-30 00:00:00	2016-08-01 00:00:00
+777	CNMB	Prado Museum	storage	Prado Museum	patron	2016-06-30 00:00:00	2016-08-01 00:00:00
+1461	TLVN	Prado Museum	storage	Prado Museum	patron	2016-06-30 00:00:00	2016-08-01 00:00:00
+934	DAHT	Prado Museum	storage	Prado Museum	patron	2016-06-30 00:00:00	2016-08-01 00:00:00
+2374	ISIT	Prado Museum	storage	Prado Museum	patron	2016-08-30 00:00:00	2016-09-01 00:00:00
+2728	MFVC	Prado Museum	storage	Prado Museum	patron	2016-08-30 00:00:00	2016-09-01 00:00:00
+1552	SFBD	Prado Museum	storage	Prado Museum	patron	2016-07-30 00:00:00	2016-09-01 00:00:00
+2860	BONB	Prado Museum	storage	Prado Museum	patron	1991-05-11 00:00:00	2016-09-01 00:00:00
+5016	VWBO	Prado Museum	storage	Prado Museum	patron	2004-06-29 00:00:00	2016-09-01 00:00:00
+2842	SEKC	Prado Museum	storage	Prado Museum	patron	2008-11-03 00:00:00	2016-09-01 00:00:00
+7286	ESMS	Prado Museum	storage	Prado Museum	patron	1998-02-02 00:00:00	2016-09-01 00:00:00
+9620	SJBA	Prado Museum	storage	Prado Museum	patron	2013-10-29 00:00:00	2016-09-01 00:00:00
+4930	ACCS	Prado Museum	storage	Prado Museum	patron	2001-03-11 00:00:00	2016-09-01 00:00:00
+2975	PART	Prado Museum	storage	Prado Museum	patron	2003-10-21 00:00:00	2016-09-01 00:00:00
+4424	HUNT	Prado Museum	storage	Prado Museum	patron	2016-10-25 00:00:00	2016-11-11 00:00:00
+2691	FCMA	Prado Museum	galleryC	Prado Museum	patron	2016-03-01 00:00:00	2016-08-30 00:00:00
+2722	VCDV	Prado Museum	galleryC	Prado Museum	patron	2016-03-01 00:00:00	2016-08-30 00:00:00
+2728	MFVC	Prado Museum	galleryC	Prado Museum	patron	2016-03-01 00:00:00	2016-08-30 00:00:00
+3339	CRPA	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+5820	GTHS	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+336	SAIC	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+342	DUYG	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+165	WICD	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+2691	FCMA	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+5831	UFIS	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+409	ECVD	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+1657	CHIM	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+3890	BADA	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+8120	WADC	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+7445	OTTK	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+8551	BPMC	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+8002	VSGE	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+2150	COTB	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+7201	LMLH	Prado Museum	galleryA	Prado Museum	patron	2016-07-01 00:00:00	\N
+451	FMCF	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+3494	SCCD	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+7414	MORO	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+1604	RMWN	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+2729	FELI	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+1930	HCBM	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+2349	TNTL	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+7826	SFDC	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+2091	AHBA	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+4131	FDOG	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+1001	OSCM	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+777	CNMB	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+2722	VCDV	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+1461	TLVN	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+934	DAHT	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+5813	RREP	Prado Museum	galleryB	Prado Museum	patron	2016-08-01 00:00:00	\N
+2374	ISIT	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+2728	MFVC	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+7270	LPGF	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+4243	WEIP	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+8004	GOSP	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+8010	VEMA	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+1552	SFBD	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+3245	ADSD	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+4117	LBSK	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+6320	FENU	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+4003	SGEH	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+4707	TCIM	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+8229	SFPT	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+2878	ALDO	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+3260	BULN	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+3900	EMAG	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+7520	FEMT	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+2860	BONB	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+5016	VWBO	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+2842	SEKC	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+7286	ESMS	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+9620	SJBA	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+4930	ACCS	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+2975	PART	Prado Museum	galleryC	Prado Museum	patron	2016-09-01 00:00:00	\N
+1710	VENU	Prado Museum	Saskatoon	Prado Museum	sponsor1	2017-01-07 00:00:00	2017-01-28 00:00:00
+1813	TSGD	Prado Museum	Saskatoon	Prado Museum	sponsor1	2017-01-07 00:00:00	2017-01-28 00:00:00
+2103	DECK	Prado Museum	Saskatoon	Prado Museum	sponsor1	2017-01-07 00:00:00	2017-01-28 00:00:00
+2152	ASAI	Prado Museum	Saskatoon	Prado Museum	sponsor1	2017-01-07 00:00:00	2017-01-28 00:00:00
+2152	ASAI	Prado Museum	Kindersley	Prado Museum	sponsor2	2017-02-04 00:00:00	2017-02-25 00:00:00
+2524	BYMF	Prado Museum	Kindersley	Prado Museum	sponsor2	2017-02-04 00:00:00	2017-02-25 00:00:00
+2610	CAHB	Prado Museum	Kindersley	Prado Museum	sponsor2	2017-02-04 00:00:00	2017-02-25 00:00:00
+2103	DECK	Prado Museum	Kindersley	Prado Museum	sponsor2	2017-02-04 00:00:00	2017-02-25 00:00:00
+2349	KITE	Prado Museum	Kindersley	Prado Museum	sponsor2	2017-02-04 00:00:00	2017-02-25 00:00:00
+2489	TPOI	Prado Museum	Kindersley	Prado Museum	sponsor2	2017-02-04 00:00:00	2017-02-25 00:00:00
+1813	TSGD	Prado Museum	Kindersley	Prado Museum	sponsor2	2017-02-04 00:00:00	2017-02-25 00:00:00
+1710	VENU	Prado Museum	Kindersley	Prado Museum	sponsor2	2017-02-04 00:00:00	2017-02-25 00:00:00
+2152	ASAI	Prado Museum	Nipawin	Prado Museum	sponsor3	2017-03-04 00:00:00	2017-03-25 00:00:00
+2524	BYMF	Prado Museum	Nipawin	Prado Museum	sponsor3	2017-03-04 00:00:00	2017-03-25 00:00:00
+2610	CAHB	Prado Museum	Nipawin	Prado Museum	sponsor3	2017-03-04 00:00:00	2017-03-25 00:00:00
+2103	DECK	Prado Museum	Nipawin	Prado Museum	sponsor3	2017-03-04 00:00:00	2017-03-25 00:00:00
+2349	KITE	Prado Museum	Nipawin	Prado Museum	sponsor3	2017-03-04 00:00:00	2017-03-25 00:00:00
+2489	TPOI	Prado Museum	Nipawin	Prado Museum	sponsor3	2017-03-04 00:00:00	2017-03-25 00:00:00
+1813	TSGD	Prado Museum	Nipawin	Prado Museum	sponsor3	2017-03-04 00:00:00	2017-03-25 00:00:00
+1710	VENU	Prado Museum	Nipawin	Prado Museum	sponsor3	2017-03-04 00:00:00	2017-03-25 00:00:00
+2152	ASAI	Prado Museum	Battleford	Prado Museum	sponsor4	2017-04-01 00:00:00	2017-04-22 00:00:00
+2524	BYMF	Prado Museum	Battleford	Prado Museum	sponsor4	2017-04-01 00:00:00	2017-04-22 00:00:00
+2610	CAHB	Prado Museum	Battleford	Prado Museum	sponsor4	2017-04-01 00:00:00	2017-04-22 00:00:00
+2103	DECK	Prado Museum	Battleford	Prado Museum	sponsor4	2017-04-01 00:00:00	2017-04-22 00:00:00
+2349	KITE	Prado Museum	Battleford	Prado Museum	sponsor4	2017-04-01 00:00:00	2017-04-22 00:00:00
+2489	TPOI	Prado Museum	Battleford	Prado Museum	sponsor4	2017-04-01 00:00:00	2017-04-22 00:00:00
+1813	TSGD	Prado Museum	Battleford	Prado Museum	sponsor4	2017-04-01 00:00:00	2017-04-22 00:00:00
+2152	ASAI	Prado Museum	Regina	Prado Museum	sponsor5	2017-04-29 00:00:00	2017-05-20 00:00:00
+2524	BYMF	Prado Museum	Regina	Prado Museum	sponsor5	2017-04-29 00:00:00	2017-05-20 00:00:00
+2610	CAHB	Prado Museum	Regina	Prado Museum	sponsor5	2017-04-29 00:00:00	2017-05-20 00:00:00
+2103	DECK	Prado Museum	Regina	Prado Museum	sponsor5	2017-04-29 00:00:00	2017-05-20 00:00:00
+2349	KITE	Prado Museum	Regina	Prado Museum	sponsor5	2017-04-29 00:00:00	2017-05-20 00:00:00
+2489	TPOI	Prado Museum	Regina	Prado Museum	sponsor5	2017-04-29 00:00:00	2017-05-20 00:00:00
+1813	TSGD	Prado Museum	Regina	Prado Museum	sponsor5	2017-04-29 00:00:00	2017-05-20 00:00:00
+1710	VENU	Prado Museum	Regina	Prado Museum	sponsor5	2017-04-29 00:00:00	2017-05-20 00:00:00
+2349	KITE	Prado Museum	Saskatoon	Prado Museum	sponsor1	2017-01-07 00:00:00	2017-01-28 00:00:00
+2489	TPOI	Prado Museum	Saskatoon	Prado Museum	sponsor1	2017-01-07 00:00:00	2017-01-28 00:00:00
+2524	BYMF	Prado Museum	Saskatoon	Prado Museum	sponsor1	2017-01-07 00:00:00	2017-01-28 00:00:00
+2610	CAHB	Prado Museum	Saskatoon	Prado Museum	sponsor1	2017-01-07 00:00:00	2017-01-28 00:00:00
+1710	VENU	Prado Museum	Battleford	Prado Museum	sponsor4	2017-04-01 00:00:00	2017-04-22 00:00:00

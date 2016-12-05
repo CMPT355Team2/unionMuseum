@@ -1,0 +1,113 @@
+50701	WEGOM	Art Gallery NSW	Art Gallery NSW	2007-01-09	\N	owned
+49806	WECB	Art Gallery NSW	Art Gallery NSW	1998-06-02	\N	owned
+49303	WED	Art Gallery NSW	Art Gallery NSW	1993-12-15	\N	owned
+49707	WELTR	Art Gallery NSW	Art Gallery NSW	1997-11-19	\N	owned
+49902	WEW	Art Gallery NSW	Art Gallery NSW	1999-02-03	\N	owned
+50202	WEJL	Art Gallery NSW	Art Gallery NSW	2002-11-02	\N	owned
+49706	WETVA	Art Gallery NSW	Art Gallery NSW	1997-11-10	\N	owned
+50501	WETLC	Art Gallery NSW	Art Gallery NSW	2005-02-21	\N	owned
+50503	WEC	Art Gallery NSW	Art Gallery NSW	2005-08-21	\N	owned
+49907	AUBIT	Art Gallery NSW	Art Gallery NSW	1999-07-08	\N	owned
+49201	PN	Art Gallery NSW	Art Gallery NSW	1992-10-12	\N	owned
+49104	PNO	Art Gallery NSW	Art Gallery NSW	1991-06-04	\N	owned
+51201	PB	Art Gallery NSW	Art Gallery NSW	2012-06-07	\N	owned
+49106	PCSN	Art Gallery NSW	Art Gallery NSW	1991-09-01	\N	owned
+51202	PKM	Art Gallery NSW	Art Gallery NSW	2012-08-08	\N	owned
+51001	PLSH	Art Gallery NSW	Art Gallery NSW	2010-11-01	\N	owned
+49003	PGSF	Art Gallery NSW	Art Gallery NSW	1990-09-22	\N	owned
+49004	PRF	Art Gallery NSW	Art Gallery NSW	1990-10-12	\N	owned
+49801	AASBS	Art Gallery NSW	Art Gallery NSW	1998-01-02	\N	owned
+50201	AATP	Art Gallery NSW	Art Gallery NSW	2002-11-01	\N	owned
+50702	AASO	Art Gallery NSW	Art Gallery NSW	2007-10-12	\N	owned
+51002	AAW	Art Gallery NSW	Art Gallery NSW	2010-12-06	\N	owned
+49709	AAMFI	Art Gallery NSW	Art Gallery NSW	1997-12-18	\N	owned
+49001	AUTR	Art Gallery NSW	Art Gallery NSW	1990-08-08	\N	owned
+50903	AUTBT	Art Gallery NSW	Art Gallery NSW	2009-09-03	\N	owned
+49501	AULPW	Art Gallery NSW	Art Gallery NSW	1995-06-21	\N	owned
+49002	AUHR	Art Gallery NSW	Art Gallery NSW	1990-09-10	\N	owned
+49802	AUHAA	Art Gallery NSW	Art Gallery NSW	1998-01-02	\N	owned
+50002	AUTIA	Art Gallery NSW	Art Gallery NSW	2000-12-21	\N	owned
+50901	AUMP	Art Gallery NSW	Art Gallery NSW	2009-09-22	\N	owned
+50902	AUTNH	Art Gallery NSW	Art Gallery NSW	2009-06-02	\N	owned
+49908	AUASR	Art Gallery NSW	Art Gallery NSW	1999-10-16	\N	owned
+50001	AUBT	Art Gallery NSW	Art Gallery NSW	2000-12-04	\N	owned
+49102	AUBEC	Art Gallery NSW	Art Gallery NSW	1991-03-12	\N	owned
+49005	AUBHI	Art Gallery NSW	Art Gallery NSW	1990-12-15	\N	owned
+49708	AUTB	Art Gallery NSW	Art Gallery NSW	1997-12-08	\N	owned
+49301	AUPOG	Art Gallery NSW	Art Gallery NSW	1993-08-09	\N	owned
+49903	ASH	Art Gallery NSW	Art Gallery NSW	1999-03-04	\N	owned
+49904	ASC	Art Gallery NSW	Art Gallery NSW	1999-04-05	\N	owned
+50203	ASPIR	Art Gallery NSW	Art Gallery NSW	2002-12-13	\N	owned
+49401	ASSB	Art Gallery NSW	Art Gallery NSW	1994-02-21	\N	owned
+49101	AUWFT	Art Gallery NSW	Art Gallery NSW	1991-02-22	\N	owned
+49909	ASPOE	Art Gallery NSW	Art Gallery NSW	1999-11-26	\N	owned
+50301	ASRC	Art Gallery NSW	Art Gallery NSW	2003-10-01	\N	owned
+49302	ASBWD	Art Gallery NSW	Art Gallery NSW	1993-12-12	\N	owned
+50302	ASRSO	Art Gallery NSW	Art Gallery NSW	2003-02-18	\N	owned
+49901	AAJS	Art Gallery NSW	Art Gallery NSW	1999-01-02	\N	owned
+49103	AUJKC	Art Gallery NSW	Art Gallery NSW	1991-03-20	\N	owned
+49701	ASLC	Art Gallery NSW	Art Gallery NSW	1997-08-08	\N	owned
+49710	ASS	Art Gallery NSW	Art Gallery NSW	1997-12-26	\N	owned
+49804	ASB	Art Gallery NSW	Art Gallery NSW	1998-02-02	\N	owned
+49805	AST	Art Gallery NSW	Art Gallery NSW	1998-05-17	\N	owned
+49704	ASOB	Art Gallery NSW	Art Gallery NSW	1997-10-19	\N	owned
+49905	ASMFL	Art Gallery NSW	Art Gallery NSW	1999-05-06	\N	owned
+50401	ASRST	Art Gallery NSW	Art Gallery NSW	2004-01-30	\N	owned
+49703	WEPHA	Art Gallery NSW	Art Gallery NSW	1997-10-10	\N	owned
+49105	PMN	Art Gallery NSW	Art Gallery NSW	1991-08-09	\N	owned
+50801	AAST	Art Gallery NSW	Art Gallery NSW	2008-03-01	\N	owned
+49702	AAWSB	Art Gallery NSW	Art Gallery NSW	1997-10-09	\N	owned
+49705	ASK	Art Gallery NSW	Art Gallery NSW	1997-10-29	\N	owned
+49202	WEL	Art Gallery NSW	Art Gallery NSW	1992-12-20	\N	owned
+49304	WED	Art Gallery NSW	Art Gallery NSW	1993-12-19	\N	owned
+30203	AATHB	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+10603	AAUIT	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+103	PSPE	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+50103	AAAHK	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+703	PCAXE	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+20603	PHBD	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+20703	PKHW	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+20903	AANNK	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+90303	PSHD	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+70803	PTPSK	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+1203	PKRT	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+80403	PGSF	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+90203	PGMSK	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+81003	AAAWE	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+90103	AAFBT	Art Gallery NSW	Art Gallery NSW	2016-10-25	\N	purchased
+50120	ASRK	Art Gallery NSW	Cookie Monster	1991-03-26	\N	long-term borrowed
+50332	ASFOR	Art Gallery NSW	Cookie Monster	1996-02-22	\N	long-term borrowed
+37122	WETF	Art Gallery NSW	spongebob	2005-05-08	\N	long-term borrowed
+44586	WERAT	Art Gallery NSW	Patrick Star	2000-12-05	\N	long-term borrowed
+42265	ASM	Art Gallery NSW	Cookie Monster	1990-07-11	\N	long-term borrowed
+11626	WEOA	Art Gallery NSW	spongebob	1998-10-16	\N	long-term borrowed
+52111	WETA	Art Gallery NSW	spongebob	1996-06-09	\N	long-term borrowed
+62265	WETE	Art Gallery NSW	spongebob	1999-12-08	\N	long-term borrowed
+52112	WETAT	Art Gallery NSW	spongebob	2000-01-02	\N	long-term borrowed
+31221	WEGFB	Art Gallery NSW	Patrick Star	2000-12-20	\N	long-term borrowed
+64256	WEWBW	Art Gallery NSW	Patrick Star	2005-05-05	\N	long-term borrowed
+49173	ASGW	Art Gallery NSW	Cookie Monster	1996-10-16	\N	long-term borrowed
+52151	ASAST	Art Gallery NSW	Cookie Monster	1991-02-02	\N	long-term borrowed
+31222	WEGFB	Art Gallery NSW	Patrick Star	2001-09-05	\N	long-term borrowed
+53362	WELLW	Art Gallery NSW	spongebob	1995-06-22	\N	long-term borrowed
+60207	WEDS	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+51415	AAIN	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+63217	AATSP	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+17003	AAGWF	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+65427	AAES	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+64192	AAOBW	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+62218	WEVAC	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+32147	WEPWW	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+51155	WETNO	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+57367	AAMAT	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+64161	AUJB	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+60513	AUTBX	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+53260	AUTFN	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+33265	AULIS	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+31822	AURT	Art Gallery NSW	British Museum	2016-12-04	\N	potentially borrowed
+49803	WEJYM	Art Gallery NSW	Other Museum	1998-01-12	2016-10-21	owned
+50703	WEGOM	Art Gallery NSW	Other Museum	2007-02-09	2016-10-21	owned
+50502	AUPDC	Art Gallery NSW	Other Museum	2005-05-21	2016-10-21	owned
+49803	WEJYM	Art Gallery NSW	Other Museum	2016-10-21	\N	sold
+50703	WEGOM	Art Gallery NSW	Other Museum	2016-10-21	\N	sold
+50502	AUPDC	Art Gallery NSW	Other Museum	2016-10-21	\N	sold

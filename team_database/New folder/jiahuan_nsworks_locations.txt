@@ -1,0 +1,377 @@
+37122	WETF	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+37122	WETF	Art Gallery NSW	storage	Art Gallery NSW	patron	2005-05-08 00:00:00	2016-07-01 00:00:00
+37122	WETF	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+52111	WETA	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-02-18 00:00:00
+52111	WETA	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2016-12-25 00:00:00
+52111	WETA	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	2017-04-25 00:00:00
+52111	WETA	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+53362	WELLW	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+53362	WELLW	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+49707	WELTR	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49707	WELTR	Art Gallery NSW	storage	Art Gallery NSW	patron	1997-11-19 00:00:00	2016-07-01 00:00:00
+49707	WELTR	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+49706	WETVA	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49706	WETVA	Art Gallery NSW	storage	Art Gallery NSW	patron	1997-11-10 00:00:00	2016-07-01 00:00:00
+49706	WETVA	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+50501	WETLC	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-04-25 00:00:00
+50501	WETLC	Art Gallery NSW	storage	Art Gallery NSW	patron	2005-02-21 00:00:00	2016-12-25 00:00:00
+50501	WETLC	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+50503	WEC	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+50503	WEC	Art Gallery NSW	storage	Art Gallery NSW	patron	2005-08-21 00:00:00	2016-07-01 00:00:00
+50503	WEC	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+51201	PB	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+51201	PB	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	2017-02-23 00:00:00
+51201	PB	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+49106	PCSN	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+49106	PCSN	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	2017-02-23 00:00:00
+49106	PCSN	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+51202	PKM	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+51202	PKM	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	2017-02-23 00:00:00
+51202	PKM	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+49709	AAMFI	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-02-23 00:00:00
+49709	AAMFI	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-04-25 00:00:00
+49709	AAMFI	Art Gallery NSW	storage	Art Gallery NSW	patron	1997-12-18 00:00:00	2016-08-10 00:00:00
+49709	AAMFI	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	2016-12-25 00:00:00
+49709	AAMFI	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	2017-07-23 00:00:00
+49709	AAMFI	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+50903	AUTBT	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+50903	AUTBT	Art Gallery NSW	storage	Art Gallery NSW	patron	2015-12-28 00:00:00	2016-07-01 00:00:00
+50903	AUTBT	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+49501	AULPW	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49501	AULPW	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-04-25 00:00:00
+49501	AULPW	Art Gallery NSW	storage	Art Gallery NSW	patron	1995-06-21 00:00:00	2016-07-01 00:00:00
+49501	AULPW	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	2016-12-25 00:00:00
+49501	AULPW	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+49002	AUHR	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-04-25 00:00:00
+49002	AUHR	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	2016-12-25 00:00:00
+49002	AUHR	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+50001	AUBT	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-04-25 00:00:00
+50001	AUBT	Art Gallery NSW	storage	Art Gallery NSW	patron	2000-12-04 00:00:00	2016-12-25 00:00:00
+50001	AUBT	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+49103	AUJKC	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-04-25 00:00:00
+49103	AUJKC	Art Gallery NSW	storage	Art Gallery NSW	patron	1991-03-20 00:00:00	2016-12-25 00:00:00
+49103	AUJKC	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+49005	AUBHI	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-04-25 00:00:00
+49005	AUBHI	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	2016-12-25 00:00:00
+49005	AUBHI	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+50203	ASPIR	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49704	ASOB	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-02-23 00:00:00
+49704	ASOB	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-04-25 00:00:00
+31222	WEGFB	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+31222	WEGFB	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	\N
+49303	WED	Art Gallery NSW	storage	Art Gallery NSW	patron	1993-12-15 00:00:00	\N
+49704	ASOB	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	2016-12-25 00:00:00
+49704	ASOB	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	2017-07-23 00:00:00
+49704	ASOB	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+49105	PMN	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-02-18 00:00:00
+49105	PMN	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2016-12-25 00:00:00
+49105	PMN	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	2017-04-25 00:00:00
+49105	PMN	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+49202	WEL	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49202	WEL	Art Gallery NSW	storage	Art Gallery NSW	patron	1992-12-20 00:00:00	2016-07-01 00:00:00
+49202	WEL	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+49304	WED	Art Gallery NSW	storage	Art Gallery NSW	patron	1993-12-19 00:00:00	\N
+53362	WELLW	Art Gallery NSW	storage	Art Gallery NSW	patron	1995-06-22 00:00:00	2016-07-01 00:00:00
+44586	WERAT	Art Gallery NSW	storage	Art Gallery NSW	patron	2000-12-05 00:00:00	\N
+42265	ASM	Art Gallery NSW	storage	Art Gallery NSW	patron	1990-05-11 00:00:00	\N
+49302	ASBWD	Art Gallery NSW	storage	Art Gallery NSW	patron	1993-12-12 00:00:00	2016-06-15 00:00:00
+50701	WEGOM	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-06-15 00:00:00	2016-08-16 00:00:00
+62265	WETE	Art Gallery NSW	storage	Art Gallery NSW	patron	1999-12-08 00:00:00	\N
+31221	WEGFB	Art Gallery NSW	storage	Art Gallery NSW	patron	2000-12-20 00:00:00	\N
+49173	ASGW	Art Gallery NSW	storage	Art Gallery NSW	patron	1996-10-16 00:00:00	\N
+50701	WEGOM	Art Gallery NSW	storage	Art Gallery NSW	patron	2007-01-09 00:00:00	2016-06-15 00:00:00
+50701	WEGOM	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-08-16 00:00:00	\N
+49902	WEW	Art Gallery NSW	storage	Art Gallery NSW	patron	1999-02-03 00:00:00	\N
+50202	WEJL	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2015-11-02 00:00:00	2015-12-28 00:00:00
+50202	WEJL	Art Gallery NSW	storage	Art Gallery NSW	patron	2002-11-02 00:00:00	2015-11-02 00:00:00
+90303	PSHD	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+49907	AUBIT	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-01-10 00:00:00	2016-05-01 00:00:00
+70803	PTPSK	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+49907	AUBIT	Art Gallery NSW	storage	Art Gallery NSW	patron	1999-07-08 00:00:00	2016-01-10 00:00:00
+49803	WEJYM	Art Gallery NSW	storage	Art Gallery NSW	patron	1998-01-12 00:00:00	2016-10-21 00:00:00
+1203	PKRT	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+49001	AUTR	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-01-10 00:00:00	2016-05-01 00:00:00
+49001	AUTR	Art Gallery NSW	storage	Art Gallery NSW	patron	1990-08-08 00:00:00	2016-01-10 00:00:00
+50903	AUTBT	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2015-11-02 00:00:00	2015-12-28 00:00:00
+50903	AUTBT	Art Gallery NSW	storage	Art Gallery NSW	patron	2009-09-03 00:00:00	2015-11-02 00:00:00
+49002	AUHR	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-01-10 00:00:00	2016-05-01 00:00:00
+49002	AUHR	Art Gallery NSW	storage	Art Gallery NSW	patron	1990-09-10 00:00:00	2016-01-10 00:00:00
+80403	PGSF	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+50902	AUTNH	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2015-11-02 00:00:00	2015-12-28 00:00:00
+50902	AUTNH	Art Gallery NSW	storage	Art Gallery NSW	patron	2009-06-02 00:00:00	2015-11-02 00:00:00
+50902	AUTNH	Art Gallery NSW	storage	Art Gallery NSW	patron	2015-12-28 00:00:00	\N
+49908	AUASR	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-01-10 00:00:00	2016-05-01 00:00:00
+49908	AUASR	Art Gallery NSW	storage	Art Gallery NSW	patron	1999-10-16 00:00:00	2016-01-10 00:00:00
+49708	AUTB	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-01-10 00:00:00	2016-05-01 00:00:00
+49708	AUTB	Art Gallery NSW	storage	Art Gallery NSW	patron	1997-12-08 00:00:00	2016-01-10 00:00:00
+49708	AUTB	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-05-01 00:00:00	\N
+50502	AUPDC	Art Gallery NSW	storage	Art Gallery NSW	patron	2005-05-21 00:00:00	2016-10-21 00:00:00
+49301	AUPOG	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2015-11-02 00:00:00	2015-12-28 00:00:00
+49301	AUPOG	Art Gallery NSW	storage	Art Gallery NSW	patron	1993-08-09 00:00:00	2015-11-02 00:00:00
+49301	AUPOG	Art Gallery NSW	storage	Art Gallery NSW	patron	2015-12-28 00:00:00	\N
+49401	ASSB	Art Gallery NSW	storage	Art Gallery NSW	patron	1994-02-21 00:00:00	2016-06-15 00:00:00
+49701	ASLC	Art Gallery NSW	storage	Art Gallery NSW	patron	1997-08-08 00:00:00	2016-06-15 00:00:00
+49704	ASOB	Art Gallery NSW	storage	Art Gallery NSW	patron	1997-10-19 00:00:00	2016-06-15 00:00:00
+49703	WEPHA	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2015-11-02 00:00:00	2015-12-28 00:00:00
+49703	WEPHA	Art Gallery NSW	storage	Art Gallery NSW	patron	1997-10-10 00:00:00	2015-11-02 00:00:00
+49703	WEPHA	Art Gallery NSW	storage	Art Gallery NSW	patron	2015-12-28 00:00:00	\N
+20903	AANNK	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+90203	PGMSK	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+103	PSPE	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+50103	AAAHK	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+81003	AAAWE	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+90103	AAFBT	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+30203	AATHB	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+10603	AAUIT	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+703	PCAXE	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+20603	PHBD	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+20703	PKHW	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-10-25 00:00:00	\N
+49909	ASPOE	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49909	ASPOE	Art Gallery NSW	storage	Art Gallery NSW	patron	1999-11-26 00:00:00	2016-07-01 00:00:00
+50301	ASRC	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+50301	ASRC	Art Gallery NSW	storage	Art Gallery NSW	patron	2003-10-01 00:00:00	2016-07-01 00:00:00
+50301	ASRC	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+49302	ASBWD	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-08-16 00:00:00
+49302	ASBWD	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-06-15 00:00:00	2016-07-01 00:00:00
+49302	ASBWD	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-08-16 00:00:00	2016-11-18 00:00:00
+50302	ASRSO	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+50302	ASRSO	Art Gallery NSW	storage	Art Gallery NSW	patron	2003-02-18 00:00:00	2016-07-01 00:00:00
+50302	ASRSO	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+49801	AASBS	Art Gallery NSW	storage	Art Gallery NSW	patron	1998-01-02 00:00:00	2016-08-10 00:00:00
+49901	AAJS	Art Gallery NSW	storage	Art Gallery NSW	patron	1999-01-02 00:00:00	2016-08-10 00:00:00
+49903	ASH	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49903	ASH	Art Gallery NSW	storage	Art Gallery NSW	patron	1999-03-04 00:00:00	2016-07-01 00:00:00
+49904	ASC	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49904	ASC	Art Gallery NSW	storage	Art Gallery NSW	patron	1999-04-05 00:00:00	2016-07-01 00:00:00
+49904	ASC	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+50203	ASPIR	Art Gallery NSW	storage	Art Gallery NSW	patron	2002-12-13 00:00:00	2016-07-01 00:00:00
+50203	ASPIR	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+49401	ASSB	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-08-16 00:00:00
+49401	ASSB	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-06-15 00:00:00	2016-07-01 00:00:00
+49401	ASSB	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-08-16 00:00:00	2016-11-18 00:00:00
+49701	ASLC	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-08-16 00:00:00
+49701	ASLC	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-06-15 00:00:00	2016-07-01 00:00:00
+49701	ASLC	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-08-16 00:00:00	2016-11-18 00:00:00
+49710	ASS	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49710	ASS	Art Gallery NSW	storage	Art Gallery NSW	patron	1997-12-26 00:00:00	2016-07-01 00:00:00
+49710	ASS	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+49804	ASB	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49804	ASB	Art Gallery NSW	storage	Art Gallery NSW	patron	1998-02-02 00:00:00	2016-07-01 00:00:00
+49805	AST	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49805	AST	Art Gallery NSW	storage	Art Gallery NSW	patron	1998-05-17 00:00:00	2016-07-01 00:00:00
+49704	ASOB	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-08-16 00:00:00
+49704	ASOB	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-06-15 00:00:00	2016-07-01 00:00:00
+49704	ASOB	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-08-16 00:00:00	2016-11-18 00:00:00
+49905	ASMFL	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49905	ASMFL	Art Gallery NSW	storage	Art Gallery NSW	patron	1999-05-06 00:00:00	2016-07-01 00:00:00
+49905	ASMFL	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+50401	ASRST	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+50401	ASRST	Art Gallery NSW	storage	Art Gallery NSW	patron	2004-01-30 00:00:00	2016-07-01 00:00:00
+50401	ASRST	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	\N
+49705	ASK	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-07-01 00:00:00	2016-11-18 00:00:00
+49705	ASK	Art Gallery NSW	storage	Art Gallery NSW	patron	1997-10-29 00:00:00	2016-07-01 00:00:00
+52112	WETAT	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+52112	WETAT	Art Gallery NSW	storage	Art Gallery NSW	patron	2000-01-02 00:00:00	2016-08-10 00:00:00
+52112	WETAT	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	\N
+52151	ASAST	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+50202	WEJL	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+50202	WEJL	Art Gallery NSW	storage	Art Gallery NSW	patron	2015-12-28 00:00:00	2016-08-10 00:00:00
+50202	WEJL	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	\N
+49907	AUBIT	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+49907	AUBIT	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-05-01 00:00:00	2016-09-20 00:00:00
+49907	AUBIT	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	\N
+50703	WEGOM	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+50703	WEGOM	Art Gallery NSW	storage	Art Gallery NSW	patron	2007-02-09 00:00:00	2016-08-10 00:00:00
+50703	WEGOM	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	\N
+52151	ASAST	Art Gallery NSW	storage	Art Gallery NSW	patron	1991-02-02 00:00:00	2016-08-10 00:00:00
+49201	PN	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+49201	PN	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	\N
+49104	PNO	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+49104	PNO	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	\N
+51201	PB	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+49106	PCSN	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+51202	PKM	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+51001	PLSH	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+51001	PLSH	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	\N
+49003	PGSF	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+49003	PGSF	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	\N
+49004	PRF	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+49004	PRF	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	\N
+49801	AASBS	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+50201	AATP	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+50201	AATP	Art Gallery NSW	storage	Art Gallery NSW	patron	2002-11-01 00:00:00	2016-08-10 00:00:00
+50702	AASO	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+50702	AASO	Art Gallery NSW	storage	Art Gallery NSW	patron	2007-10-12 00:00:00	2016-08-10 00:00:00
+51002	AAW	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+51002	AAW	Art Gallery NSW	storage	Art Gallery NSW	patron	2010-12-06 00:00:00	2016-08-10 00:00:00
+49709	AAMFI	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+49901	AAJS	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+49001	AUTR	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+49001	AUTR	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-05-01 00:00:00	2016-08-10 00:00:00
+49001	AUTR	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	\N
+49002	AUHR	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+49002	AUHR	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-05-01 00:00:00	2016-08-10 00:00:00
+49802	AUHAA	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+49802	AUHAA	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	\N
+50901	AUMP	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+50901	AUMP	Art Gallery NSW	storage	Art Gallery NSW	patron	2009-09-22 00:00:00	2016-08-10 00:00:00
+50901	AUMP	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	\N
+49908	AUASR	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+49908	AUASR	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-05-01 00:00:00	2016-09-20 00:00:00
+49908	AUASR	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	\N
+49102	AUBEC	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-18 00:00:00
+49102	AUBEC	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	\N
+49005	AUBHI	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+49005	AUBHI	Art Gallery NSW	storage	Art Gallery NSW	patron	1990-12-15 00:00:00	2016-08-10 00:00:00
+50120	ASRK	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+50120	ASRK	Art Gallery NSW	storage	Art Gallery NSW	patron	1991-03-26 00:00:00	2016-08-10 00:00:00
+50120	ASRK	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	\N
+50801	AAST	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-08-10 00:00:00	2016-12-20 00:00:00
+50801	AAST	Art Gallery NSW	storage	Art Gallery NSW	patron	2008-03-01 00:00:00	2016-08-10 00:00:00
+49909	ASPOE	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+49909	ASPOE	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	2017-02-23 00:00:00
+52151	ASAST	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	2017-02-23 00:00:00
+49909	ASPOE	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+49302	ASBWD	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-04-25 00:00:00
+52151	ASAST	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+49302	ASBWD	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	2016-12-25 00:00:00
+49302	ASBWD	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+49801	AASBS	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+49801	AASBS	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	2017-02-23 00:00:00
+49801	AASBS	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+50201	AATP	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+50201	AATP	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	2017-02-23 00:00:00
+50201	AATP	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+50702	AASO	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+50702	AASO	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	2017-02-23 00:00:00
+50702	AASO	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+51002	AAW	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+51002	AAW	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	2017-02-23 00:00:00
+51002	AAW	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+49901	AAJS	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+49901	AAJS	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	2017-02-23 00:00:00
+49901	AAJS	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+49903	ASH	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+49903	ASH	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	2017-02-23 00:00:00
+49903	ASH	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+49401	ASSB	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-04-25 00:00:00
+49401	ASSB	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	2016-12-25 00:00:00
+49401	ASSB	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+49701	ASLC	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-04-25 00:00:00
+49701	ASLC	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	2016-12-25 00:00:00
+49701	ASLC	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+49804	ASB	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+49804	ASB	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	2017-02-23 00:00:00
+49804	ASB	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+49805	AST	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+49805	AST	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	2017-02-23 00:00:00
+49805	AST	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+50801	AAST	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-02-23 00:00:00
+50801	AAST	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-04-25 00:00:00
+50801	AAST	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-12-20 00:00:00	2016-12-25 00:00:00
+50801	AAST	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	2017-07-23 00:00:00
+50801	AAST	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-07-23 00:00:00	\N
+49702	AAWSB	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-04-25 00:00:00
+49702	AAWSB	Art Gallery NSW	storage	Art Gallery NSW	patron	1997-10-09 00:00:00	2016-12-25 00:00:00
+49702	AAWSB	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+49705	ASK	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-25 00:00:00	2017-04-25 00:00:00
+49705	ASK	Art Gallery NSW	storage	Art Gallery NSW	patron	2016-11-18 00:00:00	2016-12-25 00:00:00
+49705	ASK	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-25 00:00:00	\N
+49101	AUWFT	Art Gallery NSW	storage	Art Gallery NSW	patron	1991-02-22 00:00:00	2016-11-30 07:25:00
+49101	AUWFT	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-25 09:15:00	\N
+49806	WECB	Art Gallery NSW	storage	Art Gallery NSW	patron	1998-06-02 00:00:00	2016-11-05 08:05:00
+49806	WECB	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-03-10 03:50:00	\N
+49201	PN	Art Gallery NSW	storage	Art Gallery NSW	patron	1992-10-12 00:00:00	2016-05-03 05:30:00
+49104	PNO	Art Gallery NSW	storage	Art Gallery NSW	patron	1991-06-04 00:00:00	2016-05-03 05:30:00
+51201	PB	Art Gallery NSW	storage	Art Gallery NSW	patron	2012-06-07 00:00:00	2016-05-03 05:30:00
+49106	PCSN	Art Gallery NSW	storage	Art Gallery NSW	patron	1991-09-01 00:00:00	2016-05-03 05:30:00
+51202	PKM	Art Gallery NSW	storage	Art Gallery NSW	patron	2012-08-08 00:00:00	2016-05-03 05:30:00
+51001	PLSH	Art Gallery NSW	storage	Art Gallery NSW	patron	2010-11-01 00:00:00	2016-05-03 05:30:00
+49003	PGSF	Art Gallery NSW	storage	Art Gallery NSW	patron	1990-09-22 00:00:00	2016-05-03 05:30:00
+49004	PRF	Art Gallery NSW	storage	Art Gallery NSW	patron	1990-10-12 00:00:00	2016-05-03 05:30:00
+49802	AUHAA	Art Gallery NSW	storage	Art Gallery NSW	patron	1998-01-02 00:00:00	2016-05-03 05:30:00
+50002	AUTIA	Art Gallery NSW	storage	Art Gallery NSW	patron	2000-12-21 00:00:00	2016-12-30 08:20:00
+50002	AUTIA	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-05-01 09:50:00	\N
+49102	AUBEC	Art Gallery NSW	storage	Art Gallery NSW	patron	1991-03-12 00:00:00	2016-05-03 05:30:00
+50332	ASFOR	Art Gallery NSW	storage	Art Gallery NSW	patron	1996-02-22 00:00:00	2016-12-28 06:30:00
+50332	ASFOR	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-03-01 06:30:00	\N
+49105	PMN	Art Gallery NSW	storage	Art Gallery NSW	patron	1991-08-09 00:00:00	2016-05-03 05:30:00
+52111	WETA	Art Gallery NSW	storage	Art Gallery NSW	patron	1996-06-09 00:00:00	2016-05-03 05:30:00
+64256	WEWBW	Art Gallery NSW	storage	Art Gallery NSW	patron	2005-05-05 00:00:00	2017-02-01 05:55:00
+64256	WEWBW	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-28 09:25:00	\N
+52151	ASAST	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-23 00:00:00	2017-07-23 00:00:00
+31222	WEGFB	Art Gallery NSW	storage	Art Gallery NSW	patron	2001-09-05 00:00:00	2016-05-03 05:30:00
+11626	WEOA	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-09-20 00:00:00	2017-02-15 02:25:00
+11626	WEOA	Art Gallery NSW	storage	Art Gallery NSW	patron	1998-10-16 00:00:00	2016-05-03 05:30:00
+11626	WEOA	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-02-18 00:00:00	2017-04-20 10:35:00
+11626	WEOA	Art Gallery NSW	storage	Art Gallery NSW	patron	2017-04-20 10:35:00	\N
+52111	WETA	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+31222	WEGFB	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+11626	WEOA	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+49201	PN	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+49104	PNO	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+51201	PB	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+49106	PCSN	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+51202	PKM	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+51001	PLSH	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+49003	PGSF	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+49004	PRF	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+49802	AUHAA	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+49105	PMN	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+49102	AUBEC	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-07-06 02:05:00	2016-07-27 02:05:00
+52111	WETA	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+31222	WEGFB	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+11626	WEOA	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+49201	PN	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+49104	PNO	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+51201	PB	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+49106	PCSN	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+51202	PKM	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+51001	PLSH	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+49003	PGSF	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+49004	PRF	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+49802	AUHAA	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+49105	PMN	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+49102	AUBEC	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-06-07 02:05:00	2016-06-28 02:05:00
+52111	WETA	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+31222	WEGFB	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+11626	WEOA	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+49201	PN	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+49104	PNO	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+51201	PB	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+49106	PCSN	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+51202	PKM	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+51001	PLSH	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+49003	PGSF	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+49004	PRF	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+49802	AUHAA	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+49105	PMN	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+49102	AUBEC	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-05-10 02:05:00	2016-05-31 05:15:00
+52111	WETA	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+31222	WEGFB	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+11626	WEOA	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+49201	PN	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+49104	PNO	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+51201	PB	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+49106	PCSN	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+51202	PKM	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+51001	PLSH	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+49003	PGSF	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+49004	PRF	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+49802	AUHAA	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+49105	PMN	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+49102	AUBEC	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-01 02:05:00	2016-09-19 02:05:00
+52111	WETA	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+31222	WEGFB	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+11626	WEOA	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+49201	PN	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+49104	PNO	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+51201	PB	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+49106	PCSN	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+51202	PKM	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+51001	PLSH	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+49003	PGSF	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+49004	PRF	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+49802	AUHAA	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+49105	PMN	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00
+49102	AUBEC	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-08-03 02:05:00	2016-08-24 02:05:00

@@ -1,0 +1,13 @@
+Asian art exhibition	2016-07-01	Art Gallery NSW	galleryLarge	Art Gallery NSW	patron	2016-11-18
+Australian art exhibition	2016-08-10	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2016-12-20
+Pacific art exhibition	2016-09-20	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-02-18
+Ceramic and Sculpture exhibition	2016-12-25	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2017-04-25
+Textile and Jewellery exhibition	2017-02-23	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2017-07-23
+Pre_exhibition_I	2015-11-02	Art Gallery NSW	gallerySmallA	Art Gallery NSW	patron	2015-12-28
+Pre_exhibition_II	2016-01-10	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-05-01
+Pre_exhibition_III	2016-06-15	Art Gallery NSW	gallerySmallB	Art Gallery NSW	patron	2016-08-16
+Traveling exhibition	2016-05-03	Art Gallery NSW	Moose Jaw	Art Gallery NSW	Spider Man	2016-09-19
+Traveling exhibition	2016-05-03	Art Gallery NSW	Prince Albert	Art Gallery NSW	Super Man	2016-09-19
+Traveling exhibition	2016-05-03	Art Gallery NSW	Regina	Art Gallery NSW	Jack	2016-09-19
+Traveling exhibition	2016-05-03	Art Gallery NSW	Swift Current	Art Gallery NSW	Super Man	2016-09-19
+Traveling exhibition	2016-05-03	Art Gallery NSW	Yorkton	Art Gallery NSW	Harry	2016-09-19

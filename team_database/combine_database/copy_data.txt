@@ -1,0 +1,85 @@
+-- CMPT355 Team 2
+-- transfer each team member's old database data into new team database schema
+-- import works data
+\copy works from 'nsworks.txt';
+\copy works from 'Lan_nsworks.txt';
+\copy works from 'RuidaXie_nsworks.txt';
+\COPY works FROM 'jiahuan_nsworks.txt';
+
+-- import exhibitions data
+\COPY exhibitions from 'nsexhibitions.txt';
+\COPY exhibitions from 'Lan_nsexhibitions.txt';
+\copy exhibitions from 'RuidaXie_nsexhibitions.txt';
+\COPY exhibitions FROM 'jiahuan_nsexhibitions.txt';
+
+-- import locations data
+\COPY locations from 'nslocations.txt';
+\COPY locations from 'Lan_nslocations.txt';
+\copy locations from 'RuidaXie_nslocations.txt'; 
+\COPY locations FROM 'jiahuan_nslocations.txt';
+
+-- import institutions data
+\COPY institutions from 'nsinstitutions.txt';
+\COPY institutions from 'Lan_nsinstitutions.txt';
+\copy institutions from 'RuidaXie_nsinstitutions.txt';
+\COPY institutions FROM 'jiahuan_nsinstitutions.txt';
+
+-- import owners data
+\COPY owners from 'nsowners.txt';
+\COPY owners from 'Lan_nsowners.txt';
+\COPY owners from 'RuidaXie_nsowners.txt';
+\COPY owners FROM 'jiahuan_nsowners.txt';
+
+-- import transcations data
+\COPY transactions from 'nstransactions.txt';
+\COPY transactions from 'Lan_nstransactions.txt';
+\COPY transactions from 'RuidaXie_nstransactions.txt';
+\COPY transactions FROM 'jiahuan_nstransactions.txt';	
+
+-- import works-exhibitions data
+\COPY works_exhibitions from 'nsworks_exhibitions.txt';
+\COPY works_exhibitions from 'Lan_nsworks_exhibitions.txt';
+\copy works_exhibitions from 'RuidaXie_nsworks_exhibitions.txt';
+\COPY works_exhibitions FROM 'jiahuan_nsworks_exhibitions.txt';
+
+-- import works-locations data
+\COPY works_locations from 'nsworks_locations.txt';
+\COPY works_locations from 'Lan_nsworks_locations.txt';
+\copy works_locations from 'RuidaXie_nsworks_locations.txt';
+\COPY works_locations FROM 'jiahuan_nsworks_locations.txt';
+
+-- import works-locations data
+\COPY exhibitions_locations from 'nsexhibitions_locations.txt';
+\COPY exhibitions_locations from 'Lan_nsexhibitions_locations.txt';
+\copy exhibitions_locations from 'RuidaXie_nsexhibitions_locations.txt';
+\COPY exhibitions_locations FROM 'jiahuan_nsexhibitions_locations.txt';
+
+-- import medium data
+\COPY medium from 'nsmedium.txt';
+\COPY medium from 'Lan_nsmedium.txt';
+\copy medium from 'RuidaXie_nsmedium.txt'; 
+\COPY medium FROM 'jiahuan_nsmedium.txt';
+
+-- import doors data
+\COPY doors from 'nsdoors.txt';
+\COPY doors from 'Lan_nsdoors.txt';
+\copy doors from 'RuidaXie_nsdoors.txt'; 
+\COPY doors FROM 'jiahuan_nsdoors.txt';
+
+-- import changedvalue date
+\COPY changedvalue from 'nschangedvalue.txt';
+\COPY changedvalue from 'Lan_nschangedvalue.txt';
+\COPY changedvalue from 'RuidaXie_nschangedvalue.txt';
+\COPY changedvalue FROM 'jiahuan_nschangedvalue.txt';
+
+-- import changedcount data
+\COPY changedcount from 'nschangedcount.txt';
+\COPY changedcount from 'Lan_nschangedcount.txt';
+\COPY changedcount from 'RuidaXie_nschangedcount.txt';
+\COPY changedcount FROM 'jiahuan_nschangedcount.txt';
+
+--import changedemail data
+\COPY changedemail from 'nschangedemail.txt';
+\COPY changedemail from 'Lan_nschangedemail.txt';
+\COPY changedemail from 'RuidaXie_nschangedemail.txt';
+\COPY changedemail FROM 'jiahuan_nschangedemail.txt';

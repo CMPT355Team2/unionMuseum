@@ -1,0 +1,51 @@
+BEGIN
+
+drop table if exists temp_works cascade;
+
+create table temp_works
+as select *
+from ( values (
+	:nswscode,
+	:nswsacronym,
+	:nswsmanem, 
+	:nswswname, 
+	:nswsregion, 
+	:nswscentury, 
+	:nswscategory, 
+	:nswsauthor, 
+	:nswscdatecom, 
+	:nswsadateacq, 
+	:nswswdesc,
+	:nswsstatus,
+	:nswsinsvalue,
+	:nswsinsname
+)) AS t 
+(newcode, newacronym, newmname, newwname, newregion, newcentury, newcategory, newauthor, newcdatecom, newadateacq, newwdesc, newstatus, newinsvalue, newinsname);
+
+
+insert into 
+	works
+select 
+	tw.newcode,
+	tw.newacronym,
+	tw.newmname,
+	tw.newname,
+	tw.newregion,
+	tw.newcentury,
+	tw.newcategory,
+	tw.newauthor,
+	tw.newcdatecom,
+	tw.newadateacq,
+	tw.newwdesc
+from 
+	temp_works tw;
+
+insert into 
+	owners
+select
+	tw.newcode,
+	tw.newacronym,
+	tw.newmname,
+	tw.newinsname,
+	tw.newadateacq,
+	

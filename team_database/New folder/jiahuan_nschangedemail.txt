@@ -1,0 +1,12 @@
+Art Gallery NSW	agn@mail.ca	2016-12-04	\N
+Cookie Monster	cm@mail.ca	2016-12-04	\N
+Patrick Star	ps@mail.ca	2016-12-04	\N
+spongebob	spongebob@mail.ca	2016-12-04	\N
+British Museum	Britishm@mail.ca	2016-12-04	\N
+Other Museum	om@mail.ca	2016-12-04	\N
+U of T	uoft@uoft.ca	2016-12-04	\N
+U of A	uofa@uofa.ca	2016-12-04	\N
+U of C	uofc@uofc.ca	2016-12-04	\N
+U of S	uofs@usask.ca	2016-12-04	\N
+U of M	uofm@uofm.ca	2016-12-04	\N
+SFU	sfu@sfu.ca	2016-12-04	\N

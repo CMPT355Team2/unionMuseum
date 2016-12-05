@@ -1,0 +1,6 @@
+Prado Museum	306.888.5188	001 Cuberland AVE S
+Jishou Miao Museum	306.888.5288	002 Cuberland AVE S
+Eric	306.888.5388	003 Cuberland AVE S
+Kyle	306.888.5488	004 Cuberland AVE S
+Stan	306.888.5588	005 Cuberland AVE S
+Kenny	306.888.5688	006 Cuberland AVE S

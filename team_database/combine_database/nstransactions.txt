@@ -1,0 +1,33 @@
+1977	ZQX	Seattle Art Museum	Petter	1995-06-15 00:00:00	\N
+1939	TL	Seattle Art Museum	Jerry	2010-09-04 00:00:00	\N
+1866	QH	Seattle Art Museum	Jerry	2010-01-04 00:00:00	\N
+1740	CL	Seattle Art Museum	Jerry	2011-12-04 00:00:00	\N
+1741	HS	Seattle Art Museum	Jerry	1991-12-16 00:00:00	\N
+1946	ZDQ	Seattle Art Museum	Jerry	2005-11-08 00:00:00	\N
+18911	SZL	Seattle Art Museum	Tom	1999-12-04 00:00:00	\N
+1691	UNKA	Seattle Art Museum	Tom	1994-05-18 00:00:00	\N
+1999	WFY	Seattle Art Museum	Tom	2001-10-06 00:00:00	\N
+1699	UNKA	Seattle Art Museum	Tom	1994-07-17 00:00:00	\N
+1977	ZD	Seattle Art Museum	Tom	2007-09-06 00:00:00	\N
+1619	SMJ	Seattle Art Museum	Petter	2005-05-02 00:00:00	\N
+19281	TG	Seattle Art Museum	Petter	1999-11-10 00:00:00	\N
+19282	TG	Seattle Art Museum	Petter	1999-11-10 00:00:00	\N
+1900	WGX	Seattle Art Museum	Petter	1995-06-05 00:00:00	\N
+1991	RZY	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1793	ZDW	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1739	CF	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1965	LGS	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1977	KSW	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1947	CJY	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+19683	CCW	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1991	CSW	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1967	LGS	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1985	CSX	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1899	GDS	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1699	LL	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1899	QY	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1999	RCY	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1599	LJ	Seattle Art Museum	Tom	2016-10-25 00:00:00	\N
+1521	WZG	Seattle Art Museum	Kongzi college	2016-10-21 00:00:00	\N
+1492	SZ	Seattle Art Museum	Kongzi college	2016-10-21 00:00:00	\N
+1810	CHS	Seattle Art Museum	Kongzi college	2016-10-21 00:00:00	\N

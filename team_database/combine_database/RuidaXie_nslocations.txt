@@ -1,0 +1,11 @@
+storage	Birmingham Museum and Art Gallery	patron	\N	\N	100	100	15	0	600
+lobby	Birmingham Museum and Art Gallery	patron	\N	\N	100	20	15	2	4
+small gallery A	Birmingham Museum and Art Gallery	patron	\N	\N	50	10	5	7	16
+small gallery B	Birmingham Museum and Art Gallery	patron	\N	\N	50	10	5	7	16
+large gallery C	Birmingham Museum and Art Gallery	patron	\N	\N	100	10	10	14	24
+large gallery D	Birmingham Museum and Art Gallery	patron	\N	\N	110	12	10	15	25
+Saskatoon	Birmingham Museum and Art Gallery	SaskTel	Jane Doe	18150	\N	\N	\N	\N	\N
+Regina	Birmingham Museum and Art Gallery	RBC	Peter Parker	18150	\N	\N	\N	\N	\N
+Rose Town	Birmingham Museum and Art Gallery	BMO	Tony Stark	18150	\N	\N	\N	\N	\N
+Young Town	Birmingham Museum and Art Gallery	Shawn	David Lee	18150	\N	\N	\N	\N	\N
+Warman	Birmingham Museum and Art Gallery	Vandasta	Chris Ronaldo	18150	\N	\N	\N	\N	\N

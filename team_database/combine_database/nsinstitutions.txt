@@ -1,0 +1,10 @@
+Seattle Art Museum	206.654.3100	1300 First Avenue Seattle, WA 98101
+Other	306.221.5332	103 Cuberland AVE S
+Jerry	306.221.5342	104 Cuberland AVE S
+Tom	306.231.5342	105 Cuberland AVE S
+Petter	306.251.5342	106 Cuberland AVE S
+Kongzi college	306.261.5342	107 Cuberland AVE S
+Chinese Kongzi College	306.152.1991	103 Wonderland AVE S
+Institutions Iron	306.152.2626	201 Cumberland AVE S
+Institutions Metal	306.152.4646	201 Tyler AVE S
+Institutions Jasper	306.152.3636	301 Karl AVE S

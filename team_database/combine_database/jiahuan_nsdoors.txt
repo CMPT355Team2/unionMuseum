@@ -1,0 +1,14 @@
+lobby	Art Gallery NSW	patron	storage	Art Gallery NSW	patron
+lobby	Art Gallery NSW	patron	gallerySmallA	Art Gallery NSW	patron
+lobby	Art Gallery NSW	patron	gallerySmallB	Art Gallery NSW	patron
+storage	Art Gallery NSW	patron	lobby	Art Gallery NSW	patron
+gallerySmallA	Art Gallery NSW	patron	lobby	Art Gallery NSW	patron
+gallerySmallB	Art Gallery NSW	patron	lobby	Art Gallery NSW	patron
+gallerySmallA	Art Gallery NSW	patron	gallerySmallB	Art Gallery NSW	patron
+gallerySmallA	Art Gallery NSW	patron	galleryLarge	Art Gallery NSW	patron
+gallerySmallB	Art Gallery NSW	patron	gallerySmallA	Art Gallery NSW	patron
+galleryLarge	Art Gallery NSW	patron	gallerySmallA	Art Gallery NSW	patron
+gallerySmallB	Art Gallery NSW	patron	galleryLarge	Art Gallery NSW	patron
+galleryLarge	Art Gallery NSW	patron	gallerySmallB	Art Gallery NSW	patron
+galleryLarge2	Art Gallery NSW	patron	gallerySmallB	Art Gallery NSW	patron
+gallerySmallB	Art Gallery NSW	patron	galleryLarge2	Art Gallery NSW	patron

@@ -1,0 +1,9 @@
+Asian art exhibition	2016-07-01	2016-11-18	Art Gallery NSW	This exhibition mainly displays Asian art works.
+Australian art exhibition	2016-08-10	2016-12-20	Art Gallery NSW	This exhibition mainly displays Australian art works.
+Pacific art exhibition	2016-09-20	2017-02-18	Art Gallery NSW	This exhibition mainly displays Pacific art works.
+Ceramic and Sculpture exhibition	2016-12-25	2017-04-25	Art Gallery NSW	This exhibition displays ceramic and Sculpture works
+Textile and Jewellery exhibition	2017-02-23	2017-07-23	Art Gallery NSW	This exhibition displays Textile and Jewellery  works
+Pre_exhibition_I	2015-11-02	2016-12-20	Art Gallery NSW	This is the first exhibiton
+Pre_exhibition_II	2016-01-10	2016-05-01	Art Gallery NSW	This is the second exhibiton
+Pre_exhibition_III	2016-06-15	2016-08-16	Art Gallery NSW	This is the third exhibiton
+Traveling exhibition	2016-05-03	2016-09-19	Art Gallery NSW	This is the traveling exhibition

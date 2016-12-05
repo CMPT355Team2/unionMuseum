@@ -1,0 +1,119 @@
+1940	SYM	Seattle Art Museum	20th Century Exhibition	2016-07-12	Seattle Art Museum	2016-11-05
+19781	CCF	Seattle Art Museum	20th Century Exhibition	2016-07-12	Seattle Art Museum	2016-11-05
+1962	SYM	Seattle Art Museum	20th Century Exhibition	2016-07-12	Seattle Art Museum	2016-11-05
+1939	GQF	Seattle Art Museum	20th Century Exhibition	2016-07-12	Seattle Art Museum	2016-11-05
+1999	CCF	Seattle Art Museum	20th Century Exhibition	2016-07-12	Seattle Art Museum	2016-11-05
+1960	ZSA	Seattle Art Museum	20th Century Exhibition	2016-07-12	Seattle Art Museum	2016-11-05
+1955	WZY	Seattle Art Museum	20th Century Exhibition	2016-07-12	Seattle Art Museum	2016-11-05
+1999	QBS	Seattle Art Museum	20th Century Exhibition	2016-07-12	Seattle Art Museum	2016-11-05
+1928	TG	Seattle Art Museum	20th Century Exhibition	2016-07-12	Seattle Art Museum	2016-11-05
+1755	CJR	Seattle Art Museum	20th Century Exhibition	2016-07-12	Seattle Art Museum	2016-11-05
+1978	LSZ	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1368	UNKA	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1921	QBS	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1700	GQP	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1991	CCF	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1930	YYR	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1440	YH	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1689	ST	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1130	LAZ	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1561	WBR	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1629	SSC	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1699	BDSR	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1624	LY	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1499	UNKA	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1450	XHS	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1887	RBN	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1701	SC	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+2009	XB	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1961	SYM	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1971	RZY	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1980	TJN	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1942	SYM	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+2009	HRD	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+2009	CY	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1988	WLT	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1638	SM	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1762	LP	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1944	SYM	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1775	LP	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1812	SXY	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1899	DH	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+19281	TG	Seattle Art Museum	Chinese Calligraphy	2016-09-04	Seattle Art Museum	2016-12-04
+1345	XC	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1988	CCF	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1955	WFY	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1891	WDC	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1978	CCF	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1712	LM	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1731	HS	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1792	ZY	Seattle Art Museum	Hanging Scroll Special	2016-08-14	Seattle Art Museum	2016-12-18
+1999	CCF	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+19781	CCF	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1755	CJR	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1939	GQF	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1999	QBS	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1940	SYM	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1962	SYM	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1928	TG	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1955	WZY	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1960	ZSA	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1810	CHS	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1879	WTH	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1891	UNKA	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1891	SZL	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1899	ZH	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1866	QH	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+18911	SZL	Seattle Art Museum	19th Century Exhibition	2016-11-10	Seattle Art Museum	2017-03-10
+1762	LP	Seattle Art Museum	18th Century Exhibition	2016-05-12	Seattle Art Museum	2016-07-11
+1731	HS	Seattle Art Museum	18th Century Exhibition	2016-05-12	Seattle Art Museum	2016-07-11
+1701	SC	Seattle Art Museum	18th Century Exhibition	2016-05-12	Seattle Art Museum	2016-07-11
+1775	LP	Seattle Art Museum	18th Century Exhibition	2016-05-12	Seattle Art Museum	2016-07-11
+1700	GQP	Seattle Art Museum	18th Century Exhibition	2016-05-12	Seattle Art Museum	2016-07-11
+1712	LM	Seattle Art Museum	18th Century Exhibition	2016-05-12	Seattle Art Museum	2016-07-11
+1792	ZY	Seattle Art Museum	18th Century Exhibition	2016-05-12	Seattle Art Museum	2016-07-11
+1740	CL	Seattle Art Museum	18th Century Exhibition	2016-05-12	Seattle Art Museum	2016-07-11
+1939	CCF	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+19391	CCF	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+1943	SYM	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+1962	SYM	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+19781	CCF	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+1638	WJZ	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+1969	CCW	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+1891	SZL	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+1991	RZY	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+1985	CSX	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+1521	WZG	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+1492	SZ	Seattle Art Museum	Handscroll Special	2016-05-14	Seattle Art Museum	2016-07-10
+1299	UNKA	Seattle Art Museum	Fan Painting and others	2016-05-04	Seattle Art Museum	2016-07-04
+1879	WTH	Seattle Art Museum	Fan Painting and others	2016-05-04	Seattle Art Museum	2016-07-04
+1999	CHN	Seattle Art Museum	Fan Painting and others	2016-05-04	Seattle Art Museum	2016-07-04
+18911	SZL	Seattle Art Museum	Fan Painting and others	2016-05-04	Seattle Art Museum	2016-07-04
+1619	SMJ	Seattle Art Museum	Fan Painting and others	2016-05-04	Seattle Art Museum	2016-07-04
+16991	HR	Seattle Art Museum	Fan Painting and others	2016-05-04	Seattle Art Museum	2016-07-04
+1672	XYC	Seattle Art Museum	Fan Painting and others	2016-05-04	Seattle Art Museum	2016-07-04
+19683	CCW	Seattle Art Museum	Travelling Exihibition Sask A	2016-11-12	Seattle Art Museum	2016-12-03
+1739	CF	Seattle Art Museum	Travelling Exihibition Sask A	2016-11-12	Seattle Art Museum	2016-12-03
+1947	CJY	Seattle Art Museum	Travelling Exihibition Sask A	2016-11-12	Seattle Art Museum	2016-12-03
+1991	CSW	Seattle Art Museum	Travelling Exihibition Sask A	2016-11-12	Seattle Art Museum	2016-12-03
+1985	CSX	Seattle Art Museum	Travelling Exihibition Sask A	2016-11-12	Seattle Art Museum	2016-12-03
+19683	CCW	Seattle Art Museum	Travelling Exihibition Sask B	2016-12-10	Seattle Art Museum	2016-12-31
+1739	CF	Seattle Art Museum	Travelling Exihibition Sask B	2016-12-10	Seattle Art Museum	2016-12-31
+1947	CJY	Seattle Art Museum	Travelling Exihibition Sask B	2016-12-10	Seattle Art Museum	2016-12-31
+1991	CSW	Seattle Art Museum	Travelling Exihibition Sask B	2016-12-10	Seattle Art Museum	2016-12-31
+1985	CSX	Seattle Art Museum	Travelling Exihibition Sask B	2016-12-10	Seattle Art Museum	2016-12-31
+19683	CCW	Seattle Art Museum	Travelling Exihibition Sask C	2017-01-07	Seattle Art Museum	2017-01-28
+1739	CF	Seattle Art Museum	Travelling Exihibition Sask C	2017-01-07	Seattle Art Museum	2017-01-28
+1947	CJY	Seattle Art Museum	Travelling Exihibition Sask C	2017-01-07	Seattle Art Museum	2017-01-28
+1991	CSW	Seattle Art Museum	Travelling Exihibition Sask C	2017-01-07	Seattle Art Museum	2017-01-28
+1985	CSX	Seattle Art Museum	Travelling Exihibition Sask C	2017-01-07	Seattle Art Museum	2017-01-28
+19683	CCW	Seattle Art Museum	Travelling Exihibition Sask D	2017-02-04	Seattle Art Museum	2017-02-25
+1739	CF	Seattle Art Museum	Travelling Exihibition Sask D	2017-02-04	Seattle Art Museum	2017-02-25
+1947	CJY	Seattle Art Museum	Travelling Exihibition Sask D	2017-02-04	Seattle Art Museum	2017-02-25
+1991	CSW	Seattle Art Museum	Travelling Exihibition Sask D	2017-02-04	Seattle Art Museum	2017-02-25
+1985	CSX	Seattle Art Museum	Travelling Exihibition Sask D	2017-02-04	Seattle Art Museum	2017-02-25
+19683	CCW	Seattle Art Museum	Travelling Exihibition Sask E	2017-03-04	Seattle Art Museum	2017-03-25
+1739	CF	Seattle Art Museum	Travelling Exihibition Sask E	2017-03-04	Seattle Art Museum	2017-03-25
+1947	CJY	Seattle Art Museum	Travelling Exihibition Sask E	2017-03-04	Seattle Art Museum	2017-03-25
+1991	CSW	Seattle Art Museum	Travelling Exihibition Sask E	2017-03-04	Seattle Art Museum	2017-03-25
+1985	CSX	Seattle Art Museum	Travelling Exihibition Sask E	2017-03-04	Seattle Art Museum	2017-03-25

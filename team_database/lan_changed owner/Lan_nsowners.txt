@@ -1,0 +1,113 @@
+409	ECVD	Prado Museum	Prado Museum	1992-11-12	\N	owned
+336	SAIC	Prado Museum	Prado Museum	1998-04-23	\N	owned
+342	DUYG	Prado Museum	Prado Museum	1995-03-03	\N	owned
+2091	AHBA	Prado Museum	Prado Museum	2004-11-10	\N	owned
+165	WICD	Prado Museum	Prado Museum	2015-09-30	\N	owned
+2691	FCMA	Prado Museum	Prado Museum	2001-07-02	\N	owned
+5831	UFIS	Prado Museum	Prado Museum	2015-10-10	\N	owned
+1657	CHIM	Prado Museum	Prado Museum	1999-03-01	\N	owned
+3890	BADA	Prado Museum	Prado Museum	1994-06-03	\N	owned
+8120	WADC	Prado Museum	Prado Museum	2013-12-10	\N	owned
+777	CNMB	Prado Museum	Prado Museum	1992-01-22	\N	owned
+2722	VCDV	Prado Museum	Prado Museum	1995-02-03	\N	owned
+1461	TLVN	Prado Museum	Prado Museum	2005-10-21	\N	owned
+934	DAHT	Prado Museum	Prado Museum	1993-07-23	\N	owned
+451	FMCF	Prado Museum	Prado Museum	1991-03-26	\N	owned
+5813	RREP	Prado Museum	Prado Museum	2014-01-25	\N	owned
+3494	SCCD	Prado Museum	Prado Museum	2006-05-10	\N	owned
+7414	MORO	Prado Museum	Prado Museum	2004-01-05	\N	owned
+4131	FDOG	Prado Museum	Prado Museum	2002-03-21	\N	owned
+1001	OSCM	Prado Museum	Prado Museum	1990-10-10	\N	owned
+2728	MFVC	Prado Museum	Prado Museum	1997-08-08	\N	owned
+7270	LPGF	Prado Museum	Prado Museum	1999-09-22	\N	owned
+4243	WEIP	Prado Museum	Prado Museum	2013-03-01	\N	owned
+8004	GOSP	Prado Museum	Prado Museum	1997-07-12	\N	owned
+8010	VEMA	Prado Museum	Prado Museum	1999-09-23	\N	owned
+1552	SFBD	Prado Museum	Prado Museum	2004-02-21	\N	owned
+3245	ADSD	Prado Museum	Prado Museum	2007-05-30	\N	owned
+4117	LBSK	Prado Museum	Prado Museum	2008-09-24	\N	owned
+6320	FENU	Prado Museum	Prado Museum	2006-10-24	\N	owned
+4003	SGEH	Prado Museum	Prado Museum	2006-06-02	\N	owned
+4707	TCIM	Prado Museum	Prado Museum	1993-07-10	\N	owned
+8229	SFPT	Prado Museum	Prado Museum	2015-03-28	\N	owned
+2878	ALDO	Prado Museum	Prado Museum	1994-12-02	\N	owned
+3260	BULN	Prado Museum	Prado Museum	2001-07-10	\N	owned
+3900	EMAG	Prado Museum	Prado Museum	1991-11-24	\N	owned
+7520	FEMT	Prado Museum	Prado Museum	2005-12-19	\N	owned
+5820	GTHS	Prado Museum	Prado Museum	1998-09-27	\N	owned
+7445	OTTK	Prado Museum	Prado Museum	1996-02-14	\N	owned
+8551	BPMC	Prado Museum	Prado Museum	2009-05-21	\N	owned
+8002	VSGE	Prado Museum	Prado Museum	1992-04-20	\N	owned
+2150	COTB	Prado Museum	Prado Museum	2005-06-15	\N	owned
+7201	LMLH	Prado Museum	Prado Museum	2012-12-20	\N	owned
+3339	CRPA	Prado Museum	Prado Museum	2009-03-17	\N	owned
+1604	RMWN	Prado Museum	Prado Museum	2014-12-11	\N	owned
+2729	FELI	Prado Museum	Prado Museum	1996-10-22	\N	owned
+1930	HCBM	Prado Museum	Prado Museum	1990-12-30	\N	owned
+2349	TNTL	Prado Museum	Prado Museum	2004-04-01	\N	owned
+7826	SFDC	Prado Museum	Prado Museum	2006-02-12	\N	owned
+2860	BONB	Prado Museum	Prado Museum	1991-05-11	\N	owned
+5016	VWBO	Prado Museum	Prado Museum	2004-06-29	\N	owned
+2842	SEKC	Prado Museum	Prado Museum	2008-11-03	\N	owned
+7286	ESMS	Prado Museum	Prado Museum	1998-02-02	\N	owned
+9620	SJBA	Prado Museum	Prado Museum	2013-10-29	\N	owned
+4930	ACCS	Prado Museum	Prado Museum	2001-03-11	\N	owned
+2975	PART	Prado Museum	Prado Museum	2003-10-21	\N	owned
+2374	ISIT	Prado Museum	Prado Museum	2000-01-12	\N	owned
+4600	CWCT	Prado Museum	Prado Museum	1997-07-12	\N	owned
+7271	MMHV	Prado Museum	Prado Museum	2006-08-14	\N	owned
+8126	CWDF	Prado Museum	Prado Museum	2013-09-01	\N	owned
+4879	ICRC	Prado Museum	Prado Museum	1996-05-25	\N	owned
+9610	VECC	Prado Museum	Prado Museum	1993-11-13	\N	owned
+8500	NAYU	Prado Museum	Prado Museum	2011-02-18	\N	owned
+2152	ASAI	Prado Museum	Jishou Miao Museum	2009-05-12	\N	potentially borrowed
+7503	TSIM	Prado Museum	Jishou Miao Museum	2001-07-20	\N	potentially borrowed
+2524	BYMF	Prado Museum	Jishou Miao Museum	2003-05-23	\N	potentially borrowed
+7723	TMSI	Prado Museum	Jishou Miao Museum	2005-09-20	\N	potentially borrowed
+8733	HASE	Prado Museum	Jishou Miao Museum	2010-03-27	\N	potentially borrowed
+2349	KITE	Prado Museum	Jishou Miao Museum	2001-03-02	\N	potentially borrowed
+2489	TPOI	Prado Museum	Jishou Miao Museum	1997-03-11	\N	potentially borrowed
+7779	BPFT	Prado Museum	Jishou Miao Museum	1993-04-01	\N	potentially borrowed
+3035	KGDB	Prado Museum	Jishou Miao Museum	1996-08-24	\N	potentially borrowed
+9320	SJBT	Prado Museum	Jishou Miao Museum	1999-04-21	\N	potentially borrowed
+8226	TBSP	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+2422	CDBC	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+4424	HUNT	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+2899	MKBD	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+4471	ALDA	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+2500	WINT	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+2573	SFAP	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+8003	WCPC	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+5526	MCST	Prado Museum	Jishou Miao Museum	1996-04-22	2016-10-21	owned
+2165	SAAG	Prado Museum	Jishou Miao Museum	1999-12-01	2016-10-21	owned
+4590	CHES	Prado Museum	Jishou Miao Museum	2014-06-21	2016-10-21	owned
+1710	VENU	Prado Museum	Stan	2004-01-24	\N	long-term borrowed
+4380	HEHO	Prado Museum	Eric	1997-11-05	\N	long-term borrowed
+8020	LOSG	Prado Museum	Eric	2001-10-21	\N	long-term borrowed
+7310	ROCY	Prado Museum	Eric	2000-05-03	\N	long-term borrowed
+5003	PAMC	Prado Museum	Kyle	2011-01-31	\N	long-term borrowed
+2610	CAHB	Prado Museum	Kyle	2004-03-31	\N	long-term borrowed
+3001	SLDP	Prado Museum	Kyle	1995-06-02	\N	long-term borrowed
+1124	TIBE	Prado Museum	Kyle	1994-10-30	\N	long-term borrowed
+2603	MAHY	Prado Museum	Stan	2000-04-20	\N	long-term borrowed
+2934	FAWK	Prado Museum	Stan	1992-06-08	\N	long-term borrowed
+4485	RDHT	Prado Museum	Stan	2005-02-09	\N	long-term borrowed
+4649	TSFE	Prado Museum	Kenny	2003-01-22	\N	long-term borrowed
+3910	WRBT	Prado Museum	Kenny	2000-03-31	\N	long-term borrowed
+6751	LMKG	Prado Museum	Kenny	1994-01-22	\N	long-term borrowed
+3011	LFSF	Prado Museum	Kenny	1996-04-04	\N	long-term borrowed
+1813	TSGD	Prado Museum	Jishou Miao Museum	2004-07-03	\N	potentially borrowed
+3261	MRTS	Prado Museum	Jishou Miao Museum	2001-07-08	\N	potentially borrowed
+7921	FLGV	Prado Museum	Jishou Miao Museum	2008-04-12	\N	potentially borrowed
+9650	ECHO	Prado Museum	Jishou Miao Museum	2007-07-19	\N	potentially borrowed
+2103	DECK	Prado Museum	Jishou Miao Museum	2002-01-31	\N	potentially borrowed
+2896	HBAS	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+3535	TSOF	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+7181	TCSL	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+7890	BWTR	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+7841	TGOP	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+5542	ANGL	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+7533	DOAL	Prado Museum	Jishou Miao Museum	2016-10-25	\N	purchased
+5526	MCST	Prado Museum	Jishou Miao Museum	2016-10-21	\N	sold
+2165	SAAG	Prado Museum	Jishou Miao Museum	2016-10-21	\N	sold
+4590	CHES	Prado Museum	Jishou Miao Museum	2016-10-21	\N	sold

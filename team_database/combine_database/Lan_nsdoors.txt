@@ -1,0 +1,12 @@
+storage	Prado Museum	patron	lobby	Prado Museum	patron
+lobby	Prado Museum	patron	storage	Prado Museum	patron
+galleryA	Prado Museum	patron	lobby	Prado Museum	patron
+lobby	Prado Museum	patron	galleryA	Prado Museum	patron
+galleryB	Prado Museum	patron	lobby	Prado Museum	patron
+lobby	Prado Museum	patron	galleryB	Prado Museum	patron
+galleryB	Prado Museum	patron	galleryA	Prado Museum	patron
+galleryA	Prado Museum	patron	galleryB	Prado Museum	patron
+galleryB	Prado Museum	patron	galleryC	Prado Museum	patron
+galleryC	Prado Museum	patron	galleryB	Prado Museum	patron
+galleryA	Prado Museum	patron	galleryC	Prado Museum	patron
+galleryC	Prado Museum	patron	galleryA	Prado Museum	patron
